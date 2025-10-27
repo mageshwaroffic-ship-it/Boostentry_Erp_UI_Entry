@@ -1,0 +1,1328 @@
+===== Data Entry Log for 2025-10-22 ===== 
+[00:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:04] Execution finished. 
+ 
+[00:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:19] Execution finished. 
+ 
+[00:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:34] Execution finished. 
+ 
+[00:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:49] Execution finished. 
+ 
+[01:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[01:04] Execution finished. 
+ 
+[01:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[01:19] Execution finished. 
+ 
+[01:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[01:34] Execution finished. 
+ 
+[01:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[01:49] Execution finished. 
+ 
+[02:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[02:04] Execution finished. 
+ 
+[02:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[02:19] Execution finished. 
+ 
+[02:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[02:34] Execution finished. 
+ 
+[02:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[02:49] Execution finished. 
+ 
+[03:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[03:04] Execution finished. 
+ 
+[03:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[03:19] Execution finished. 
+ 
+[03:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[03:34] Execution finished. 
+ 
+[03:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[03:49] Execution finished. 
+ 
+[04:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[04:04] Execution finished. 
+ 
+[04:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[04:19] Execution finished. 
+ 
+[04:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[04:34] Execution finished. 
+ 
+[04:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[04:49] Execution finished. 
+ 
+[05:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[05:04] Execution finished. 
+ 
+[05:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[05:19] Execution finished. 
+ 
+[05:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[05:34] Execution finished. 
+ 
+[05:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[05:49] Execution finished. 
+ 
+[06:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[06:04] Execution finished. 
+ 
+[06:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[06:19] Execution finished. 
+ 
+[06:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[06:34] Execution finished. 
+ 
+[06:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[06:49] Execution finished. 
+ 
+[07:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[07:04] Execution finished. 
+ 
+[07:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[07:19] Execution finished. 
+ 
+[07:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[07:34] Execution finished. 
+ 
+[07:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[07:49] Execution finished. 
+ 
+[08:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[08:04] Execution finished. 
+ 
+[08:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[08:19] Execution finished. 
+ 
+[08:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[08:34] Execution finished. 
+ 
+[08:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[08:49] Execution finished. 
+ 
+[09:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[09:04] Execution finished. 
+ 
+[09:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[09:19] Execution finished. 
+ 
+[09:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[09:34] Execution finished. 
+ 
+[09:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[09:49] Execution finished. 
+ 
+[10:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:04] Execution finished. 
+ 
+[10:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:34] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:49] Execution finished. 
+ 
+[10:59] Starting main.py 
+C:\KSS_Working\main.py:276: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+📗 Using extracted_json because previous erp_entry_status was NOT STARTED or other.
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251022_052239_360262.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6000
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_052239_360262_08_consignment_no.png
+✅ Date filled: 20.09.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_052239_360262_09_date_filled.png
+❌ doc_id 1 failed: Message: 
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 201, in process_row_with_driver
+    submit_ok = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 891, in fill_consignment_form
+    ok = set_autocomplete_verify(driver, (By.ID, "CNM_FROM_STN_NAME"), source_val, verify="equals", max_attempts=5)
+  File "C:\KSS_Working\consignment_form.py", line 286, in set_autocomplete_verify
+    safe_click(driver, field_locator)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\consignment_form.py", line 168, in safe_click
+    ok = _retry(_action)
+  File "C:\KSS_Working\consignment_form.py", line 152, in _retry
+    return f()
+  File "C:\KSS_Working\consignment_form.py", line 161, in _action
+    el = WebDriverWait(driver, timeout).until(EC.element_to_be_clickable(locator))
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+⏳ Waiting 30s for inspection before closing browser...
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:59] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:49] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:19] Starting main.py 
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 19, in <module>
+    from consignment_form import fill_consignment_form, build_validation_status
+ImportError: cannot import name 'build_validation_status' from 'consignment_form' (C:\KSS_Working\consignment_form.py)
+[12:19] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:49] Starting main.py 
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 19, in <module>
+    from consignment_form import fill_consignment_form, build_validation_status
+ImportError: cannot import name 'build_validation_status' from 'consignment_form' (C:\KSS_Working\consignment_form.py)
+[12:49] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:34] Execution finished. 
+ 
+[13:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:49] Execution finished. 
+ 
+[14:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:04] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:49] Execution finished. 
+ 
+[15:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:04] Execution finished. 
+ 
+[15:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251022_093000_090363.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6000
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_08_consignment_no.png
+✅ Date filled: 20.09.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_10_source_filled.png
+✅ Destination confirmed: POONAMALLEE
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_11_destination_filled.png
+✅ Vehicle confirmed: TN23AM5290
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_12_vehicle_filled.png
+✅ E-Way Bill No filled: 561879967200
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_17_gsttype_filled.png
+✅ Consignee confirmed: KEC International Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_18_consignee_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ Delivery Address set: HCC - KEC CONSORTIUM CMRL, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_093000_090363_27_rate_filled.png
+🧾 Validation built: 3 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=1
+✅ doc_id 1 processed successfully.
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:19] Execution finished. 
+ 
+[15:34] Starting main.py 
+[15:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:49] Execution finished. 
+ 
+[16:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251022_101302_803113.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6724
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_08_consignment_no.png
+✅ Date filled: 06.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_10_source_filled.png
+↻ Retry 1/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 2/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 3/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 4/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 5/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 6/6 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 6 attempts.
+⚠️ Destination not confirmed: CHEYYUR
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY3714
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_12_vehicle_filled.png
+✅ E-Way Bill No filled: 531888096343
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'A B KUMAR AGENCIES' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_18_consignee_filled.png
+✅ Delivery Address set: INBA, 1 ASATHANKUTTAI STREET, 2 CHUNAMBEDU ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🔎 Pass 1: 'Destination' not verified (have='CHEYYUR BAG', want [equals] 'CHEYYUR') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 1: Destination
+🔎 Pass 2: 'Destination' not verified (have='CHEYYUR BAG', want [equals] 'CHEYYUR') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 2: Destination
+🔎 Pass 3: 'Destination' not verified (have='CHEYYUR BAG', want [equals] 'CHEYYUR') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHEYYUR' (have='CHEYYUR BAG', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 3: Destination
+⚠️ Verification finished with unresolved fields after max passes.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_101302_803113_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+🧾 Validation built: 5 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=2
+✅ doc_id 2 processed successfully.
+🏁 Overall Status updated to 'Completed' for doc_id=2
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:04] Execution finished. 
+ 
+[16:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:19] Execution finished. 
+ 
+[16:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:34] Execution finished. 
+ 
+[16:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:49] Execution finished. 
+ 
+[17:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:04] Execution finished. 
+ 
+[17:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:19] Execution finished. 
+ 
+[17:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:34] Execution finished. 
+ 
+[17:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:49] Execution finished. 
+ 
+[18:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251022_121509_852644.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6280
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_08_consignment_no.png
+✅ Date filled: 06.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_10_source_filled.png
+✅ Destination confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY3733
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_12_vehicle_filled.png
+✅ E-Way Bill No filled: 571888122129
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_18_consignee_filled.png
+✅ Delivery Address set: MURUGAN, 60 MURUGAN KOIL STREET EXTN, 54 MADHARPAKKAM ROAD, SANTHOSH NAGAR, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251022_121509_852644_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+🧾 Validation built: 4 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+✅ doc_id 3 processed successfully.
+🏁 Overall Status updated to 'Completed' for doc_id=3
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:04] Execution finished. 
+ 
+[18:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:19] Execution finished. 
+ 
+[18:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:34] Execution finished. 
+ 
+[18:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:49] Execution finished. 
+ 
+[19:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:04] Execution finished. 
+ 
+[19:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:19] Execution finished. 
+ 
+[19:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:34] Execution finished. 
+ 
+[19:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:49] Execution finished. 
+ 
+[20:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:04] Execution finished. 
+ 
+[20:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:19] Execution finished. 
+ 
+[20:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:34] Execution finished. 
+ 
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:49] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:34] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:49] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:49] Execution finished. 
+ 
+[23:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:04] Execution finished. 
+ 
+[23:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:19] Execution finished. 
+ 
+[23:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:34] Execution finished. 
+ 
+[23:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📘 Using corrected_json (status FIXED).
+
+▶️ Claimed doc_id=6, file=UltraTechCement_Invoice_20251022_175703_383670.pdf
+❌ doc_id 6 failed during setup: Message: unknown error: cannot determine loading status
+from unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x160fe43+66515]
+	GetHandleVerifier [0x0x160fe84+66580]
+	(No symbol) [0x0x13fdc48]
+	(No symbol) [0x0x13fb147]
+	(No symbol) [0x0x13ee422]
+	(No symbol) [0x0x13efe1e]
+	(No symbol) [0x0x13ee930]
+	(No symbol) [0x0x13ee1e4]
+	(No symbol) [0x0x13edeef]
+	(No symbol) [0x0x13ebe60]
+	(No symbol) [0x0x13ec937]
+	(No symbol) [0x0x14103ea]
+	(No symbol) [0x0x14065cd]
+	(No symbol) [0x0x14064de]
+	(No symbol) [0x0x13fa3c4]
+	(No symbol) [0x0x13fa90b]
+	(No symbol) [0x0x13ee330]
+	(No symbol) [0x0x13ef11d]
+	(No symbol) [0x0x13ee8f0]
+	(No symbol) [0x0x13ee1e4]
+	(No symbol) [0x0x13edeef]
+	(No symbol) [0x0x13ebe60]
+	(No symbol) [0x0x13ec7fb]
+	(No symbol) [0x0x14017ce]
+	(No symbol) [0x0x148d7f7]
+	(No symbol) [0x0x146b1cc]
+	(No symbol) [0x0x148cba7]
+	(No symbol) [0x0x146afc6]
+	(No symbol) [0x0x143c2ca]
+	(No symbol) [0x0x143d154]
+	GetHandleVerifier [0x0x1867353+2521315]
+	GetHandleVerifier [0x0x18622d3+2500707]
+	GetHandleVerifier [0x0x1637c94+229924]
+	GetHandleVerifier [0x0x16281f8+165768]
+	GetHandleVerifier [0x0x162ecad+193085]
+	GetHandleVerifier [0x0x1618158+100072]
+	GetHandleVerifier [0x0x16182f0+100480]
+	GetHandleVerifier [0x0x16025aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 298, in main_db_process
+    login(driver)
+    ~~~~~^^^^^^^^
+  File "C:\KSS_Working\login_page.py", line 28, in login
+    driver.get(BASE_URL)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 483, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x160fe43+66515]
+	GetHandleVerifier [0x0x160fe84+66580]
+	(No symbol) [0x0x13fdc48]
+	(No symbol) [0x0x13fb147]
+	(No symbol) [0x0x13ee422]
+	(No symbol) [0x0x13efe1e]
+	(No symbol) [0x0x13ee930]
+	(No symbol) [0x0x13ee1e4]
+	(No symbol) [0x0x13edeef]
+	(No symbol) [0x0x13ebe60]
+	(No symbol) [0x0x13ec937]
+	(No symbol) [0x0x14103ea]
+	(No symbol) [0x0x14065cd]
+	(No symbol) [0x0x14064de]
+	(No symbol) [0x0x13fa3c4]
+	(No symbol) [0x0x13fa90b]
+	(No symbol) [0x0x13ee330]
+	(No symbol) [0x0x13ef11d]
+	(No symbol) [0x0x13ee8f0]
+	(No symbol) [0x0x13ee1e4]
+	(No symbol) [0x0x13edeef]
+	(No symbol) [0x0x13ebe60]
+	(No symbol) [0x0x13ec7fb]
+	(No symbol) [0x0x14017ce]
+	(No symbol) [0x0x148d7f7]
+	(No symbol) [0x0x146b1cc]
+	(No symbol) [0x0x148cba7]
+	(No symbol) [0x0x146afc6]
+	(No symbol) [0x0x143c2ca]
+	(No symbol) [0x0x143d154]
+	GetHandleVerifier [0x0x1867353+2521315]
+	GetHandleVerifier [0x0x18622d3+2500707]
+	GetHandleVerifier [0x0x1637c94+229924]
+	GetHandleVerifier [0x0x16281f8+165768]
+	GetHandleVerifier [0x0x162ecad+193085]
+	GetHandleVerifier [0x0x1618158+100072]
+	GetHandleVerifier [0x0x16182f0+100480]
+	GetHandleVerifier [0x0x16025aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:49] Execution finished. 
+ 

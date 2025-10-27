@@ -1,0 +1,1870 @@
+===== Data Entry Log for 2025-10-24 ===== 
+[00:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:04] Execution finished. 
+ 
+[00:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:19] Execution finished. 
+ 
+[00:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:34] Execution finished. 
+ 
+[00:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:49] Execution finished. 
+ 
+[01:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:04] Execution finished. 
+ 
+[01:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:19] Execution finished. 
+ 
+[01:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:34] Execution finished. 
+ 
+[01:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:49] Execution finished. 
+ 
+[02:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:04] Execution finished. 
+ 
+[02:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:19] Execution finished. 
+ 
+[02:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:34] Execution finished. 
+ 
+[02:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:49] Execution finished. 
+ 
+[03:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:04] Execution finished. 
+ 
+[03:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:19] Execution finished. 
+ 
+[03:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:34] Execution finished. 
+ 
+[03:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:49] Execution finished. 
+ 
+[04:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:04] Execution finished. 
+ 
+[04:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:19] Execution finished. 
+ 
+[04:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:34] Execution finished. 
+ 
+[04:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:49] Execution finished. 
+ 
+[05:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:04] Execution finished. 
+ 
+[05:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:19] Execution finished. 
+ 
+[05:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:34] Execution finished. 
+ 
+[05:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:49] Execution finished. 
+ 
+[06:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:04] Execution finished. 
+ 
+[06:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:19] Execution finished. 
+ 
+[06:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:34] Execution finished. 
+ 
+[06:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:49] Execution finished. 
+ 
+[07:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:04] Execution finished. 
+ 
+[07:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:19] Execution finished. 
+ 
+[07:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:34] Execution finished. 
+ 
+[07:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:49] Execution finished. 
+ 
+[08:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:04] Execution finished. 
+ 
+[08:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:19] Execution finished. 
+ 
+[08:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:34] Execution finished. 
+ 
+[08:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:49] Execution finished. 
+ 
+[09:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:04] Execution finished. 
+ 
+[09:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:19] Execution finished. 
+ 
+[09:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:34] Execution finished. 
+ 
+[09:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:49] Execution finished. 
+ 
+[10:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:04] Execution finished. 
+ 
+[10:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:34] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:49] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:49] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:19] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:49] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251024_075912_206264.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6585
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_10_source_filled.png
+↻ Retry 1/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 2/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 3/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 4/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 5/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 6/6 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 6 attempts.
+⚠️ Destination not confirmed: DESTINATION GUMMIDIPOONDI
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_11_destination_filled.png
+✅ Vehicle confirmed: TN88L6422
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_12_vehicle_filled.png
+✅ E-Way Bill No filled: 501886761626
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'NO.140 GNT ROAD NO.140 GNT ROAD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_18_consignee_filled.png
+✅ Delivery Address set: 140 GNT ROAD 140 GNT ROAD, STAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🔎 Pass 1: 'Destination' not verified (have='', want [equals] 'DESTINATION GUMMIDIPOONDI') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 1: Destination
+🔎 Pass 2: 'Destination' not verified (have='', want [equals] 'DESTINATION GUMMIDIPOONDI') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 2: Destination
+🔎 Pass 3: 'Destination' not verified (have='', want [equals] 'DESTINATION GUMMIDIPOONDI') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'DESTINATION GUMMIDIPOONDI' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 3: Destination
+⚠️ Verification finished with unresolved fields after max passes.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206264_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ Popup closed with selector: xpath=//button[normalize-space()='OK']
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 2 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=1
+✅ doc_id 1 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 1 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=7, file=UltraTechCement_Invoice_20251024_075912_207776.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6616
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_10_source_filled.png
+✅ Destination confirmed: PALLIPATTU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_11_destination_filled.png
+↻ Retry 1/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 2/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 3/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 4/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 5/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 6/6 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_VEHICLENO') after 6 attempts.
+⚠️ Vehicle not confirmed: TN73BZ7347
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_12_vehicle_filled.png
+✅ E-Way Bill No filled: 551886992908
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_18_consignee_filled.png
+✅ Delivery Address set: NO R83/1 TNHB, CHITOOR ROAD, KAKKALUR BYE PASS ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🔎 Pass 1: 'Vehicle' not verified (have='', want [equals] 'TN73BZ7347') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_VEHICLENO') after 5 attempts.
+❌ 'Vehicle' still not correct after repair attempt.
+↻ Fields still incorrect after pass 1: Vehicle
+🔎 Pass 2: 'Vehicle' not verified (have='', want [equals] 'TN73BZ7347') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_VEHICLENO') after 5 attempts.
+❌ 'Vehicle' still not correct after repair attempt.
+↻ Fields still incorrect after pass 2: Vehicle
+🔎 Pass 3: 'Vehicle' not verified (have='', want [equals] 'TN73BZ7347') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_VEHICLENO') value 'TN73BZ7347' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_VEHICLENO') after 5 attempts.
+❌ 'Vehicle' still not correct after repair attempt.
+↻ Fields still incorrect after pass 3: Vehicle
+⚠️ Verification finished with unresolved fields after max passes.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_207776_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 5 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=7
+✅ doc_id 7 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 7 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=9, file=UltraTechCement_Invoice_20251024_075912_206956.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6612
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_10_source_filled.png
+↻ Retry 1/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 2/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 3/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 4/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 5/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 6/6 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 6 attempts.
+⚠️ Destination not confirmed: CHENGALPET JESPATCH
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY3733
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_12_vehicle_filled.png
+✅ E-Way Bill No filled: 591886955338
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_18_consignee_filled.png
+✅ Delivery Address set: KAMALAM, WE MURUGAN KOIL STREET EXTN, 12 CHENGALPATTU MAIN ROAD, SANTHOSH NAGAR, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🔎 Pass 1: 'Destination' not verified (have='', want [equals] 'CHENGALPET JESPATCH') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 1: Destination
+🔎 Pass 2: 'Destination' not verified (have='', want [equals] 'CHENGALPET JESPATCH') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 2: Destination
+🔎 Pass 3: 'Destination' not verified (have='', want [equals] 'CHENGALPET JESPATCH') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'CHENGALPET JESPATCH' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 3: Destination
+⚠️ Verification finished with unresolved fields after max passes.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_206956_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 5 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=9
+✅ doc_id 9 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+C:\KSS_Working\main.py:233: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+
+❌ doc_id 9 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251024_075912_203936.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_10_source_filled.png
+✅ Destination confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_11_destination_filled.png
+✅ Vehicle confirmed: TN73U1383
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_12_vehicle_filled.png
+✅ E-Way Bill No filled: 581886745765
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value '#21' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_18_consignee_filled.png
+✅ Delivery Address set: 21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_203936_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ Popup closed with selector: xpath=//button[normalize-space()='OK']
+❌ Validation failed — missing or unfilled fields: ['ConsignmentNo']
+🧾 Validation built: 1 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=2
+❌ doc_id 2 marked as Failed due to form fill issues.
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251024_075912_209346.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6608
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_08_consignment_no.png
+✅ Date filled: 04.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_10_source_filled.png
+✅ Destination confirmed: MYLAPORE
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY0885
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_12_vehicle_filled.png
+✅ E-Way Bill No filled: 551887001543
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_17_gsttype_filled.png
+✅ Delivery Address set: I 1137475975 VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, REE OF SUPPLY: CHENN 4, MYLAPORE
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_209346_27_rate_filled.png
+❌ Validation failed — missing or unfilled fields: ['Consignee']
+🧾 Validation built: 3 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+❌ doc_id 3 marked as Failed due to form fill issues.
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=8, file=UltraTechCement_Invoice_20251024_075912_210133.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6563
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_10_source_filled.png
+✅ Destination confirmed: MADURAI
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY0885
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_12_vehicle_filled.png
+✅ E-Way Bill No filled: 581886426336
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_17_gsttype_filled.png
+✅ Consignee confirmed: VASU AGENCIES
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_18_consignee_filled.png
+✅ Delivery Address set: AKT MUTHU, 26-B, PLOT 4A JL LIVING, THAIYUR R, EAST JONES ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_210133_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 3 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=8
+✅ doc_id 8 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 8 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251024_075912_205429.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6614
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_10_source_filled.png
+↻ Retry 1/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 2/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 3/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 4/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 5/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 6/6 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 6 attempts.
+⚠️ Destination not confirmed: THIRUMASHISA
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY4009
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_12_vehicle_filled.png
+✅ E-Way Bill No filled: 551886954812
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_18_consignee_filled.png
+✅ Delivery Address set: LAKSHMI, 60 MURUGAN KOIL STREET EXTN, 267 VELLAVEDU HIGH ROAD, SANTHOSH NAGAR, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🔎 Pass 1: 'Destination' not verified (have='THIRUMASHISAI', want [equals] 'THIRUMASHISA') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 1: Destination
+🔎 Pass 2: 'Destination' not verified (have='THIRUMASHISAI', want [equals] 'THIRUMASHISA') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 2: Destination
+🔎 Pass 3: 'Destination' not verified (have='THIRUMASHISAI', want [equals] 'THIRUMASHISA') — fixing...
+↻ Retry 1/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 2/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 3/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 4/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+↻ Retry 5/5 for ('id', 'CNM_TO_STN_NAME') value 'THIRUMASHISA' (have='THIRUMASHISAI', verify=equals)
+❌ Failed to set ('id', 'CNM_TO_STN_NAME') after 5 attempts.
+❌ 'Destination' still not correct after repair attempt.
+↻ Fields still incorrect after pass 3: Destination
+⚠️ Verification finished with unresolved fields after max passes.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_205429_27_rate_filled.png
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 5 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=4
+✅ doc_id 4 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 4 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=5, file=UltraTechCement_Invoice_20251024_075912_202727.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6606
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_10_source_filled.png
+✅ Destination confirmed: SITTALAPAKKAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_11_destination_filled.png
+✅ Vehicle confirmed: TN52U3488
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_12_vehicle_filled.png
+✅ E-Way Bill No filled: 511887001061
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'ASTRO HOMES LLP' (have='', verify=equals)
+❌ Failed to set ('id', 'CNM_CNE_NAME') after 3 attempts.
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_18_consignee_filled.png
+✅ Delivery Address set: ASTRO HOMES LLP 16/27 09 2025 ASTRO HOMES LLP, FLAT 2 241 PERIYAR SALAL, 62, KARANAI MAIN ROAD, ARAS, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_202727_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 4 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=5
+✅ doc_id 5 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 5 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=6, file=UltraTechCement_Invoice_20251024_075912_208554.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6590
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_10_source_filled.png
+✅ Destination confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_11_destination_filled.png
+✅ Vehicle confirmed: TN88L6472
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_12_vehicle_filled.png
+✅ E-Way Bill No filled: 501886879581
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_17_gsttype_filled.png
+✅ Consignee confirmed: K R HARDWARE
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_18_consignee_filled.png
+✅ Delivery Address set: K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_208554_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 3 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=6
+✅ doc_id 6 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 6 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=10, file=UltraTechCement_Invoice_20251024_075912_204627.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6591
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_08_consignment_no.png
+✅ Date filled: 03.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_10_source_filled.png
+✅ Destination confirmed: AMBATTUR
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_11_destination_filled.png
+✅ Vehicle confirmed: TN19F6397
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_12_vehicle_filled.png
+✅ E-Way Bill No filled: 591886812851
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_17_gsttype_filled.png
+✅ Consignee confirmed: S.V.SERVICES
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_18_consignee_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ Delivery Address set: NO, 696, POONAMALLE HIGH ROAD, 200 FEET ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251024_075912_204627_27_rate_filled.png
+✅ All required fields filled successfully — returning True.
+🧾 Validation built: 3 field(s) failed.
+🗃️ ValidationStatus saved into extracted_json for doc_id=10
+✅ doc_id 10 processed successfully.
+❌ process_row_with_driver exception: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 228, in process_row_with_driver
+    update_overall_status(conn, doc_id)
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'update_overall_status' is not defined
+
+❌ doc_id 10 failed during setup: name 'update_overall_status' is not defined
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 301, in main_db_process
+    raise Exception(msg)
+Exception: name 'update_overall_status' is not defined
+
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:34] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:49] Execution finished. 
+ 
+[15:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:04] Execution finished. 
+ 
+[15:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:19] Execution finished. 
+ 
+[15:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:34] Execution finished. 
+ 
+[15:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:49] Execution finished. 
+ 
+[16:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:04] Execution finished. 
+ 
+[16:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:19] Execution finished. 
+ 
+[16:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:34] Execution finished. 
+ 
+[16:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:49] Execution finished. 
+ 
+[17:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:04] Execution finished. 
+ 
+[17:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:19] Execution finished. 
+ 
+[17:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:49] Execution finished. 
+ 
+[18:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:04] Execution finished. 
+ 
+[18:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:19] Execution finished. 
+ 
+[18:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+📗 Using extracted_json (status NOT STARTED or other).
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251024_075912_206264.pdf
+❌ doc_id 1 failed during setup: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x11efe43+66515]
+	GetHandleVerifier [0x0x11efe84+66580]
+	(No symbol) [0x0xfddc48]
+	(No symbol) [0x0xfcce80]
+	(No symbol) [0x0xfeb81b]
+	(No symbol) [0x0x1051c25]
+	(No symbol) [0x0x106c4d9]
+	(No symbol) [0x0x104afc6]
+	(No symbol) [0x0x101c2ca]
+	(No symbol) [0x0x101d154]
+	GetHandleVerifier [0x0x1447353+2521315]
+	GetHandleVerifier [0x0x14422d3+2500707]
+	GetHandleVerifier [0x0x1217c94+229924]
+	GetHandleVerifier [0x0x12081f8+165768]
+	GetHandleVerifier [0x0x120ecad+193085]
+	GetHandleVerifier [0x0x11f8158+100072]
+	GetHandleVerifier [0x0x11f82f0+100480]
+	GetHandleVerifier [0x0x11e25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 298, in main_db_process
+    login(driver)
+    ~~~~~^^^^^^^^
+  File "C:\KSS_Working\login_page.py", line 28, in login
+    driver.get(BASE_URL)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 483, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x11efe43+66515]
+	GetHandleVerifier [0x0x11efe84+66580]
+	(No symbol) [0x0xfddc48]
+	(No symbol) [0x0xfcce80]
+	(No symbol) [0x0xfeb81b]
+	(No symbol) [0x0x1051c25]
+	(No symbol) [0x0x106c4d9]
+	(No symbol) [0x0x104afc6]
+	(No symbol) [0x0x101c2ca]
+	(No symbol) [0x0x101d154]
+	GetHandleVerifier [0x0x1447353+2521315]
+	GetHandleVerifier [0x0x14422d3+2500707]
+	GetHandleVerifier [0x0x1217c94+229924]
+	GetHandleVerifier [0x0x12081f8+165768]
+	GetHandleVerifier [0x0x120ecad+193085]
+	GetHandleVerifier [0x0x11f8158+100072]
+	GetHandleVerifier [0x0x11f82f0+100480]
+	GetHandleVerifier [0x0x11e25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:34] Execution finished. 
+ 
+[18:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:49] Execution finished. 
+ 
+[19:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:04] Execution finished. 
+ 
+[19:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:19] Execution finished. 
+ 
+[19:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:34] Execution finished. 
+ 
+[19:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:49] Execution finished. 
+ 
+[20:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:04] Execution finished. 
+ 
+[20:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:19] Execution finished. 
+ 
+[20:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:34] Execution finished. 
+ 
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:49] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:34] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:49] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:49] Execution finished. 
+ 
+[23:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:04] Execution finished. 
+ 
+[23:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:19] Execution finished. 
+ 
+[23:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:34] Execution finished. 
+ 
+[23:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:49] Execution finished. 
+ 

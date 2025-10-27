@@ -1,0 +1,743 @@
+===== Data Entry Log for 2025-10-21 ===== 
+[00:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:04] Execution finished. 
+ 
+[00:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:19] Execution finished. 
+ 
+[00:34] Starting main.py 
+C:\KSS_Working\main.py:276: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+📗 Using extracted_json because previous erp_entry_status was NOT STARTED or other.
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251021_040251_040040.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 6718
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_08_consignment_no.png
+✅ Date filled: 06.10.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_10_source_filled.png
+✅ Destination confirmed: MADURAI
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_11_destination_filled.png
+✅ Vehicle confirmed: TN88L6409
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_12_vehicle_filled.png
+✅ E-Way Bill No filled: 541888017941
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'K.S. TRADERS' (verify=equals)
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_18_consignee_filled.png
+✅ Delivery Address set: NO R83/1 TNHB, KEELAMBAKKAM ROAD, KAKKALUR BYE PASS ROAD, TAMIL NADU
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+✅ Popup closed with selector: xpath=//button[normalize-space()='OK']
+✅ Submit button clicked successfully.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_28_submit_clicked.png
+⚠️ No success message found after submit — may have failed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_040251_040040_29_submit_no_success.png
+❌ doc_id 1 failed: Submit failed or no success confirmation
+⏳ Waiting 30s for inspection before closing browser...
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[00:34] Execution finished. 
+ 
+[10:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:04] Execution finished. 
+ 
+[10:19] Starting main.py 
+C:\KSS_Working\main.py:276: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+📗 Using extracted_json because previous erp_entry_status was NOT STARTED or other.
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251021_042841_709843.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 4486
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_042841_709843_08_consignment_no.png
+✅ Date filled: 16.08.2025
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251021_042841_709843_09_date_filled.png
+❌ doc_id 2 failed: Message: 
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 201, in process_row_with_driver
+    submit_ok = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 891, in fill_consignment_form
+    ok = set_autocomplete_verify(driver, (By.ID, "CNM_FROM_STN_NAME"), source_val, verify="equals", max_attempts=5)
+  File "C:\KSS_Working\consignment_form.py", line 286, in set_autocomplete_verify
+    safe_click(driver, field_locator)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\consignment_form.py", line 168, in safe_click
+    ok = _retry(_action)
+  File "C:\KSS_Working\consignment_form.py", line 152, in _retry
+    return f()
+  File "C:\KSS_Working\consignment_form.py", line 161, in _action
+    el = WebDriverWait(driver, timeout).until(EC.element_to_be_clickable(locator))
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+⏳ Waiting 30s for inspection before closing browser...
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:34] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[10:49] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[11:49] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[12:19] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[12:49] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[13:34] Execution finished. 
+ 
+[13:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[13:49] Execution finished. 
+ 
+[14:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[14:04] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[14:49] Execution finished. 
+ 
+[15:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[15:04] Execution finished. 
+ 
+[15:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[15:19] Execution finished. 
+ 
+[15:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[15:34] Execution finished. 
+ 
+[15:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[15:49] Execution finished. 
+ 
+[16:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[16:04] Execution finished. 
+ 
+[16:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[16:19] Execution finished. 
+ 
+[16:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[16:34] Execution finished. 
+ 
+[16:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[16:49] Execution finished. 
+ 
+[17:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[17:04] Execution finished. 
+ 
+[17:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[17:19] Execution finished. 
+ 
+[17:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[17:34] Execution finished. 
+ 
+[17:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[17:49] Execution finished. 
+ 
+[18:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[18:04] Execution finished. 
+ 
+[18:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[18:19] Execution finished. 
+ 
+[18:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[18:34] Execution finished. 
+ 
+[18:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[18:49] Execution finished. 
+ 
+[19:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:04] Execution finished. 
+ 
+[19:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:19] Execution finished. 
+ 
+[19:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:34] Execution finished. 
+ 
+[19:41] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:41] Execution finished. 
+ 
+[19:42] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:42] Execution finished. 
+ 
+[19:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[19:49] Execution finished. 
+ 
+[20:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[20:04] Execution finished. 
+ 
+[20:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[20:19] Execution finished. 
+ 
+[20:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[20:34] Execution finished. 
+ 
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[20:49] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[21:34] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[21:49] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[22:49] Execution finished. 
+ 
+[23:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[23:04] Execution finished. 
+ 
+[23:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[23:19] Execution finished. 
+ 
+[23:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[23:34] Execution finished. 
+ 
+[23:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at column present: False
+erp_note column present: False
+⚠️ No pending rows found. Exiting loop.
+Finished DB loop.
+[23:49] Execution finished. 
+ 

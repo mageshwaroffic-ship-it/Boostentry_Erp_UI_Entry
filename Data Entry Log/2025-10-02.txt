@@ -1,0 +1,57 @@
+===== Data Entry Log for 2025-10-02 ===== 
+[20:51] Starting main.py 
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 125, in <module>
+    main()
+    ~~~~^^
+  File "C:\KSS_Working\main.py", line 84, in main
+    print("\U0001f5c2\ufe0f  INPUT_DIR     :", INPUT_DIR)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[20:51] Execution finished. 
+ 
+[20:55] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+
+▶️ Processing file: test_20251002_150152.json
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 5247
+📸 C:\KSS_Working\screenshots\test_20251002_150152_08_consignment_no.png
+✅ Date filled: 01.09.2025
+📸 C:\KSS_Working\screenshots\test_20251002_150152_09_date_filled.png
+❌ Error while processing test_20251002_150152.json: Message: 
+
+📦 Moved failed file to: C:\KSS_Working\failed\test_20251002_150152.json
+⏳ Waiting 30s for inspection before closing browser...
+
+🎯 All files processed.
+[20:55] Execution finished. 
+ 

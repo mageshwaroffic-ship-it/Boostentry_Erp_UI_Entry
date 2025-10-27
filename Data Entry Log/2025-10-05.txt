@@ -1,0 +1,867 @@
+===== Data Entry Log for 2025-10-05 ===== 
+[00:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[00:04] Execution finished. 
+ 
+[00:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[00:19] Execution finished. 
+ 
+[00:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[00:34] Execution finished. 
+ 
+[00:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[00:49] Execution finished. 
+ 
+[01:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[01:04] Execution finished. 
+ 
+[01:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[01:19] Execution finished. 
+ 
+[01:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[01:34] Execution finished. 
+ 
+[01:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[01:49] Execution finished. 
+ 
+[02:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[02:04] Execution finished. 
+ 
+[02:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[02:19] Execution finished. 
+ 
+[02:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[02:34] Execution finished. 
+ 
+[02:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[02:49] Execution finished. 
+ 
+[03:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[03:04] Execution finished. 
+ 
+[03:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[03:19] Execution finished. 
+ 
+[03:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[03:34] Execution finished. 
+ 
+[03:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[03:49] Execution finished. 
+ 
+[04:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[04:04] Execution finished. 
+ 
+[04:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[04:19] Execution finished. 
+ 
+[04:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[04:34] Execution finished. 
+ 
+[04:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[04:49] Execution finished. 
+ 
+[05:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[05:04] Execution finished. 
+ 
+[05:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[05:19] Execution finished. 
+ 
+[05:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[05:34] Execution finished. 
+ 
+[05:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[05:49] Execution finished. 
+ 
+[06:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[06:04] Execution finished. 
+ 
+[06:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[06:19] Execution finished. 
+ 
+[06:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[06:34] Execution finished. 
+ 
+[06:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[06:49] Execution finished. 
+ 
+[07:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[07:04] Execution finished. 
+ 
+[07:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[07:19] Execution finished. 
+ 
+[07:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[07:34] Execution finished. 
+ 
+[07:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[07:49] Execution finished. 
+ 
+[08:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[08:04] Execution finished. 
+ 
+[08:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[08:19] Execution finished. 
+ 
+[08:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[08:34] Execution finished. 
+ 
+[08:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[08:49] Execution finished. 
+ 
+[09:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[09:04] Execution finished. 
+ 
+[09:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[09:19] Execution finished. 
+ 
+[09:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[09:34] Execution finished. 
+ 
+[09:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[09:49] Execution finished. 
+ 
+[10:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[10:04] Execution finished. 
+ 
+[10:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[10:19] Execution finished. 
+ 
+[10:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[10:34] Execution finished. 
+ 
+[10:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[10:49] Execution finished. 
+ 
+[11:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[11:04] Execution finished. 
+ 
+[11:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[11:19] Execution finished. 
+ 
+[11:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[11:34] Execution finished. 
+ 
+[11:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[11:49] Execution finished. 
+ 
+[12:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[12:04] Execution finished. 
+ 
+[12:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[12:19] Execution finished. 
+ 
+[12:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[12:34] Execution finished. 
+ 
+[12:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[12:49] Execution finished. 
+ 
+[13:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[13:04] Execution finished. 
+ 
+[13:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[13:19] Execution finished. 
+ 
+[13:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+
+▶️ Processing file: invoices_samples-4_20251003_091622.json
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 5157
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_08_consignment_no.png
+✅ Date filled: 30.08.2025
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_10_source_filled.png
+✅ Destination confirmed: PONNERI
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_11_destination_filled.png
+✅ Vehicle confirmed: TN73BY4009
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_12_vehicle_filled.png
+✅ E-Way Bill No filled: 581869636048
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_17_gsttype_filled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+⚠️ Consignee empty after initial attempts — toggling GST Type once and retrying.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+↻ Retry 1/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+↻ Retry 2/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+↻ Retry 3/3 for ('id', 'CNM_CNE_NAME') value 'SLT CEMENT MARKETERS PVT LTD' (verify=equals)
+❌ Consignee still not found after GST toggle — moving on.
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_18_consignee_filled.png
+✅ Delivery Address set: KUMAARASAAMI, 60 MURUGAN KOIL STREET EXTN, 197 LAKSHMI AMMAN KOIL STREET, SANTHOSH NAGAR, TAMIL NADU
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\invoices_samples-4_20251003_091622_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+📂 File processed and moved to: C:\KSS_Working\processed\invoices_samples-4_20251003_091622.json
+⏳ Waiting 30s for inspection before closing browser...
+
+▶️ Processing file: sample_invoice1_20251003_091444.json
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 5811
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_08_consignment_no.png
+✅ Date filled: 14.09.2025
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_10_source_filled.png
+✅ Destination confirmed: SRIPERUMBUDUR
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_11_destination_filled.png
+✅ Vehicle confirmed: TN45AV2964
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_12_vehicle_filled.png
+✅ E-Way Bill No filled: 521877015989
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_17_gsttype_filled.png
+✅ Consignee confirmed: Oriental Structural Engineers
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_18_consignee_filled.png
+✅ Delivery Address set: NO: 15/3A KAN, KANDAMANGALAM VILLAGE, TAMIL NADU
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+📂 File processed and moved to: C:\KSS_Working\processed\sample_invoice1_20251003_091444.json
+⏳ Waiting 30s for inspection before closing browser...
+
+🎯 All files processed.
+[13:34] Execution finished. 
+ 
+[13:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[13:49] Execution finished. 
+ 
+[14:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[14:04] Execution finished. 
+ 
+[14:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[14:19] Execution finished. 
+ 
+[14:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[14:34] Execution finished. 
+ 
+[14:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[14:49] Execution finished. 
+ 
+[15:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[15:04] Execution finished. 
+ 
+[15:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[15:19] Execution finished. 
+ 
+[15:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[15:34] Execution finished. 
+ 
+[15:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[15:49] Execution finished. 
+ 
+[16:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[16:04] Execution finished. 
+ 
+[16:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[16:19] Execution finished. 
+ 
+[16:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[16:34] Execution finished. 
+ 
+[16:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[16:49] Execution finished. 
+ 
+[17:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[17:04] Execution finished. 
+ 
+[17:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[17:19] Execution finished. 
+ 
+[17:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[17:34] Execution finished. 
+ 
+[17:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[17:49] Execution finished. 
+ 
+[18:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[18:04] Execution finished. 
+ 
+[18:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[18:19] Execution finished. 
+ 
+[18:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[18:34] Execution finished. 
+ 
+[18:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[18:49] Execution finished. 
+ 
+[19:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[19:04] Execution finished. 
+ 
+[19:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[19:19] Execution finished. 
+ 
+[19:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[19:34] Execution finished. 
+ 
+[19:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[19:49] Execution finished. 
+ 
+[20:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[20:04] Execution finished. 
+ 
+[20:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[20:19] Execution finished. 
+ 
+[20:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+
+▶️ Processing file: sample_invoice1_20251003_091444.json
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+✅ ConsignmentNo filled: 5811
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_08_consignment_no.png
+✅ Date filled: 14.09.2025
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_09_date_filled.png
+✅ Source confirmed: ARAKKONAM
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_10_source_filled.png
+✅ Destination confirmed: SRIPERUMBUDUR
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_11_destination_filled.png
+✅ Vehicle confirmed: TN45AV2964
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_12_vehicle_filled.png
+✅ E-Way Bill No filled: 521877015989
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_13_ewaybill_filled.png
+✅ Consignor confirmed: UltraTech Cement Limited
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_15_consignor_filled.png
+✅ GST Type set: Unregistered
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_17_gsttype_filled.png
+✅ Consignee confirmed: Oriental Structural Engineers
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_18_consignee_filled.png
+✅ Delivery Address set: NO: 15/3A KAN, KANDAMANGALAM VILLAGE, TAMIL NADU
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_19_deliveryaddress_filled.png
+ℹ️ Skipping Consignee in verify_and_repair_fields because Consignee was already tried in fill flow.
+🎉 All fields verified in pass 1.
+✅ 'Add Item' clicked.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_21_additem_clicked.png
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_22_insertitem_contentname_ok.png
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_22_insertitem_filled.png
+✅ 'Add Invoice' clicked.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_24_addinvoice_clicked.png
+✅ Insert Item modal closed.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_25_insertitem_closed.png
+⚠️ Rate did not stick after verification.
+📸 C:\KSS_Working\screenshots\sample_invoice1_20251003_091444_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+📂 File processed and moved to: C:\KSS_Working\processed\sample_invoice1_20251003_091444.json
+⏳ Waiting 30s for inspection before closing browser...
+
+🎯 All files processed.
+[20:34] Execution finished. 
+ 
+[20:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[20:49] Execution finished. 
+ 
+[21:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[21:04] Execution finished. 
+ 
+[21:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[21:19] Execution finished. 
+ 
+[21:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[21:34] Execution finished. 
+ 
+[21:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[21:49] Execution finished. 
+ 
+[22:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[22:04] Execution finished. 
+ 
+[22:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[22:19] Execution finished. 
+ 
+[22:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[22:34] Execution finished. 
+ 
+[22:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[22:49] Execution finished. 
+ 
+[23:04] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[23:04] Execution finished. 
+ 
+[23:19] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[23:19] Execution finished. 
+ 
+[23:34] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[23:34] Execution finished. 
+ 
+[23:49] Starting main.py 
+🗂️  INPUT_DIR     : C:\KSS_Working\input
+📦 PROCESSED_DIR : C:\KSS_Working\processed
+🧰 FAILED_DIR    : C:\KSS_Working\failed
+⚠️ No JSON files found in input folder.
+[23:49] Execution finished. 
+ 

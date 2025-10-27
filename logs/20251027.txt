@@ -1,0 +1,644 @@
+============================== 
+Run at 20251027 00:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 00:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 00:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 00:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 00:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 00:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:43:13 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 01:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 02:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 03:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 04:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 05:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 06:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:43:13 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 07:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 08:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 09:53:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:43:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 10:53:14 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:03:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:13:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:23:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:33:12 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:43:14 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+❌ Google API error: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ?fields=id%2Cname%2CdriveId&supportsAllDrives=true&alt=json returned "File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.". Details: "[{'message': 'File not found: 1wIV_AtsIHqL-HGp0v9Rrc1dD6a3UPBiJ.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+ 
+============================== 
+Run at 20251027 11:53:12 
+============================== 
+❌ Unexpected error: [Errno 2] No such file or directory: 'service_account.json'
+ 

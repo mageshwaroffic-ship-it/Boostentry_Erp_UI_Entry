@@ -1,0 +1,282 @@
+============================== 
+Run at 20251002 00:00:14 
+============================== 
+Traceback (most recent call last):
+  File "C:\KSS_Working\gfiledownload.py", line 17, in <module>
+    from google.oauth2 import service_account
+ModuleNotFoundError: No module named 'google'
+ 
+============================== 
+Run at 20251002 00:03:14 
+============================== 
+Traceback (most recent call last):
+  File "C:\KSS_Working\gfiledownload.py", line 17, in <module>
+    from google.oauth2 import service_account
+ModuleNotFoundError: No module named 'google'
+ 
+============================== 
+Run at 20251002 00:04:09 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ sample_invoice1_20251001_182742.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice1_20251001_182742.json
+⬇️ invoices_samples-2_20251001_182642.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251001_182642.json
+⬇️ invoices_samples-3_20251001_182544.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251001_182544.json
+⬇️ invoices_samples-4_20251001_182448.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251001_182448.json
+⬇️ sample_invoice_20251001_182353.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice_20251001_182353.json
+⬇️ invoices_samples-5_20251001_182250.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251001_182250.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: sample_invoice1_20251001_182742.json
+🚚 Moved: invoices_samples-2_20251001_182642.json
+🚚 Moved: invoices_samples-3_20251001_182544.json
+🚚 Moved: invoices_samples-4_20251001_182448.json
+🚚 Moved: sample_invoice_20251001_182353.json
+🚚 Moved: invoices_samples-5_20251001_182250.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 00:06:13 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 01:25:06 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ sample_invoice1_20251001_195418.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice1_20251001_195418.json
+⬇️ invoices_samples-2_20251001_195319.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251001_195319.json
+⬇️ invoices_samples-3_20251001_195220.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251001_195220.json
+⬇️ invoices_samples-4_20251001_195123.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251001_195123.json
+⬇️ sample_invoice_20251001_195029.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice_20251001_195029.json
+⬇️ invoices_samples-5_20251001_194928.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251001_194928.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: sample_invoice1_20251001_195418.json
+🚚 Moved: invoices_samples-2_20251001_195319.json
+🚚 Moved: invoices_samples-3_20251001_195220.json
+🚚 Moved: invoices_samples-4_20251001_195123.json
+🚚 Moved: sample_invoice_20251001_195029.json
+🚚 Moved: invoices_samples-5_20251001_194928.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 04:11:07 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ sample_invoice1_20251001_223732.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice1_20251001_223732.json
+⬇️ invoices_samples-2_20251001_223633.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251001_223633.json
+⬇️ invoices_samples-3_20251001_223534.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251001_223534.json
+⬇️ invoices_samples-4_20251001_223436.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251001_223436.json
+⬇️ sample_invoice_20251001_223340.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice_20251001_223340.json
+⬇️ invoices_samples-5_20251001_223241.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251001_223241.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: sample_invoice1_20251001_223732.json
+🚚 Moved: invoices_samples-2_20251001_223633.json
+🚚 Moved: invoices_samples-3_20251001_223534.json
+🚚 Moved: invoices_samples-4_20251001_223436.json
+🚚 Moved: sample_invoice_20251001_223340.json
+🚚 Moved: invoices_samples-5_20251001_223241.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 11:50:03 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ sample_invoice1_20251002_061837.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice1_20251002_061837.json
+⬇️ invoices_samples-2_20251002_061738.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251002_061738.json
+⬇️ invoices_samples-3_20251002_061641.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251002_061641.json
+⬇️ invoices_samples-4_20251002_061544.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251002_061544.json
+⬇️ sample_invoice_20251002_061450.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice_20251002_061450.json
+⬇️ invoices_samples-5_20251002_061352.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251002_061352.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: sample_invoice1_20251002_061837.json
+🚚 Moved: invoices_samples-2_20251002_061738.json
+🚚 Moved: invoices_samples-3_20251002_061641.json
+🚚 Moved: invoices_samples-4_20251002_061544.json
+🚚 Moved: sample_invoice_20251002_061450.json
+🚚 Moved: invoices_samples-5_20251002_061352.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 16:18:34 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ invoices_samples-3_20251002_104105.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251002_104105.json
+⬇️ invoices_samples-4_20251002_103218.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251002_103218.json
+⬇️ invoices_samples-5_20251002_103121.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251002_103121.json
+⬇️ invoices_samples-2_20251002_101813.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251002_101813.json
+⬇️ sample_invoice1_20251002_101713.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice1_20251002_101713.json
+⬇️ sample_invoice_20251002_101610.json: 100%
+✅ Downloaded: C:\KSS_Working\input\sample_invoice_20251002_101610.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: invoices_samples-3_20251002_104105.json
+🚚 Moved: invoices_samples-4_20251002_103218.json
+🚚 Moved: invoices_samples-5_20251002_103121.json
+🚚 Moved: invoices_samples-2_20251002_101813.json
+🚚 Moved: sample_invoice1_20251002_101713.json
+🚚 Moved: sample_invoice_20251002_101610.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 16:23:50 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 16:33:20 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 16:33:25 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 16:33:29 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 16:33:34 
+============================== 
+============================== 
+============================== 
+Run at 20251002 16:33:35 
+Run at 20251002 16:33:34 
+============================== 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+⚠️ No files in source (or no access).
+ 
+============================== 
+Run at 20251002 20:24:32 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ invoices_samples-2_20251002_145302.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-2_20251002_145302.json
+⬇️ invoices_samples-3_20251002_145143.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-3_20251002_145143.json
+⬇️ invoices_samples-4_20251002_144335.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-4_20251002_144335.json
+⬇️ invoices_samples-1_20251002_144233.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-1_20251002_144233.json
+⬇️ invoices_samples-5_20251002_144127.json: 100%
+✅ Downloaded: C:\KSS_Working\input\invoices_samples-5_20251002_144127.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: invoices_samples-2_20251002_145302.json
+🚚 Moved: invoices_samples-3_20251002_145143.json
+🚚 Moved: invoices_samples-4_20251002_144335.json
+🚚 Moved: invoices_samples-1_20251002_144233.json
+🚚 Moved: invoices_samples-5_20251002_144127.json
+
+🎉 Done.
+ 
+============================== 
+Run at 20251002 20:37:51 
+============================== 
+🔐 Service account: poc-workbooster-ai@sincere-concept-473710-n1.iam.gserviceaccount.com
+📂 Source folder:      1NLnngoSnGqvw9QibHaEIQypmKQGV-VEq
+📂 Destination folder: 1gKQp8L_JKtgbFYUU-iLipE_oqQ0ZOfl0
+💾 Local save path:    C:\KSS_Working\input
+
+=== Downloading files ===
+⬇️ test_20251002_150152.json: 100%
+✅ Downloaded: C:\KSS_Working\input\test_20251002_150152.json
+
+=== Moving items in Drive (source ➜ destination) ===
+🚚 Moved: test_20251002_150152.json
+
+🎉 Done.
+ 
