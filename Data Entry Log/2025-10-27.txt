@@ -431,3 +431,21 @@ erp_updated_at: False, erp_note: False
 🏁 Finished DB loop.
 [11:49] Execution finished. 
  
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+Using JSON column: extracted_json
+erp_updated_at: False, erp_note: False
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:19] Execution finished. 
+ 

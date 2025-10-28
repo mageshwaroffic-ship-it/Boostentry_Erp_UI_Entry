@@ -1,5 +1,14 @@
-# main.py — v2.2 (Auto Overall Status Update)
-# ---------------------------------------------------
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+main.py — DB-driven automation loop that claims rows, fills ERP using Selenium,
+builds validation, and updates DB statuses. Includes a safe update_overall_status()
+implementation to avoid 'name not defined' errors and to allow marking overall_status
+when ERP entry is completed.
+
+Drop-in replacement for your existing main.py — preserves your flow and comments.
+"""
+
 import os
 import json
 import shutil
@@ -10,7 +19,7 @@ import traceback
 import psycopg2
 from psycopg2 import pool, extras
 
-# your existing automation modules
+# your existing automation modules (ensure these imports work in your project)
 from driver_utils import build_driver
 from login_page import login
 from branch_page import select_branch
@@ -19,7 +28,7 @@ from consignment_page import open_consignment_page
 from consignment_form import fill_consignment_form, build_validation_status
 
 # ----------------------------
-# CONFIGURATION
+# CONFIGURATION (adjust as needed)
 # ----------------------------
 DB_CONFIG = {
     'dbname': 'mydb',
@@ -46,10 +55,18 @@ except Exception as e:
     raise
 
 def get_conn():
+    """
+    Acquire a dedicated connection from the pool.
+    Remember to call release_conn(conn) when finished.
+    """
     return connection_pool.getconn()
 
 def release_conn(conn):
+    """
+    Return a connection to the pool.
+    """
     return connection_pool.putconn(conn)
+
 
 # ----------------------------
 # Utility Helpers
@@ -75,8 +92,10 @@ def parse_final_data(value):
             value = value.decode('utf-8', errors='ignore')
         if isinstance(value, str):
             txt = value.strip()
+            # handle quoted JSON strings
             if txt.startswith('"') and txt.endswith('"'):
                 txt = txt[1:-1]
+            # attempt to clean escaped quotes
             txt = txt.replace('\\"', '"').replace("''", "'")
             data = json.loads(txt)
         elif isinstance(value, dict):
@@ -104,10 +123,15 @@ def move_safely(src_path: str, dst_dir: str) -> str:
     shutil.move(src_path, candidate)
     return candidate
 
+
 # ----------------------------
 # Database Claim / Update
 # ----------------------------
 def claim_one_row(conn, json_col, use_erp_updated_at):
+    """
+    Claim one row for processing (FOR UPDATE SKIP LOCKED).
+    Returns a dict with row fields or None if no row available.
+    """
     with conn.cursor(cursor_factory=extras.RealDictCursor) as cur:
         set_time_col = "erp_updated_at" if use_erp_updated_at else "updated_at"
         sql = f"""
@@ -137,8 +161,12 @@ def claim_one_row(conn, json_col, use_erp_updated_at):
         conn.commit()
         return row
 
+
 def set_erp_status(conn, doc_id, status, note=None,
                    use_erp_updated_at=False, use_erp_note=False):
+    """
+    Set erp_entry_status and optionally append a note to erp_note.
+    """
     with conn.cursor() as cur:
         time_col = "erp_updated_at" if use_erp_updated_at else "updated_at"
         if use_erp_note:
@@ -171,10 +199,45 @@ def update_json_column(conn, doc_id, new_json_obj):
         )
         conn.commit()
 
+
+# ----------------------------
+# Helper: overall status updater (prevents NameError)
+# ----------------------------
+def update_overall_status(conn, doc_id, status_value="Completed"):
+    """
+    Safe helper to mark overall_status for the given doc_id.
+    This function is intentionally conservative:
+      - Attempts a simple UPDATE to overall_status column if it exists.
+      - Does not raise on failure; logs and returns False in that case.
+    """
+    try:
+        cols = get_table_columns(conn)
+        if 'overall_status' not in cols:
+            print("ℹ️ 'overall_status' column not present — skipping update_overall_status.")
+            return False
+        with conn.cursor() as cur:
+            cur.execute("""
+                UPDATE {table}
+                SET overall_status = %s,
+                    updated_at = now()
+                WHERE doc_id = %s;
+            """.format(table=TABLE_NAME), (status_value, doc_id))
+            conn.commit()
+        print(f"✅ overall_status set to '{status_value}' for doc_id={doc_id}")
+        return True
+    except Exception as e:
+        print(f"⚠️ Failed to update overall_status for doc_id={doc_id}: {e}")
+        return False
+
+
 # ----------------------------
 # Selenium Automation Core
 # ----------------------------
 def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note):
+    """
+    Process a single claimed row using the provided Selenium driver.
+    Returns: (True/False, message)
+    """
     try:
         raw = row.get('json_col')
         data = parse_final_data(raw)
@@ -182,6 +245,7 @@ def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note)
         if not branch:
             return False, "No 'Branch' found in parsed data"
 
+        # Navigate to correct branch/page
         select_branch(driver, branch)
         open_operations(driver)
         open_consignment_page(driver)
@@ -190,7 +254,7 @@ def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note)
         prefix = os.path.splitext(os.path.basename(fname))[0]
         doc_id = row.get("doc_id")
 
-        # 🧩 STEP 1 — Fill form
+        # 🧩 STEP 1 — Fill form (this returns True/False; Submit remains commented in consignment_form)
         submit_ok = fill_consignment_form(driver, data=data, prefix=prefix)
 
         # 🧩 STEP 2 — Build validation report (even if submit fails)
@@ -210,25 +274,36 @@ def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note)
                 }]
             }
 
-        # Attach ValidationStatus to the same JSON structure
+        # Attach ValidationStatus to the same JSON structure and save back
         try:
             parsed_json = parse_final_data(raw)
+            # ensure parsed_json is a dict
+            if not isinstance(parsed_json, dict):
+                parsed_json = {}
             parsed_json["ValidationStatus"] = validation_status
             update_json_column(conn, doc_id, parsed_json)
             print(f"🗃️ ValidationStatus saved into {JSON_COLUMN} for doc_id={doc_id}")
         except Exception as je:
             print(f"⚠️ Failed to update JSON column for doc_id={doc_id}: {je}")
 
-                # 🧩 STEP 3 — Set ERP status and handle failures
+        # 🧩 STEP 3 — Set ERP status and handle failures
         if submit_ok:
-            # ✅ Successful ERP entry
-            set_erp_status(conn, doc_id, "Completed", note="ERP entry completed by automation",
-                           use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
-            print(f"✅ doc_id {doc_id} processed successfully.")
-            update_overall_status(conn, doc_id)
+            # ✅ Successful ERP entry - mark Completed
+            try:
+                set_erp_status(conn, doc_id, "Completed", note="ERP entry completed by automation",
+                               use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
+                print(f"✅ doc_id {doc_id} processed successfully.")
+            except Exception as e:
+                print(f"⚠️ Failed to set erp status Completed for doc_id={doc_id}: {e}")
+
+            # Update overall_status (best-effort)
+            try:
+                update_overall_status(conn, doc_id, status_value="Completed")
+            except Exception as e:
+                print(f"⚠️ update_overall_status error for doc_id={doc_id}: {e}")
 
         else:
-            # ❌ Form fill failed or missing fields
+            # ❌ Form fill failed or missing fields -> mark Failed and store a helpful note + screenshot
             safe_prefix = os.path.splitext(os.path.basename(fname))[0]
             ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
             screenshot_name = f"{safe_prefix}_{doc_id}_{ts}.png"
@@ -238,11 +313,14 @@ def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note)
                 note = f"Form fill failed - missing or invalid field(s). Screenshot: {screenshot_path}"
             except Exception:
                 note = "Form fill failed - missing or invalid field(s). (No screenshot available)"
-            
-            set_erp_status(conn, doc_id, "Failed", note=note,
-                           use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
-            print(f"❌ doc_id {doc_id} marked as Failed due to form fill issues.")
-        
+
+            try:
+                set_erp_status(conn, doc_id, "Failed", note=note,
+                               use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
+                print(f"❌ doc_id {doc_id} marked as Failed due to form fill issues.")
+            except Exception as e:
+                print(f"⚠️ Failed to set erp status Failed for doc_id={doc_id}: {e}")
+
         return True, "OK"
 
 
@@ -251,14 +329,17 @@ def process_row_with_driver(driver, row, conn, use_erp_updated_at, use_erp_note)
         print(f"❌ process_row_with_driver exception: {e}\n{tb}")
         return False, str(e)
 
+
 # ----------------------------
 # Main Loop
 # ----------------------------
 def main_db_process(max_iterations=0):
     print("🚀 Starting DB driven processing loop...")
     conn = None
+    claimed_conn = None
     try:
         conn = get_conn()
+        # We use one DB connection to claim and update; functions that call get_conn() will obtain their own if needed.
         cols = get_table_columns(conn)
         use_erp_updated_at = 'erp_updated_at' in cols
         use_erp_note = 'erp_note' in cols
@@ -301,8 +382,11 @@ def main_db_process(max_iterations=0):
                     raise Exception(msg)
             except Exception as e:
                 tb = traceback.format_exc()
-                set_erp_status(conn, doc_id, "Failed", note=f"Driver/login error: {e}",
-                               use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
+                try:
+                    set_erp_status(conn, doc_id, "Failed", note=f"Driver/login error: {e}",
+                                   use_erp_updated_at=use_erp_updated_at, use_erp_note=use_erp_note)
+                except Exception as se:
+                    print(f"⚠️ Failed to set erp status after driver/login error for doc_id={doc_id}: {se}")
                 print(f"❌ doc_id {doc_id} failed during setup: {e}\n{tb}")
             finally:
                 print("⏳ Waiting 30s before closing browser...")
@@ -318,11 +402,16 @@ def main_db_process(max_iterations=0):
         print("DB loop error:", ex)
     finally:
         if conn:
-            release_conn(conn)
+            try:
+                release_conn(conn)
+            except Exception:
+                pass
         print("🏁 Finished DB loop.")
+
 
 # ----------------------------
 # Entry Point
 # ----------------------------
 if __name__ == "__main__":
+    # You can pass max_iterations as needed for testing
     main_db_process(max_iterations=0)
