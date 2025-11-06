@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-main.py — DB loop:
-- Fills ERP
-- Writes ValidationStatus (FailedFields + SubmitResult) into extracted_json
-- Status rule:
-  * If all_ok AND submit success -> erp_entry_status=Completed, overall_status=Completed
-  * If FailedFields > 0            -> erp_entry_status=Failed   (overall_status unchanged)
-  * If all_ok AND submit failed    -> erp_entry_status=In Progress (overall_status unchanged)
-  * Driver/login/setup exceptions  -> erp_entry_status=In Progress
+main.py — DB loop with Duplicate handling:
+- If DUPLICATE detected right after Consignment No (Create button appears):
+    -> erp_entry_status = 'Duplicate'
+    -> overall_status   = 'Failed'
+    -> write ValidationStatus with Duplicate (no FailedFields)
+- Else same rules for Completed/Completed AHR/Failed/In Progress
 """
-
 import os
 import json
 from time import sleep
@@ -27,9 +24,6 @@ from operations_page import open_operations
 from consignment_page import open_consignment_page
 from consignment_form import fill_consignment_form
 
-# ----------------------------
-# CONFIG
-# ----------------------------
 DB_CONFIG = {
     'dbname': 'mydb',
     'user': 'sql_developer',
@@ -43,9 +37,6 @@ JSON_COLUMN = 'extracted_json'
 SCREENSHOT_DIR = os.path.join(os.path.dirname(__file__), "screenshots")
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 
-# ----------------------------
-# DB pool
-# ----------------------------
 connection_pool = None
 try:
     connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
@@ -60,9 +51,6 @@ def get_conn():
 def release_conn(conn):
     return connection_pool.putconn(conn)
 
-# ----------------------------
-# Helpers
-# ----------------------------
 def get_table_columns(conn):
     with conn.cursor() as cur:
         cur.execute("""
@@ -176,16 +164,16 @@ def update_overall_status(conn, doc_id, status_value="Completed"):
         print(f"⚠️ Failed to update overall_status for doc_id={doc_id}: {e}")
         return False
 
-# ----------------------------
-# Core processing
-# ----------------------------
 def process_row_with_driver(driver, row, conn):
     try:
         raw_extracted = row.get('extracted_json')
         raw_corrected = row.get('corrected_json')
         prev_erp_status = (row.get('prev_erp_entry_status') or '').strip().upper()
 
-        json_source = raw_corrected if (prev_erp_status == 'FIXED' and raw_corrected and str(raw_corrected).strip() not in ('', '{}', 'null')) else raw_extracted
+        used_corrected = (prev_erp_status == 'FIXED' and raw_corrected and str(raw_corrected).strip() not in ('', '{}', 'null'))
+        json_source = raw_corrected if used_corrected else raw_extracted
+        print("📘 Using corrected_json (status FIXED)." if used_corrected else "📗 Using extracted_json (status NOT STARTED or other).")
+
         data = parse_final_data(json_source)
 
         branch = (data.get("Branch") or data.get("branch") or "").strip()
@@ -199,11 +187,9 @@ def process_row_with_driver(driver, row, conn):
                 "SubmitResult": {"Submitted": False, "ErrorText": "Missing Branch in data"}
             }
             update_json_column(conn, doc_id, parsed_json)
-            # Mark as Failed so it doesn't loop forever
             set_erp_status(conn, doc_id, "Failed", note="Missing Branch in data")
             return False, "Missing Branch"
 
-        # Navigate & open form
         select_branch(driver, branch)
         open_operations(driver)
         open_consignment_page(driver)
@@ -212,15 +198,49 @@ def process_row_with_driver(driver, row, conn):
         prefix = os.path.splitext(os.path.basename(fname))[0]
         doc_id = row.get("doc_id")
 
-        # Fill form
         result = fill_consignment_form(driver, data=data, prefix=prefix)
+
+        # ----- Duplicate: short-circuit -----
+        if result.get("duplicate"):
+            duplicate_info = result.get("duplicate_info") or {}
+            validation_status_obj = {
+                "FailedFields": [],
+                "SubmitResult": {"Submitted": False, "ErrorText": "Duplicate detected"},
+                "Duplicate": {"Detected": True, **duplicate_info}
+            }
+            try:
+                parsed_json = parse_final_data(json_source)
+                if not isinstance(parsed_json, dict):
+                    parsed_json = {}
+                parsed_json["ValidationStatus"] = validation_status_obj
+                update_json_column(conn, doc_id, parsed_json)
+                print(f"🗃️ Duplicate ValidationStatus saved for doc_id={doc_id}")
+            except Exception as je:
+                print(f"⚠️ Failed to update JSON for duplicate doc_id={doc_id}: {je}")
+
+            # set erp_entry_status = Duplicate
+            try:
+                set_erp_status(conn, doc_id, "Duplicate",
+                               note=f"Duplicate detected after Consignment No: {duplicate_info}")
+                print(f"🟠 doc_id {doc_id} marked as Duplicate.")
+            except Exception as e:
+                print(f"⚠️ Failed to set ERP status 'Duplicate' for doc_id={doc_id}: {e}")
+
+            # ALSO set overall_status = Failed (your new rule)
+            try:
+                update_overall_status(conn, doc_id, status_value="Failed")
+            except Exception as e:
+                print(f"⚠️ Failed to set overall_status='Failed' for doc_id={doc_id}: {e}")
+
+            return True, "Duplicate"
+
+        # ----- Normal path -----
         all_ok = bool(result.get("all_ok"))
         submit = result.get("submit") or {}
         submitted = bool(submit.get("submitted"))
         submit_err = submit.get("error")
         failed_fields = result.get("failed_fields") or []
 
-        # Build ValidationStatus to store
         validation_status_obj = {
             "FailedFields": failed_fields,
             "SubmitResult": {
@@ -229,7 +249,6 @@ def process_row_with_driver(driver, row, conn):
             }
         }
 
-        # Save ValidationStatus back into JSON column
         try:
             parsed_json = parse_final_data(json_source)
             if not isinstance(parsed_json, dict):
@@ -240,32 +259,29 @@ def process_row_with_driver(driver, row, conn):
         except Exception as je:
             print(f"⚠️ Failed to update JSON column for doc_id={doc_id}: {je}")
 
-        # ---------- Status logic (FIXED) ----------
         if failed_fields:
-            # Any validation failure -> mark as Failed (do not pick again)
             try:
                 set_erp_status(conn, doc_id, "Failed",
                                note=f"{len(failed_fields)} field(s) failed validation")
                 print(f"❌ doc_id {doc_id} marked Failed due to validation errors.")
             except Exception as e:
                 print(f"⚠️ Failed to set ERP status Failed for doc_id={doc_id}: {e}")
-            # Do NOT touch overall_status (stays as-is / shows In Progress in your UI)
             return True, "Validation failed -> Failed status"
 
         if all_ok and submitted:
-            # Success path
+            status_to_set = "Completed AHR" if used_corrected else "Completed"
             try:
-                set_erp_status(conn, doc_id, "Completed", note="ERP entry submitted successfully")
-                print(f"✅ doc_id {doc_id} processed & submitted successfully.")
+                set_erp_status(conn, doc_id, status_to_set,
+                               note="ERP entry submitted successfully")
+                print(f"✅ doc_id {doc_id} processed & submitted successfully. Status = {status_to_set}")
             except Exception as e:
-                print(f"⚠️ Failed to set ERP status Completed for doc_id={doc_id}: {e}")
+                print(f"⚠️ Failed to set ERP status {status_to_set} for doc_id={doc_id}: {e}")
             try:
                 update_overall_status(conn, doc_id, status_value="Completed")
             except Exception as e:
                 print(f"⚠️ update_overall_status error for doc_id={doc_id}: {e}")
-            return True, "Completed"
+            return True, status_to_set
 
-        # Reaching here means: no FailedFields, but submit failed or was skipped
         try:
             set_erp_status(conn, doc_id, "In Progress",
                            note=f"Submit failed: {submit_err or 'Unknown error'}")
@@ -279,9 +295,6 @@ def process_row_with_driver(driver, row, conn):
         print(f"❌ process_row_with_driver exception: {e}\n{tb}")
         return False, str(e)
 
-# ----------------------------
-# Loop
-# ----------------------------
 def main_db_process(max_iterations=0):
     print("🚀 Starting DB driven processing loop...")
     conn = None
@@ -310,14 +323,13 @@ def main_db_process(max_iterations=0):
             except Exception as e:
                 tb = traceback.format_exc()
                 print(f"❌ doc_id {doc_id} failed during processing: {e}\n{tb}")
-                # Keep as In Progress for infra errors so it can be retried later
                 try:
                     set_erp_status(conn, doc_id, "In Progress", note=f"Driver/login error: {e}")
                 except Exception as se:
                     print(f"⚠️ Failed to set erp status after driver/login error for doc_id={doc_id}: {se}")
             finally:
-                print("⏳ Waiting 30s before closing browser...")
-                sleep(30)
+                print("⏳ Waiting 5s before closing browser...")
+                sleep(5)
                 try:
                     driver.quit()
                 except Exception:

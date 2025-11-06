@@ -1,0 +1,3130 @@
+===== Data Entry Log for 2025-11-01 ===== 
+[00:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:04] Execution finished. 
+ 
+[00:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:09] Execution finished. 
+ 
+[00:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:14] Execution finished. 
+ 
+[00:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:19] Execution finished. 
+ 
+[00:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:24] Execution finished. 
+ 
+[00:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:29] Execution finished. 
+ 
+[00:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:34] Execution finished. 
+ 
+[00:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:39] Execution finished. 
+ 
+[00:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:44] Execution finished. 
+ 
+[00:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:49] Execution finished. 
+ 
+[00:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:54] Execution finished. 
+ 
+[00:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:59] Execution finished. 
+ 
+[01:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:04] Execution finished. 
+ 
+[01:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:09] Execution finished. 
+ 
+[01:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:14] Execution finished. 
+ 
+[01:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:19] Execution finished. 
+ 
+[01:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:24] Execution finished. 
+ 
+[01:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:29] Execution finished. 
+ 
+[01:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:34] Execution finished. 
+ 
+[01:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:39] Execution finished. 
+ 
+[01:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:44] Execution finished. 
+ 
+[01:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:49] Execution finished. 
+ 
+[01:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:54] Execution finished. 
+ 
+[01:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:59] Execution finished. 
+ 
+[02:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:04] Execution finished. 
+ 
+[02:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:09] Execution finished. 
+ 
+[02:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:14] Execution finished. 
+ 
+[02:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:19] Execution finished. 
+ 
+[02:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:24] Execution finished. 
+ 
+[02:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:29] Execution finished. 
+ 
+[02:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:34] Execution finished. 
+ 
+[02:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:39] Execution finished. 
+ 
+[02:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:44] Execution finished. 
+ 
+[02:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:49] Execution finished. 
+ 
+[02:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:54] Execution finished. 
+ 
+[02:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:59] Execution finished. 
+ 
+[03:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:04] Execution finished. 
+ 
+[03:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:09] Execution finished. 
+ 
+[03:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:14] Execution finished. 
+ 
+[03:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:19] Execution finished. 
+ 
+[03:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:24] Execution finished. 
+ 
+[03:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:29] Execution finished. 
+ 
+[03:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:34] Execution finished. 
+ 
+[03:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:39] Execution finished. 
+ 
+[03:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:44] Execution finished. 
+ 
+[03:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:49] Execution finished. 
+ 
+[03:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:54] Execution finished. 
+ 
+[03:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:59] Execution finished. 
+ 
+[04:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:04] Execution finished. 
+ 
+[04:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:09] Execution finished. 
+ 
+[04:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:14] Execution finished. 
+ 
+[04:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:19] Execution finished. 
+ 
+[04:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:24] Execution finished. 
+ 
+[04:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:29] Execution finished. 
+ 
+[04:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:34] Execution finished. 
+ 
+[04:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:39] Execution finished. 
+ 
+[04:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:44] Execution finished. 
+ 
+[04:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:49] Execution finished. 
+ 
+[04:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:54] Execution finished. 
+ 
+[04:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:59] Execution finished. 
+ 
+[05:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:04] Execution finished. 
+ 
+[05:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:09] Execution finished. 
+ 
+[05:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:14] Execution finished. 
+ 
+[05:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:19] Execution finished. 
+ 
+[05:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:24] Execution finished. 
+ 
+[05:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:29] Execution finished. 
+ 
+[05:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:34] Execution finished. 
+ 
+[05:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:39] Execution finished. 
+ 
+[05:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:44] Execution finished. 
+ 
+[05:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:49] Execution finished. 
+ 
+[05:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:54] Execution finished. 
+ 
+[05:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:59] Execution finished. 
+ 
+[06:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:04] Execution finished. 
+ 
+[06:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:09] Execution finished. 
+ 
+[06:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:14] Execution finished. 
+ 
+[06:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:19] Execution finished. 
+ 
+[06:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:24] Execution finished. 
+ 
+[06:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:29] Execution finished. 
+ 
+[06:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:34] Execution finished. 
+ 
+[06:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:39] Execution finished. 
+ 
+[06:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:44] Execution finished. 
+ 
+[06:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:49] Execution finished. 
+ 
+[06:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:54] Execution finished. 
+ 
+[06:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:59] Execution finished. 
+ 
+[07:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:04] Execution finished. 
+ 
+[07:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:09] Execution finished. 
+ 
+[07:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:14] Execution finished. 
+ 
+[07:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:19] Execution finished. 
+ 
+[07:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:24] Execution finished. 
+ 
+[07:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:29] Execution finished. 
+ 
+[07:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:34] Execution finished. 
+ 
+[07:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:39] Execution finished. 
+ 
+[07:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:44] Execution finished. 
+ 
+[07:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:49] Execution finished. 
+ 
+[07:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:54] Execution finished. 
+ 
+[07:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:59] Execution finished. 
+ 
+[08:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:04] Execution finished. 
+ 
+[08:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:09] Execution finished. 
+ 
+[08:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:14] Execution finished. 
+ 
+[08:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:19] Execution finished. 
+ 
+[08:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:24] Execution finished. 
+ 
+[08:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:29] Execution finished. 
+ 
+[08:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:34] Execution finished. 
+ 
+[08:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:39] Execution finished. 
+ 
+[08:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:44] Execution finished. 
+ 
+[08:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:49] Execution finished. 
+ 
+[08:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:54] Execution finished. 
+ 
+[08:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:59] Execution finished. 
+ 
+[09:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:04] Execution finished. 
+ 
+[09:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:09] Execution finished. 
+ 
+[09:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:14] Execution finished. 
+ 
+[09:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:19] Execution finished. 
+ 
+[09:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:24] Execution finished. 
+ 
+[09:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:29] Execution finished. 
+ 
+[09:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:34] Execution finished. 
+ 
+[09:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:39] Execution finished. 
+ 
+[09:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:44] Execution finished. 
+ 
+[09:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:49] Execution finished. 
+ 
+[09:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:54] Execution finished. 
+ 
+[09:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:59] Execution finished. 
+ 
+[10:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:04] Execution finished. 
+ 
+[10:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:09] Execution finished. 
+ 
+[10:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:14] Execution finished. 
+ 
+[10:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:24] Execution finished. 
+ 
+[10:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:29] Execution finished. 
+ 
+[10:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:34] Execution finished. 
+ 
+[10:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:39] Execution finished. 
+ 
+[10:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:44] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:49] Execution finished. 
+ 
+[10:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:54] Execution finished. 
+ 
+[10:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:59] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:09] Execution finished. 
+ 
+[11:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:14] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:24] Execution finished. 
+ 
+[11:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:29] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:39] Execution finished. 
+ 
+[11:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:44] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:49] Execution finished. 
+ 
+[11:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:54] Execution finished. 
+ 
+[11:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:59] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:09] Execution finished. 
+ 
+[12:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:14] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:19] Execution finished. 
+ 
+[12:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:24] Execution finished. 
+ 
+[12:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:29] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:39] Execution finished. 
+ 
+[12:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:44] Execution finished. 
+ 
+[12:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:49] Execution finished. 
+ 
+[12:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:54] Execution finished. 
+ 
+[12:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:59] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:09] Execution finished. 
+ 
+[13:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:14] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:24] Execution finished. 
+ 
+[13:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:29] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:34] Execution finished. 
+ 
+[13:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:39] Execution finished. 
+ 
+[13:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:44] Execution finished. 
+ 
+[13:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:49] Execution finished. 
+ 
+[13:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:54] Execution finished. 
+ 
+[13:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:59] Execution finished. 
+ 
+[14:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:04] Execution finished. 
+ 
+[14:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:09] Execution finished. 
+ 
+[14:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:14] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:24] Execution finished. 
+ 
+[14:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:29] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:39] Execution finished. 
+ 
+[14:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:44] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251101_091410_651271.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for Consignment No: expected='6608', ui_val=''
+↻ Consignment No: first immediate check failed — retrying once.
+⚠️ Retry setter for Consignment No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Consignment No: expected='6608', ui_val=''
+❌ Consignment No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Consignment No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_08_consignment_no.png
+❌ Persist check failed for Consignment No: cleared after blur.
+⏱ Immediate check for Date: expected='04.10.2025', ui_val='04/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_10_source_filled.png
+⏱ Immediate check for Destination: expected='MYLAPORE', ui_val='MYLAPORE'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73BY0885', ui_val='TN73BY0885'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='551887001543', ui_val='551887001543'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='VASU AGENC : i', ui_val='VASU AGENC : i'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_18_consignee_filled.png
+⚠️ Setter for Delivery Address raised: Message: 
+
+⏱ Immediate check for Delivery Address: expected='I 1137475975 VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE', ui_val='VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE'
+↻ Delivery Address: first immediate check failed — retrying once.
+⚠️ Retry setter for Delivery Address raised: Message: 
+
+⏱ Immediate check for Delivery Address: expected='I 1137475975 VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE', ui_val='VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_19_deliveryaddress_filled.png
+⚠️ Setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028786', ui_val=''
+↻ Invoice No: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028786', ui_val=''
+❌ Invoice No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Invoice No_failed_after_retry.png
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val=''
+↻ Content Name (Goods Name): first immediate check failed — retrying once.
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val=''
+❌ Content Name (Goods Name) failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Content Name (Goods Name)_failed_after_retry.png
+❌ Persist check failed for Content Name (Goods Name): cleared after blur.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_22_insertitem_contentname.png
+⚠️ Setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='93.59', ui_val=''
+↻ Actual Weight: first immediate check failed — retrying once.
+⚠️ Retry setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='93.59', ui_val=''
+❌ Actual Weight failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Actual Weight_failed_after_retry.png
+⚠️ Setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='05-10-2925 93:59', ui_val=''
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⚠️ Retry setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='05-10-2925 93:59', ui_val=''
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_E-WayBill ValidUpto_failed_after_retry.png
+⚠️ Setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='04.10.2025', ui_val=''
+↻ Invoice Date: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='04.10.2025', ui_val=''
+❌ Invoice Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Invoice Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='04.10.2025', ui_val=''
+↻ E-Way Bill Date: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='04.10.2025', ui_val=''
+❌ E-Way Bill Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_E-Way Bill Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551887001543', ui_val=''
+↻ E-Way Bill No: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551887001543', ui_val=''
+❌ E-Way Bill No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_E-Way Bill No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_22_insertitem_filled.png
+⏱ Immediate check for Rate: expected='617.00', ui_val='0'
+↻ Rate: first immediate check failed — retrying once.
+⏱ Immediate check for Rate: expected='617.00', ui_val='0'
+❌ Rate failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_UltraTechCement_Invoice_20251101_091410_651271_Rate_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651271_27_rate_filled.png
+❌ Persist mismatch for Rate: '0'
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✖   0.0    equals    6608  |  
+                             note: UI empty
+Consignment No           ✖   0.0    equals    6608  |  
+                             note: UI empty
+Consignment No           ✖   0.0    equals    6608  |  
+                             note: not persisted (ERP doesn't have this value)
+Date                     ✔   1.0    date      04.10.2025  |  04/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    MYLAPORE  |  MYLAPORE
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73BY0885  |  TN73BY0885
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  551887001543  |  551887001543
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    VASU AGENC : i  |  VASU AGENC : i
+                             note: fuzzy OK
+Delivery Address         ✔   0.899  equals    I 1137475975 VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE  |  VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE
+                             note: fuzzy OK
+Delivery Address         ✔   0.899  equals    I 1137475975 VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE  |  VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE
+                             note: fuzzy OK
+Invoice No               ✖   0.0    equals    6978028786  |  
+                             note: UI empty
+Invoice No               ✖   0.0    equals    6978028786  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: not persisted (ERP doesn't have this value)
+Actual Weight            ✖   0.0    equals    93.59  |  
+                             note: UI empty
+Actual Weight            ✖   0.0    equals    93.59  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      05-10-2925 93:59  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      05-10-2925 93:59  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      04.10.2025  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      04.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      04.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      04.10.2025  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551887001543  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551887001543  |  
+                             note: UI empty
+Rate                     ✖   0.286  equals    617.00  |  0
+                             note: fuzzy<0.70
+Rate                     ✖   0.286  equals    617.00  |  0
+                             note: fuzzy<0.70
+Rate                     ✖   0.286  equals    617.00  |  0
+                             note: not persisted (mismatch after blur)
+-------------------------------------------------------------
+❌ Result: 21 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=1
+❌ doc_id 1 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251101_091410_650508.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for Consignment No: expected='', ui_val=''
+↻ Consignment No: first immediate check failed — retrying once.
+⏱ Immediate check for Consignment No: expected='', ui_val=''
+❌ Consignment No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_UltraTechCement_Invoice_20251101_091410_650508_Consignment No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_08_consignment_no.png
+❌ Persist check failed for Consignment No: cleared after blur.
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_10_source_filled.png
+⏱ Immediate check for Destination: expected='MADIPAKKAM', ui_val='MADIPAKKAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73U1383', ui_val='TN73U1383'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='581886745765', ui_val='581886745765'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_UltraTechCement_Invoice_20251101_091410_650508_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT', ui_val='21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT'
+↻ Delivery Address: first immediate check failed — retrying once.
+⏱ Immediate check for Delivery Address: expected='21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT', ui_val='21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028701', ui_val='6978028701'
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val='PPC BAG'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_22_insertitem_contentname.png
+⏱ Immediate check for Actual Weight: expected='10.000', ui_val='10.000'
+⏱ Immediate check for E-WayBill ValidUpto: expected='', ui_val=''
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⏱ Immediate check for E-WayBill ValidUpto: expected='', ui_val=''
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_UltraTechCement_Invoice_20251101_091410_650508_E-WayBill ValidUpto_failed_after_retry.png
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill No: expected='581886745765', ui_val='581886745765'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_25_insertitem_closed.png
+⏱ Immediate check for Rate: expected='615.00', ui_val='615'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_650508_27_rate_filled.png
+🔎 Rate popup detected text: 'Please Select E-way Bill Expiry Date\nOK'
+✅ Popup closed with selector: id=btn-ok
+ℹ️ Post-rate generic popup closed.
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✖   0.0    equals      |  
+                             note: Missing value
+Consignment No           ✖   0.0    equals      |  
+                             note: Missing value
+Consignment No           ✖   0.0    equals      |  
+                             note: not persisted (ERP doesn't have this value)
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    MADIPAKKAM  |  MADIPAKKAM
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73U1383  |  TN73U1383
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  581886745765  |  581886745765
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✔   1.0    equals    21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT  |  21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT
+                             note: numeric~= OK
+Delivery Address         ✔   1.0    equals    21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT  |  21, 3RD MAIN ROAD, DHANDEESWARAM NAGAR 3RD STREET, VELACHERY CHENNAI, TAMIL NADU SEGMENT
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028701  |  6978028701
+                             note: numeric~= OK
+Content Name (Goods Name) ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+Actual Weight            ✔   1.0    equals    10.000  |  10.000
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✖   0.0    date        |  
+                             note: Missing value
+E-WayBill ValidUpto      ✖   0.0    date        |  
+                             note: Missing value
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill No            ✔   1.0    contains  581886745765  |  581886745765
+                             note: substring OK
+Rate                     ✔   1.0    equals    615.00  |  615
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 8 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=2
+❌ doc_id 2 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251101_091410_651799.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for Consignment No: expected='6616', ui_val=''
+↻ Consignment No: first immediate check failed — retrying once.
+⚠️ Retry setter for Consignment No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Consignment No: expected='6616', ui_val=''
+❌ Consignment No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_Consignment No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_08_consignment_no.png
+❌ Persist check failed for Consignment No: cleared after blur.
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_10_source_filled.png
+⏱ Immediate check for Destination: expected='PALLIPATTU', ui_val='PALLIPATTU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73BZ7347', ui_val='TN73BZ7347'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val='551886992908'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='K.S. TRADERS', ui_val='K.S. TRADERS'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_18_consignee_filled.png
+⚠️ Setter for Delivery Address raised: Message: 
+
+⏱ Immediate check for Delivery Address: expected='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU', ui_val='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU'
+↻ Delivery Address: first immediate check failed — retrying once.
+⚠️ Retry setter for Delivery Address raised: Message: 
+
+⏱ Immediate check for Delivery Address: expected='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU', ui_val='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_19_deliveryaddress_filled.png
+⚠️ Setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028850', ui_val=''
+↻ Invoice No: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028850', ui_val=''
+❌ Invoice No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_Invoice No_failed_after_retry.png
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val=''
+↻ Content Name (Goods Name): first immediate check failed — retrying once.
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val=''
+❌ Content Name (Goods Name) failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_Content Name (Goods Name)_failed_after_retry.png
+❌ Persist check failed for Content Name (Goods Name): cleared after blur.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_22_insertitem_contentname.png
+⚠️ Setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val=''
+↻ Actual Weight: first immediate check failed — retrying once.
+⚠️ Retry setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val=''
+❌ Actual Weight failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_Actual Weight_failed_after_retry.png
+⚠️ Setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val=''
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⚠️ Retry setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val=''
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_E-WayBill ValidUpto_failed_after_retry.png
+⚠️ Setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val=''
+↻ Invoice Date: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val=''
+❌ Invoice Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_Invoice Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val=''
+↻ E-Way Bill Date: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val=''
+❌ E-Way Bill Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_E-Way Bill Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val=''
+↻ E-Way Bill No: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd2fe43+66515]
+	GetHandleVerifier [0x0xd2fe84+66580]
+	(No symbol) [0x0xb1dc48]
+	(No symbol) [0x0xb68704]
+	(No symbol) [0x0xb68aab]
+	(No symbol) [0x0xbaf482]
+	(No symbol) [0x0xb8b214]
+	(No symbol) [0x0xbacba7]
+	(No symbol) [0x0xb8afc6]
+	(No symbol) [0x0xb5c2ca]
+	(No symbol) [0x0xb5d154]
+	GetHandleVerifier [0x0xf87353+2521315]
+	GetHandleVerifier [0x0xf822d3+2500707]
+	GetHandleVerifier [0x0xd57c94+229924]
+	GetHandleVerifier [0x0xd481f8+165768]
+	GetHandleVerifier [0x0xd4ecad+193085]
+	GetHandleVerifier [0x0xd38158+100072]
+	GetHandleVerifier [0x0xd382f0+100480]
+	GetHandleVerifier [0x0xd225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val=''
+❌ E-Way Bill No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_UltraTechCement_Invoice_20251101_091410_651799_E-Way Bill No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_22_insertitem_filled.png
+⏱ Immediate check for Rate: expected='550.00', ui_val='550.00'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251101_091410_651799_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✖   0.0    equals    6616  |  
+                             note: UI empty
+Consignment No           ✖   0.0    equals    6616  |  
+                             note: UI empty
+Consignment No           ✖   0.0    equals    6616  |  
+                             note: not persisted (ERP doesn't have this value)
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    PALLIPATTU  |  PALLIPATTU
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73BZ7347  |  TN73BZ7347
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  551886992908  |  551886992908
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    K.S. TRADERS  |  K.S. TRADERS
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU  |  MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU
+                             note: numeric~= OK
+Delivery Address         ✔   1.0    equals    MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU  |  MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✖   0.0    equals    6978028850  |  
+                             note: UI empty
+Invoice No               ✖   0.0    equals    6978028850  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: UI empty
+Content Name (Goods Name) ✖   0.0    equals    PPC BAG  |  
+                             note: not persisted (ERP doesn't have this value)
+Actual Weight            ✖   0.0    equals    13.000  |  
+                             note: UI empty
+Actual Weight            ✖   0.0    equals    13.000  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      04-10-2025 23:59:00  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      04-10-2025 23:59:00  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551886992908  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551886992908  |  
+                             note: UI empty
+Rate                     ✔   1.0    equals    550.00  |  550.00
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 18 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+❌ doc_id 3 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:49] Execution finished. 
+ 
+[15:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:09] Execution finished. 
+ 
+[15:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:14] Execution finished. 
+ 
+[15:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:19] Execution finished. 
+ 
+[15:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:24] Execution finished. 
+ 
+[15:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:29] Execution finished. 
+ 
+[15:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:34] Execution finished. 
+ 
+[15:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:39] Execution finished. 
+ 
+[15:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:44] Execution finished. 
+ 
+[15:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:49] Execution finished. 
+ 
+[15:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:54] Execution finished. 
+ 
+[15:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:59] Execution finished. 
+ 
+[16:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:04] Execution finished. 
+ 
+[16:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:09] Execution finished. 
+ 
+[16:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:14] Execution finished. 
+ 
+[16:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:19] Execution finished. 
+ 
+[16:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:24] Execution finished. 
+ 
+[16:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:29] Execution finished. 
+ 
+[16:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:34] Execution finished. 
+ 
+[16:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:39] Execution finished. 
+ 
+[16:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:44] Execution finished. 
+ 
+[16:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:49] Execution finished. 
+ 
+[16:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:54] Execution finished. 
+ 
+[16:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:59] Execution finished. 
+ 
+[17:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:04] Execution finished. 
+ 
+[17:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:09] Execution finished. 
+ 
+[17:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:14] Execution finished. 
+ 
+[17:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:19] Execution finished. 
+ 
+[17:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:24] Execution finished. 
+ 
+[17:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:29] Execution finished. 
+ 
+[17:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:34] Execution finished. 
+ 
+[17:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:39] Execution finished. 
+ 
+[17:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:44] Execution finished. 
+ 
+[17:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:49] Execution finished. 
+ 
+[17:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:54] Execution finished. 
+ 
+[17:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:59] Execution finished. 
+ 
+[18:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:04] Execution finished. 
+ 
+[18:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:09] Execution finished. 
+ 
+[18:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:14] Execution finished. 
+ 
+[18:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:19] Execution finished. 
+ 
+[18:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:24] Execution finished. 
+ 
+[18:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:29] Execution finished. 
+ 
+[18:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:34] Execution finished. 
+ 
+[18:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:39] Execution finished. 
+ 
+[18:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:44] Execution finished. 
+ 
+[18:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:49] Execution finished. 
+ 
+[18:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:54] Execution finished. 
+ 
+[18:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:59] Execution finished. 
+ 
+[19:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:04] Execution finished. 
+ 
+[19:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:09] Execution finished. 
+ 
+[19:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:14] Execution finished. 
+ 
+[19:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:19] Execution finished. 
+ 
+[19:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:24] Execution finished. 
+ 
+[19:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:29] Execution finished. 
+ 
+[19:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:34] Execution finished. 
+ 
+[19:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:39] Execution finished. 
+ 
+[19:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:44] Execution finished. 
+ 
+[19:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:49] Execution finished. 
+ 
+[19:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:54] Execution finished. 
+ 
+[19:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:59] Execution finished. 
+ 
+[20:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:04] Execution finished. 
+ 
+[20:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:09] Execution finished. 
+ 
+[20:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:14] Execution finished. 
+ 
+[20:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:19] Execution finished. 
+ 
+[20:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:24] Execution finished. 
+ 
+[20:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:29] Execution finished. 
+ 
+[20:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:34] Execution finished. 
+ 
+[20:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:39] Execution finished. 
+ 
+[20:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:44] Execution finished. 
+ 
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:49] Execution finished. 
+ 
+[20:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:54] Execution finished. 
+ 
+[20:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:59] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:09] Execution finished. 
+ 
+[21:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:14] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:24] Execution finished. 
+ 
+[21:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:29] Execution finished. 
+ 
+[21:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:34] Execution finished. 
+ 
+[21:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:39] Execution finished. 
+ 
+[21:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:44] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:49] Execution finished. 
+ 
+[21:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:54] Execution finished. 
+ 
+[21:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:59] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:09] Execution finished. 
+ 
+[22:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:14] Execution finished. 
+ 
+[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:24] Execution finished. 
+ 
+[22:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:29] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:39] Execution finished. 
+ 
+[22:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:44] Execution finished. 
+ 
+[22:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:49] Execution finished. 
+ 
+[22:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:54] Execution finished. 
+ 
+[22:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:59] Execution finished. 
+ 
+[23:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:04] Execution finished. 
+ 
+[23:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:09] Execution finished. 
+ 
+[23:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:14] Execution finished. 
+ 
+[23:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:19] Execution finished. 
+ 
+[23:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:24] Execution finished. 
+ 
+[23:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:29] Execution finished. 
+ 
+[23:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:34] Execution finished. 
+ 
+[23:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:39] Execution finished. 
+ 
+[23:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:44] Execution finished. 
+ 
+[23:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:49] Execution finished. 
+ 
+[23:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:54] Execution finished. 
+ 
+[23:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:59] Execution finished. 
+ 

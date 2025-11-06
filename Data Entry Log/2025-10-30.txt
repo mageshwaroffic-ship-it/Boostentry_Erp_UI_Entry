@@ -1,0 +1,3653 @@
+===== Data Entry Log for 2025-10-30 ===== 
+[15:35] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val='6978028699'
+✅ Immediate numeric match for Invoice No: '6978028699' ~= '6978028699'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_contentname_ok.png
+⏱ Immediate check for ContentName: expected='PPC BAG', ui_val='PPC BAG'
+❌ Immediate check for ActualWeight: expected empty (Missing value)
+↻ ActualWeight: first immediate check failed — retrying once.
+❌ Immediate check for ActualWeight: expected empty (Missing value)
+❌ ActualWeight failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_UltraTechCement_Invoice_20251030_093128_986107_ActualWeight_failed_after_retry.png
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_25_insertitem_closed.png
+⏱ Immediate check for Get Rate: expected='613.00', ui_val='613'
+✅ Immediate numeric match for Get Rate: '613.00' ~= '613'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+ConsignmentNo            ✔   1.0    equals    6591  |  6591
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    AMBATTUR  |  AMBATTUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN19F6397  |  TN19F6397
+                             note: numeric~= OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GSTType                  ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    S V SERVICES  |  S V SERVICES
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU  |  SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028699  |  6978028699
+                             note: numeric~= OK
+ContentName              ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+ActualWeight             ✖   0.0    equals      |  
+                             note: Missing value
+ActualWeight             ✖   0.0    equals      |  
+                             note: Missing value
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+InsertItem               ✔   1.0    action    Insert  |  OK
+                             note: Inserted
+Get Rate                 ✔   1.0    equals    613.00  |  613
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 2 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+❌ doc_id 3 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251030_093128_985219.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6608', ui_val='6608'
+✅ Immediate numeric match for ConsignmentNo: '6608' ~= '6608'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_08_consignment_no.png
+⏱ Immediate check for Date: expected='04.10.2025', ui_val='04/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_10_source_filled.png
+⏱ Immediate check for Destination: expected='MYLAPORE', ui_val='MYLAPORE'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73BY0885', ui_val='TN73BY0885'
+✅ Immediate numeric match for Vehicle: 'TN73BY0885' ~= 'TN73BY0885'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='551887001543', ui_val='551887001543'
+✅ Immediate numeric match for EWayBillNo: '551887001543' ~= '551887001543'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_17_gsttype_filled.png
+❌ Immediate check for Consignee: expected empty (Missing value)
+↻ Consignee: first immediate check failed — retrying once.
+❌ Immediate check for Consignee: expected empty (Missing value)
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_UltraTechCement_Invoice_20251030_093128_985219_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_18_consignee_filled.png
+⚠️ Consignee low match — toggling GST and retrying once.
+🔁 GST toggled from 'Unregistered' to 'Registered' and verified.
+📸 C:\KSS_Working\screenshots\gst_toggled.png
+❌ Immediate check for Consignee: expected empty (Missing value)
+⏱ Immediate check for Delivery Address: expected='VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE', ui_val='VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE'
+✅ Immediate numeric match for Delivery Address: 'VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE' ~= 'VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028786', ui_val='6978028786'
+✅ Immediate numeric match for Invoice No: '6978028786' ~= '6978028786'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_22_insertitem_contentname_ok.png
+⏱ Immediate check for ContentName: expected='PPC BAG', ui_val='PPC BAG'
+⏱ Immediate check for ActualWeight: expected='13.000', ui_val='13.000'
+✅ Immediate numeric match for ActualWeight: '13.000' ~= '13.000'
+⏱ Immediate check for E-WayBill ValidUpto: expected='05-10-2925 93:59', ui_val='05/10/2092'
+❌ Immediate date check failed for E-WayBill ValidUpto
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⏱ Immediate check for E-WayBill ValidUpto: expected='05-10-2925 93:59', ui_val='05/10/2092'
+❌ Immediate date check failed for E-WayBill ValidUpto
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_UltraTechCement_Invoice_20251030_093128_985219_E-WayBill ValidUpto_failed_after_retry.png
+⏱ Immediate check for Invoice Date: expected='04.10.2025', ui_val='04/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='04.10.2025', ui_val='04/10/2025'
+⏱ Immediate check for EWayBillNo: expected='551887001543', ui_val='551887001543'
+✅ Immediate numeric match for EWayBillNo: '551887001543' ~= '551887001543'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_25_insertitem_closed.png
+⏱ Immediate check for Get Rate: expected='617.00', ui_val='617'
+✅ Immediate numeric match for Get Rate: '617.00' ~= '617'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_985219_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+ConsignmentNo            ✔   1.0    equals    6608  |  6608
+                             note: numeric~= OK
+Date                     ✔   1.0    date      04.10.2025  |  04/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    MYLAPORE  |  MYLAPORE
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73BY0885  |  TN73BY0885
+                             note: numeric~= OK
+EWayBillNo               ✔   1.0    contains  551887001543  |  551887001543
+                             note: numeric~= OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GSTType                  ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Delivery Address         ✔   1.0    equals    VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE  |  VETRISELVI, ED ST JONES ROAD 96, DR, BESANT ROAD, MYLAPORE
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028786  |  6978028786
+                             note: numeric~= OK
+ContentName              ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+ActualWeight             ✔   1.0    equals    13.000  |  13.000
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✖   0.538  date      05-10-2925 93:59  |  05/10/2092
+                             note: date mismatch
+E-WayBill ValidUpto      ✖   0.538  date      05-10-2925 93:59  |  05/10/2092
+                             note: date mismatch
+Invoice Date             ✔   1.0    date      04.10.2025  |  04/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      04.10.2025  |  04/10/2025
+                             note: date normalized OK
+EWayBillNo               ✔   1.0    contains  551887001543  |  551887001543
+                             note: numeric~= OK
+InsertItem               ✔   1.0    action    Insert  |  OK
+                             note: Inserted
+Get Rate                 ✔   1.0    equals    617.00  |  617
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 5 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=2
+❌ doc_id 2 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:35] Execution finished. 
+ 
+[16:22] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📘 Using corrected_json (status FIXED).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val='6978028699'
+✅ Immediate numeric match for Invoice No: '6978028699' ~= '6978028699'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_contentname_ok.png
+⏱ Immediate check for ContentName: expected='PPC BAG', ui_val='PPC BAG'
+⏱ Immediate check for ActualWeight: expected='10', ui_val='10'
+✅ Immediate numeric match for ActualWeight: '10' ~= '10'
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_25_insertitem_closed.png
+⏱ Immediate check for Get Rate: expected='613.00', ui_val='613'
+✅ Immediate numeric match for Get Rate: '613.00' ~= '613'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+ConsignmentNo            ✔   1.0    equals    6591  |  6591
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    AMBATTUR  |  AMBATTUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN19F6397  |  TN19F6397
+                             note: numeric~= OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GSTType                  ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    S V SERVICES  |  S V SERVICES
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU  |  SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028699  |  6978028699
+                             note: numeric~= OK
+ContentName              ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+ActualWeight             ✔   1.0    equals    10  |  10
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+InsertItem               ✔   1.0    action    Insert  |  OK
+                             note: Inserted
+Get Rate                 ✔   1.0    equals    613.00  |  613
+                             note: numeric~= OK
+-------------------------------------------------------------
+✅ Result: all fields passed (>=70% / numeric/date OK).
+====================================================================
+
+✅ Submit button clicked successfully.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_28_submit_clicked.png
+⚠️ No success message found after submit — may have failed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_29_submit_no_success.png
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+ℹ️ doc_id 3 left as In Progress (submit failed).
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val='6978028699'
+✅ Immediate numeric match for Invoice No: '6978028699' ~= '6978028699'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_contentname_ok.png
+⏱ Immediate check for ContentName: expected='PPC BAG', ui_val='PPC BAG'
+⏱ Immediate check for ActualWeight: expected='10', ui_val='10'
+✅ Immediate numeric match for ActualWeight: '10' ~= '10'
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_25_insertitem_closed.png
+⏱ Immediate check for Get Rate: expected='613.00', ui_val='613'
+✅ Immediate numeric match for Get Rate: '613.00' ~= '613'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+ConsignmentNo            ✔   1.0    equals    6591  |  6591
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    AMBATTUR  |  AMBATTUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN19F6397  |  TN19F6397
+                             note: numeric~= OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GSTType                  ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    S V SERVICES  |  S V SERVICES
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU  |  SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028699  |  6978028699
+                             note: numeric~= OK
+ContentName              ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+ActualWeight             ✔   1.0    equals    10  |  10
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+InsertItem               ✔   1.0    action    Insert  |  OK
+                             note: Inserted
+Get Rate                 ✔   1.0    equals    613.00  |  613
+                             note: numeric~= OK
+-------------------------------------------------------------
+✅ Result: all fields passed (>=70% / numeric/date OK).
+====================================================================
+
+✅ Submit button clicked successfully.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_28_submit_clicked.png
+❌ Failed to click Submit button: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+❌ Error in fill_consignment_form: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8E05F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+❌ process_row_with_driver exception: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8B18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1056, in _final_submit
+    WebDriverWait(driver, 10).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((By.XPATH, "//*[contains(text(),'Successfully') or contains(text(),'successfully') or contains(text(),'Saved')]"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002BE0B8E05F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1422, in fill_consignment_form
+    ok, err = _final_submit(driver, prefix=prefix)
+              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\consignment_form.py", line 1076, in _final_submit
+    ss(driver, "28_submit_failed.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<3 lines>...
+        **urlopen_kw,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8E05F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002BE0B8B18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 223, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 1437, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<3 lines>...
+        **urlopen_kw,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8B18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+❌ doc_id 3 failed during processing: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8B18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 316, in main_db_process
+    raise Exception(msg)
+Exception: HTTPConnectionPool(host='localhost', port=59481): Max retries exceeded with url: /session/ca3824d0d5f48e8558a5c186422896a2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE0B8B18C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val='6978028699'
+✅ Immediate numeric match for Invoice No: '6978028699' ~= '6978028699'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_contentname_ok.png
+⏱ Immediate check for ContentName: expected='PPC BAG', ui_val='PPC BAG'
+⏱ Immediate check for ActualWeight: expected='10', ui_val='10'
+✅ Immediate numeric match for ActualWeight: '10' ~= '10'
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_25_insertitem_closed.png
+⏱ Immediate check for Get Rate: expected='613.00', ui_val='613'
+✅ Immediate numeric match for Get Rate: '613.00' ~= '613'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+ConsignmentNo            ✔   1.0    equals    6591  |  6591
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    AMBATTUR  |  AMBATTUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN19F6397  |  TN19F6397
+                             note: numeric~= OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GSTType                  ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✔   1.0    equals    S V SERVICES  |  S V SERVICES
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU  |  SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028699  |  6978028699
+                             note: numeric~= OK
+ContentName              ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+ActualWeight             ✔   1.0    equals    10  |  10
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+EWayBillNo               ✔   1.0    contains  591886812851  |  591886812851
+                             note: numeric~= OK
+InsertItem               ✔   1.0    action    Insert  |  OK
+                             note: Inserted
+Get Rate                 ✔   1.0    equals    613.00  |  613
+                             note: numeric~= OK
+-------------------------------------------------------------
+✅ Result: all fields passed (>=70% / numeric/date OK).
+====================================================================
+
+✅ Submit button clicked successfully.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_28_submit_clicked.png
+⚠️ No success message found after submit — may have failed.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_29_submit_no_success.png
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+ℹ️ doc_id 3 left as In Progress (submit failed).
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+❌ doc_id 3 failed during processing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 313, in main_db_process
+    login(driver)
+    ~~~~~^^^^^^^^
+  File "C:\KSS_Working\login_page.py", line 29, in login
+    ss(driver, "00_login_page.png")
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⚠️ Error closing popup: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xacde7d]
+	(No symbol) [0x0xacd03a]
+	(No symbol) [0x0xaeb81b]
+	(No symbol) [0x0xaeab11]
+	(No symbol) [0x0xb6cab6]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ Error in fill_consignment_form: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xacce80]
+	(No symbol) [0x0xaeb81b]
+	(No symbol) [0x0xb51c25]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ process_row_with_driver exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1292, in fill_consignment_form
+    el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "CNM_DLV_ADDRESS")))
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xacce80]
+	(No symbol) [0x0xaeb81b]
+	(No symbol) [0x0xb51c25]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 223, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 1437, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+❌ doc_id 3 failed during processing: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 316, in main_db_process
+    raise Exception(msg)
+Exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+❌ process_row_with_driver exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 214, in process_row_with_driver
+    select_branch(driver, branch)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\branch_page.py", line 85, in select_branch
+    branch = wait.until(EC.presence_of_element_located((By.ID, "Branch")))
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+❌ doc_id 3 failed during processing: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 316, in main_db_process
+    raise Exception(msg)
+Exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val='6978028699'
+✅ Immediate numeric match for Invoice No: '6978028699' ~= '6978028699'
+❌ Error in fill_consignment_form: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ process_row_with_driver exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1341, in fill_consignment_form
+    set_content()
+    ~~~~~~~~~~~^^
+  File "C:\KSS_Working\consignment_form.py", line 1340, in set_content
+    return _set_content_name_anyhow(driver, final_cn, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 860, in _set_content_name_anyhow
+    el, frame_idx = _find_in_any_frame(driver, _CNM_CANDIDATE_LOCATORS, timeout_each=2.0)
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\consignment_form.py", line 832, in _find_in_any_frame
+    frames = driver.find_elements(By.CSS_SELECTOR, "iframe, frame")
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 967, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 223, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 1437, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+❌ doc_id 3 failed during processing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 316, in main_db_process
+    raise Exception(msg)
+Exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xabc18d]
+	(No symbol) [0x0xb51a4e]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⚠️ Error closing popup: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xacce80]
+	(No symbol) [0x0xaeb81b]
+	(No symbol) [0x0xb51c25]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⚠️ Error closing popup: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⚠️ Error closing popup: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ Error in fill_consignment_form: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ process_row_with_driver exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1292, in fill_consignment_form
+    el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "CNM_DLV_ADDRESS")))
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 223, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 1437, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+❌ doc_id 3 failed during processing: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 316, in main_db_process
+    raise Exception(msg)
+Exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251030_093128_986107.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for ConsignmentNo: expected='6591', ui_val='6591'
+✅ Immediate numeric match for ConsignmentNo: '6591' ~= '6591'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_10_source_filled.png
+⏱ Immediate check for Destination: expected='AMBATTUR', ui_val='AMBATTUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN19F6397', ui_val='TN19F6397'
+✅ Immediate numeric match for Vehicle: 'TN19F6397' ~= 'TN19F6397'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_12_vehicle_filled.png
+⏱ Immediate check for EWayBillNo: expected='591886812851', ui_val='591886812851'
+✅ Immediate numeric match for EWayBillNo: '591886812851' ~= '591886812851'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_15_consignor_filled.png
+⏱ Immediate check for GSTType: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='S V SERVICES', ui_val='S V SERVICES'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_18_consignee_filled.png
+⏱ Immediate check for Delivery Address: expected='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU', ui_val='SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+✅ Immediate numeric match for Delivery Address: 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU' ~= 'SRI AMBIKAI HARDWARES, 15, DR AMBETHKAR NAGAR, NO, 696, POONAMALLE HIGH ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_093128_986107_21_additem_clicked.png
+⚠️ Error closing popup: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xaddc48]
+	(No symbol) [0x0xacce80]
+	(No symbol) [0x0xaeb81b]
+	(No symbol) [0x0xb51c25]
+	(No symbol) [0x0xb6c4d9]
+	(No symbol) [0x0xb4afc6]
+	(No symbol) [0x0xb1c2ca]
+	(No symbol) [0x0xb1d154]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	GetHandleVerifier [0x0xcf8158+100072]
+	GetHandleVerifier [0x0xcf82f0+100480]
+	GetHandleVerifier [0x0xce25aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⚠️ Setter for Invoice No raised: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val=''
+❌ Immediate check failed for Invoice No: UI empty
+↻ Invoice No: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice No raised: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028699', ui_val=''
+❌ Immediate check failed for Invoice No: UI empty
+❌ Invoice No failed after retry.
+❌ Error in fill_consignment_form: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ process_row_with_driver exception: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 1341, in fill_consignment_form
+    set_content()
+    ~~~~~~~~~~~^^
+  File "C:\KSS_Working\consignment_form.py", line 1340, in set_content
+    return _set_content_name_anyhow(driver, final_cn, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 860, in _set_content_name_anyhow
+    el, frame_idx = _find_in_any_frame(driver, _CNM_CANDIDATE_LOCATORS, timeout_each=2.0)
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\consignment_form.py", line 832, in _find_in_any_frame
+    frames = driver.find_elements(By.CSS_SELECTOR, "iframe, frame")
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 967, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 223, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 1437, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcefe43+66515]
+	GetHandleVerifier [0x0xcefe84+66580]
+	(No symbol) [0x0xadda6b]
+	(No symbol) [0x0xb1b5ab]
+	(No symbol) [0x0xb4b086]
+	(No symbol) [0x0xb4667c]
+	(No symbol) [0x0xb45bf3]
+	(No symbol) [0x0xaae72d]
+	(No symbol) [0x0xaaecae]
+	(No symbol) [0x0xaaf14d]
+	GetHandleVerifier [0x0xf47353+2521315]
+	GetHandleVerifier [0x0xf422d3+2500707]
+	GetHandleVerifier [0x0xd17c94+229924]
+	GetHandleVerifier [0x0xd081f8+165768]
+	GetHandleVerifier [0x0xd0ecad+193085]
+	(No symbol) [0x0xaae3e3]
+	(No symbol) [0x0xaadb60]
+	GetHandleVerifier [0x0x108c20f+3852191]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:49] Execution finished. 
+ 
+[20:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:54] Execution finished. 
+ 
+[20:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:59] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:09] Execution finished. 
+ 
+[21:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:14] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:24] Starting main.py 
+[21:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251030_104454_385113.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for Consignment No: expected='6616', ui_val='6616'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_10_source_filled.png
+⏱ Immediate check for Destination: expected='PALLIPATTU', ui_val=''
+↻ Destination: first immediate check failed — retrying once.
+⏱ Immediate check for Destination: expected='PALLIPATTU', ui_val=''
+❌ Destination failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Destination_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_11_destination_filled.png
+❌ Persist check failed for Destination: cleared after blur.
+⏱ Immediate check for Vehicle: expected='TN73BZ7347', ui_val=''
+↻ Vehicle: first immediate check failed — retrying once.
+⏱ Immediate check for Vehicle: expected='TN73BZ7347', ui_val=''
+❌ Vehicle failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Vehicle_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_12_vehicle_filled.png
+❌ Persist check failed for Vehicle: cleared after blur.
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val='551886992908'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val=''
+↻ Consignor: first immediate check failed — retrying once.
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val=''
+❌ Consignor failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Consignor_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_15_consignor_filled.png
+❌ Persist check failed for Consignor: cleared after blur.
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='K.S. TRADERS', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='K.S. TRADERS', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU', ui_val='MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_21_additem_clicked.png
+⚠️ Setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028850', ui_val=''
+↻ Invoice No: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice No: expected='6978028850', ui_val=''
+❌ Invoice No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Invoice No_failed_after_retry.png
+⚠️ Setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val=''
+↻ Actual Weight: first immediate check failed — retrying once.
+⚠️ Retry setter for Actual Weight raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val=''
+❌ Actual Weight failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Actual Weight_failed_after_retry.png
+⚠️ Setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val=''
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⚠️ Retry setter for E-WayBill ValidUpto raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val=''
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_E-WayBill ValidUpto_failed_after_retry.png
+⚠️ Setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val=''
+↻ Invoice Date: first immediate check failed — retrying once.
+⚠️ Retry setter for Invoice Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val=''
+❌ Invoice Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_Invoice Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val=''
+↻ E-Way Bill Date: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill Date raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val=''
+❌ E-Way Bill Date failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_E-Way Bill Date_failed_after_retry.png
+⚠️ Setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val=''
+↻ E-Way Bill No: first immediate check failed — retrying once.
+⚠️ Retry setter for E-Way Bill No raised: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xd68704]
+	(No symbol) [0x0xd68aab]
+	(No symbol) [0x0xdaf482]
+	(No symbol) [0x0xd8b214]
+	(No symbol) [0x0xdacba7]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for E-Way Bill No: expected='551886992908', ui_val=''
+❌ E-Way Bill No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_UltraTechCement_Invoice_20251030_104454_385113_E-Way Bill No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_22_insertitem_filled.png
+⏱ Immediate check for Rate: expected='550.00', ui_val='550'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✔   1.0    equals    6616  |  6616
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✖   0.0    equals    PALLIPATTU  |  
+                             note: UI empty
+Destination              ✖   0.0    equals    PALLIPATTU  |  
+                             note: UI empty
+Destination              ✖   0.0    equals    PALLIPATTU  |  
+                             note: not persisted (ERP doesn't have this value)
+Vehicle                  ✖   0.0    equals    TN73BZ7347  |  
+                             note: UI empty
+Vehicle                  ✖   0.0    equals    TN73BZ7347  |  
+                             note: UI empty
+Vehicle                  ✖   0.0    equals    TN73BZ7347  |  
+                             note: not persisted (ERP doesn't have this value)
+E-Way Bill No            ✔   1.0    contains  551886992908  |  551886992908
+                             note: substring OK
+Consignor                ✖   0.0    contains  UltraTech Cement Limited  |  
+                             note: UI empty
+Consignor                ✖   0.0    contains  UltraTech Cement Limited  |  
+                             note: UI empty
+Consignor                ✖   0.0    contains  UltraTech Cement Limited  |  
+                             note: not persisted (ERP doesn't have this value)
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals    K.S. TRADERS  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    K.S. TRADERS  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    K.S. TRADERS  |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✔   1.0    equals    MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU  |  MR NITHISH, PLOT NO R83/1 TNHB, CHITOOR ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✖   0.0    equals    6978028850  |  
+                             note: UI empty
+Invoice No               ✖   0.0    equals    6978028850  |  
+                             note: UI empty
+Actual Weight            ✖   0.0    equals    13.000  |  
+                             note: UI empty
+Actual Weight            ✖   0.0    equals    13.000  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      04-10-2025 23:59:00  |  
+                             note: UI empty
+E-WayBill ValidUpto      ✖   0.0    date      04-10-2025 23:59:00  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+Invoice Date             ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill Date          ✖   0.0    date      03.10.2025  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551886992908  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  551886992908  |  
+                             note: UI empty
+Rate                     ✔   1.0    equals    550.00  |  550
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 24 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=4
+❌ doc_id 4 marked Failed due to validation errors.
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:29] Execution finished. 
+ 
+[21:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:39] Execution finished. 
+ 
+[21:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251030_104454_385113.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+⏱ Immediate check for Consignment No: expected='6616', ui_val='6616'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251030_104454_385113_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val=''
+↻ Date: first immediate check failed — retrying once.
+⚠️ Retry setter for Date raised: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+⏱ Immediate check for Date: expected='03.10.2025', ui_val=''
+❌ Date failed after retry.
+❌ Error in fill_consignment_form: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+❌ process_row_with_driver exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\consignment_form.py", line 661, in fill_consignment_form
+    ss(driver, "09_date_filled.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 206, in process_row_with_driver
+    result = fill_consignment_form(driver, data=data, prefix=prefix)
+  File "C:\KSS_Working\consignment_form.py", line 876, in fill_consignment_form
+    ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+❌ doc_id 4 failed during processing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 291, in main_db_process
+    raise Exception(msg)
+Exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:44] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:49] Execution finished. 
+ 
+[21:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:54] Execution finished. 
+ 
+[21:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:59] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251030_104454_385113.pdf
+❌ doc_id 4 failed during processing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 288, in main_db_process
+    login(driver)
+    ~~~~~^^^^^^^^
+  File "C:\KSS_Working\login_page.py", line 29, in login
+    ss(driver, "00_login_page.png")
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xf2fe43+66515]
+	GetHandleVerifier [0x0xf2fe84+66580]
+	(No symbol) [0x0xd1dc48]
+	(No symbol) [0x0xcfc18d]
+	(No symbol) [0x0xd91a4e]
+	(No symbol) [0x0xdac4d9]
+	(No symbol) [0x0xd8afc6]
+	(No symbol) [0x0xd5c2ca]
+	(No symbol) [0x0xd5d154]
+	GetHandleVerifier [0x0x1187353+2521315]
+	GetHandleVerifier [0x0x11822d3+2500707]
+	GetHandleVerifier [0x0xf57c94+229924]
+	GetHandleVerifier [0x0xf481f8+165768]
+	GetHandleVerifier [0x0xf4ecad+193085]
+	GetHandleVerifier [0x0xf38158+100072]
+	GetHandleVerifier [0x0xf382f0+100480]
+	GetHandleVerifier [0x0xf225aa+11066]
+	BaseThreadInitThunk [0x0x76cd0419+25]
+	RtlGetAppContainerNamedObjectPath [0x0x7751662d+237]
+	RtlGetAppContainerNamedObjectPath [0x0x775165fd+189]
+
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251030_104454_385113.pdf
+❌ doc_id 4 failed during processing: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 288, in main_db_process
+    login(driver)
+    ~~~~~^^^^^^^^
+  File "C:\KSS_Working\login_page.py", line 28, in login
+    driver.get(BASE_URL)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 483, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+⏳ Waiting 30s before closing browser...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251030_104454_385113.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+❌ process_row_with_driver exception: HTTPConnectionPool(host='localhost', port=63484): Max retries exceeded with url: /session/f495c63103d5c885274a166b951e98f9/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247FA0D8050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000247FA0D8050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 200, in process_row_with_driver
+    open_consignment_page(driver)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\KSS_Working\consignment_page.py", line 19, in open_consignment_page
+    ss(driver, "05_booking_operation_expanded.png")
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\driver_utils.py", line 30, in ss
+    driver.save_screenshot(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1025, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1000, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1034, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode("ascii"))
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1044, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 455, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 406, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 430, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<3 lines>...
+        **urlopen_kw,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\KSS_Working\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=63484): Max retries exceeded with url: /session/f495c63103d5c885274a166b951e98f9/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247FA0D8050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+❌ doc_id 4 failed during processing: HTTPConnectionPool(host='localhost', port=63484): Max retries exceeded with url: /session/f495c63103d5c885274a166b951e98f9/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247FA0D8050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 291, in main_db_process
+    raise Exception(msg)
+Exception: HTTPConnectionPool(host='localhost', port=63484): Max retries exceeded with url: /session/f495c63103d5c885274a166b951e98f9/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000247FA0D8050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[22:14] Starting main.py 
+^C[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:24] Execution finished. 
+ 
+[22:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:29] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:39] Execution finished. 
+ 
+[22:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:44] Execution finished. 
+ 
+[22:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:49] Execution finished. 
+ 
+[22:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:54] Execution finished. 
+ 
+[22:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:59] Execution finished. 
+ 
+[23:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:04] Execution finished. 
+ 
+[23:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:09] Execution finished. 
+ 
+[23:14] Starting main.py 
+[23:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:19] Execution finished. 
+ 
+[23:24] Starting main.py 
+^C[23:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:29] Execution finished. 
+ 
+[23:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:34] Execution finished. 
+ 
+[23:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:39] Execution finished. 
+ 
+[23:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:44] Execution finished. 
+ 
+[23:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:49] Execution finished. 
+ 
+[23:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:54] Execution finished. 
+ 
+[23:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[23:59] Execution finished. 
+ 

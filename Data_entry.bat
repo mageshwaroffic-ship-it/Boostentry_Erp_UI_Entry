@@ -16,6 +16,7 @@ for /f "tokens=2-4 delims=/ " %%a in ('date /t') do (
     set dd=%%b
     set yyyy=%%c
 )
+
 for /f "tokens=1-2 delims=: " %%a in ("%time%") do (
     set hh=%%a
     set mn=%%b
@@ -51,3 +52,4 @@ echo [%TIMESTR%] Execution finished. >> "%LOGFILE%"
 echo. >> "%LOGFILE%"
 
 endlocal
+exit /b

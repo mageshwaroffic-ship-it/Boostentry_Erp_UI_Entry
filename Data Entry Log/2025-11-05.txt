@@ -1,0 +1,2819 @@
+===== Data Entry Log for 2025-11-05 ===== 
+[00:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=4, file=UltraTechCement_Invoice_20251104_075449_294653.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📘 Using corrected_json (status FIXED).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_08_consignment_no_typed.png
+⏱ Immediate check for Consignment No: expected='7687', ui_val='7687'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_08_consignment_no.png
+⏱ Immediate check for Date: expected='30.10.2025', ui_val='30/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_10_source_filled.png
+⏱ Immediate check for Destination: expected='THIRUVANMAYUR', ui_val='THIRUVANMAYUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73BY3714', ui_val='TN73BY3714'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='None', ui_val='None'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_UltraTechCement_Invoice_20251104_075449_294653_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU', ui_val='SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU'
+↻ Delivery Address: first immediate check failed — retrying once.
+⏱ Immediate check for Delivery Address: expected='SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU', ui_val='SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978035346', ui_val='6978035346'
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val='PPC BAG'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_22_insertitem_contentname.png
+⏱ Immediate check for Actual Weight: expected='30.10', ui_val='30.10'
+⏱ Immediate check for E-WayBill ValidUpto: expected='31-10-2025 23:59', ui_val='31/10/2025'
+⏱ Immediate check for Invoice Date: expected='30.10.2025', ui_val='30/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='30.10.2025', ui_val='30/10/2025'
+⏱ Immediate check for E-Way Bill No: expected='None', ui_val=''
+↻ E-Way Bill No: first immediate check failed — retrying once.
+⏱ Immediate check for E-Way Bill No: expected='None', ui_val=''
+❌ E-Way Bill No failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_UltraTechCement_Invoice_20251104_075449_294653_E-Way Bill No_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_25_insertitem_closed.png
+⏱ Immediate check for Rate: expected='685.00', ui_val='685'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251104_075449_294653_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✔   1.0    equals    7687  |  7687
+                             note: numeric~= OK
+Date                     ✔   1.0    date      30.10.2025  |  30/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    THIRUVANMAYUR  |  THIRUVANMAYUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73BY3714  |  TN73BY3714
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  None  |  None
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✔   1.0    equals    SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU  |  SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU  |  SRIESERMAN ENTERPRISES 1138656912/, 160, 161 - A, NOA60161 - 4, TAMIL NADU
+                             note: fuzzy OK
+Invoice No               ✔   1.0    equals    6978035346  |  6978035346
+                             note: numeric~= OK
+Content Name (Goods Name) ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+Actual Weight            ✔   1.0    equals    30.10  |  30.10
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      31-10-2025 23:59  |  31/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      30.10.2025  |  30/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      30.10.2025  |  30/10/2025
+                             note: date normalized OK
+E-Way Bill No            ✖   0.0    contains  None  |  
+                             note: UI empty
+E-Way Bill No            ✖   0.0    contains  None  |  
+                             note: UI empty
+Rate                     ✔   1.0    equals    685.00  |  685
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 5 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=4
+❌ doc_id 4 marked Failed due to validation errors.
+⏳ Waiting 5s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:04] Execution finished. 
+ 
+[00:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:09] Execution finished. 
+ 
+[00:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:14] Execution finished. 
+ 
+[00:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:19] Execution finished. 
+ 
+[00:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:24] Execution finished. 
+ 
+[00:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:29] Execution finished. 
+ 
+[00:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:34] Execution finished. 
+ 
+[00:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:39] Execution finished. 
+ 
+[00:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:44] Execution finished. 
+ 
+[00:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:49] Execution finished. 
+ 
+[00:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:54] Execution finished. 
+ 
+[00:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[00:59] Execution finished. 
+ 
+[01:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:04] Execution finished. 
+ 
+[01:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:09] Execution finished. 
+ 
+[01:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:14] Execution finished. 
+ 
+[01:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:19] Execution finished. 
+ 
+[01:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:24] Execution finished. 
+ 
+[01:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:29] Execution finished. 
+ 
+[01:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:34] Execution finished. 
+ 
+[01:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:39] Execution finished. 
+ 
+[01:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:44] Execution finished. 
+ 
+[01:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:49] Execution finished. 
+ 
+[01:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:54] Execution finished. 
+ 
+[01:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[01:59] Execution finished. 
+ 
+[02:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:04] Execution finished. 
+ 
+[02:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:09] Execution finished. 
+ 
+[02:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:14] Execution finished. 
+ 
+[02:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:19] Execution finished. 
+ 
+[02:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:24] Execution finished. 
+ 
+[02:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:29] Execution finished. 
+ 
+[02:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:34] Execution finished. 
+ 
+[02:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:39] Execution finished. 
+ 
+[02:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:44] Execution finished. 
+ 
+[02:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:49] Execution finished. 
+ 
+[02:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:54] Execution finished. 
+ 
+[02:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[02:59] Execution finished. 
+ 
+[03:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:04] Execution finished. 
+ 
+[03:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:09] Execution finished. 
+ 
+[03:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:14] Execution finished. 
+ 
+[03:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:19] Execution finished. 
+ 
+[03:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:24] Execution finished. 
+ 
+[03:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:29] Execution finished. 
+ 
+[03:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:34] Execution finished. 
+ 
+[03:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:39] Execution finished. 
+ 
+[03:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:44] Execution finished. 
+ 
+[03:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:49] Execution finished. 
+ 
+[03:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:54] Execution finished. 
+ 
+[03:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[03:59] Execution finished. 
+ 
+[04:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:04] Execution finished. 
+ 
+[04:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:09] Execution finished. 
+ 
+[04:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:14] Execution finished. 
+ 
+[04:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:19] Execution finished. 
+ 
+[04:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:24] Execution finished. 
+ 
+[04:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:29] Execution finished. 
+ 
+[04:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:34] Execution finished. 
+ 
+[04:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:39] Execution finished. 
+ 
+[04:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:44] Execution finished. 
+ 
+[04:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:49] Execution finished. 
+ 
+[04:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:54] Execution finished. 
+ 
+[04:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[04:59] Execution finished. 
+ 
+[05:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:04] Execution finished. 
+ 
+[05:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:09] Execution finished. 
+ 
+[05:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:14] Execution finished. 
+ 
+[05:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:19] Execution finished. 
+ 
+[05:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:24] Execution finished. 
+ 
+[05:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:29] Execution finished. 
+ 
+[05:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:34] Execution finished. 
+ 
+[05:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:39] Execution finished. 
+ 
+[05:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:44] Execution finished. 
+ 
+[05:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:49] Execution finished. 
+ 
+[05:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:54] Execution finished. 
+ 
+[05:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[05:59] Execution finished. 
+ 
+[06:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:04] Execution finished. 
+ 
+[06:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:09] Execution finished. 
+ 
+[06:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:14] Execution finished. 
+ 
+[06:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:19] Execution finished. 
+ 
+[06:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:24] Execution finished. 
+ 
+[06:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:29] Execution finished. 
+ 
+[06:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:34] Execution finished. 
+ 
+[06:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:39] Execution finished. 
+ 
+[06:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:44] Execution finished. 
+ 
+[06:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:49] Execution finished. 
+ 
+[06:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:54] Execution finished. 
+ 
+[06:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[06:59] Execution finished. 
+ 
+[07:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:04] Execution finished. 
+ 
+[07:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:09] Execution finished. 
+ 
+[07:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:14] Execution finished. 
+ 
+[07:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:19] Execution finished. 
+ 
+[07:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:24] Execution finished. 
+ 
+[07:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:29] Execution finished. 
+ 
+[07:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:34] Execution finished. 
+ 
+[07:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:39] Execution finished. 
+ 
+[07:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:44] Execution finished. 
+ 
+[07:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:49] Execution finished. 
+ 
+[07:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:54] Execution finished. 
+ 
+[07:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[07:59] Execution finished. 
+ 
+[08:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:04] Execution finished. 
+ 
+[08:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:09] Execution finished. 
+ 
+[08:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:14] Execution finished. 
+ 
+[08:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:19] Execution finished. 
+ 
+[08:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:24] Execution finished. 
+ 
+[08:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:29] Execution finished. 
+ 
+[08:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:34] Execution finished. 
+ 
+[08:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:39] Execution finished. 
+ 
+[08:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:44] Execution finished. 
+ 
+[08:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:49] Execution finished. 
+ 
+[08:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:54] Execution finished. 
+ 
+[08:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[08:59] Execution finished. 
+ 
+[09:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:04] Execution finished. 
+ 
+[09:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:09] Execution finished. 
+ 
+[09:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:14] Execution finished. 
+ 
+[09:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:19] Execution finished. 
+ 
+[09:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:24] Execution finished. 
+ 
+[09:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:29] Execution finished. 
+ 
+[09:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:34] Execution finished. 
+ 
+[09:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:39] Execution finished. 
+ 
+[09:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:44] Execution finished. 
+ 
+[09:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:49] Execution finished. 
+ 
+[09:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:54] Execution finished. 
+ 
+[09:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[09:59] Execution finished. 
+ 
+[10:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:04] Execution finished. 
+ 
+[10:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:09] Execution finished. 
+ 
+[10:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:14] Execution finished. 
+ 
+[10:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:24] Execution finished. 
+ 
+[10:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:29] Execution finished. 
+ 
+[10:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:34] Execution finished. 
+ 
+[10:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:39] Execution finished. 
+ 
+[10:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:44] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:49] Execution finished. 
+ 
+[10:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:54] Execution finished. 
+ 
+[10:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:59] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:09] Execution finished. 
+ 
+[11:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:14] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:24] Execution finished. 
+ 
+[11:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:29] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:39] Execution finished. 
+ 
+[11:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:44] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:49] Execution finished. 
+ 
+[11:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:54] Execution finished. 
+ 
+[11:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:59] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:09] Execution finished. 
+ 
+[12:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:14] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:19] Execution finished. 
+ 
+[12:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:24] Execution finished. 
+ 
+[12:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:29] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:39] Execution finished. 
+ 
+[12:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:44] Execution finished. 
+ 
+[12:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:49] Execution finished. 
+ 
+[12:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:54] Execution finished. 
+ 
+[12:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:59] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:09] Execution finished. 
+ 
+[13:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:14] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:24] Execution finished. 
+ 
+[13:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:29] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:34] Execution finished. 
+ 
+[13:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:39] Execution finished. 
+ 
+[13:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:44] Execution finished. 
+ 
+[13:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:49] Execution finished. 
+ 
+[13:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:54] Execution finished. 
+ 
+[13:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:59] Execution finished. 
+ 
+[14:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:04] Execution finished. 
+ 
+[14:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:09] Execution finished. 
+ 
+[14:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:14] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:24] Execution finished. 
+ 
+[14:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:29] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:39] Execution finished. 
+ 
+[14:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:44] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:49] Execution finished. 
+ 
+[14:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:54] Execution finished. 
+ 
+[14:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:59] Execution finished. 
+ 
+[15:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:04] Execution finished. 
+ 
+[15:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:09] Execution finished. 
+ 
+[15:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:14] Execution finished. 
+ 
+[15:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:19] Execution finished. 
+ 
+[15:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=1, file=UltraTechCement_Invoice_20251105_095004_151744.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_08_consignment_no_typed.png
+⏱ Immediate check for Consignment No: expected='6563', ui_val='6563'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_10_source_filled.png
+⏱ Immediate check for Destination: expected='PADUR', ui_val='PADUR'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_11_destination_filled.png
+⏱ Immediate check for Vehicle: expected='TN73BY0885', ui_val='TN73BY0885'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='581886426336', ui_val='581886426336'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='Bf BH ews exp', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='Bf BH ews exp', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_UltraTechCement_Invoice_20251105_095004_151744_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU', ui_val='VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU'
+↻ Delivery Address: first immediate check failed — retrying once.
+⏱ Immediate check for Delivery Address: expected='VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU', ui_val='VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028529', ui_val='6978028529'
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val='PPC BAG'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_22_insertitem_contentname.png
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val='13.000'
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill No: expected='581886426336', ui_val='581886426336'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_25_insertitem_closed.png
+⏱ Immediate check for Rate: expected='655.00', ui_val='655'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_151744_27_rate_filled.png
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✔   1.0    equals    6563  |  6563
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✔   1.0    equals    PADUR  |  PADUR
+                             note: fuzzy OK
+Vehicle                  ✔   1.0    equals    TN73BY0885  |  TN73BY0885
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  581886426336  |  581886426336
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals    Bf BH ews exp  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    Bf BH ews exp  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    Bf BH ews exp  |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✔   1.0    equals    VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU  |  VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU
+                             note: fuzzy OK
+Delivery Address         ✔   1.0    equals    VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU  |  VASU AGENCIES 1137432035/ AKT MUTHU, 26 - B, PLOT 4A JL LIVING, THAIYUR R, TAMIL NADU
+                             note: fuzzy OK
+Invoice No               ✔   1.0    equals    6978028529  |  6978028529
+                             note: numeric~= OK
+Content Name (Goods Name) ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+Actual Weight            ✔   1.0    equals    13.000  |  13.000
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill No            ✔   1.0    contains  581886426336  |  581886426336
+                             note: substring OK
+Rate                     ✔   1.0    equals    655.00  |  655
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 3 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=1
+❌ doc_id 1 marked Failed due to validation errors.
+⏳ Waiting 5s before closing browser...
+
+▶️ Claimed doc_id=2, file=UltraTechCement_Invoice_20251105_095004_238788.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_238788_08_consignment_no_typed.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_238788_08b_duplicate_create_button_detected.png
+🟠 DUPLICATE detected: Create button present right after Consignment No TAB.
+🗃️ Duplicate ValidationStatus saved for doc_id=2
+🟠 doc_id 2 marked as Duplicate.
+✅ overall_status set to 'Failed' for doc_id=2
+⏳ Waiting 5s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:24] Execution finished. 
+ 
+[15:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251105_095004_314203.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_08_consignment_no_typed.png
+⏱ Immediate check for Consignment No: expected='6590', ui_val='6590'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_08_consignment_no.png
+⏱ Immediate check for Date: expected='03.10.2025', ui_val='03/10/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_10_source_filled.png
+⏱ Immediate check for Destination: expected='VALASARAVAKKAM', ui_val=''
+↻ Destination: first immediate check failed — retrying once.
+⏱ Immediate check for Destination: expected='VALASARAVAKKAM', ui_val=''
+❌ Destination failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_UltraTechCement_Invoice_20251105_095004_314203_Destination_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_11_destination_filled.png
+❌ Persist check failed for Destination: cleared after blur.
+⏱ Immediate check for Vehicle: expected='TN88L6472', ui_val='TN88L6472'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='501886879581', ui_val='501886879581'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='Ultralech ARAKKONAM, TAMIL NADU,631003', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='Ultralech ARAKKONAM, TAMIL NADU,631003', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_UltraTechCement_Invoice_20251105_095004_314203_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU', ui_val='K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU'
+↻ Delivery Address: first immediate check failed — retrying once.
+⏱ Immediate check for Delivery Address: expected='K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU', ui_val='K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU'
+✅ Delivery Address passed on retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_19_deliveryaddress_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978028741', ui_val='6978028741'
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val='PPC BAG'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_22_insertitem_contentname.png
+⏱ Immediate check for Actual Weight: expected='13.000', ui_val='13.000'
+⏱ Immediate check for E-WayBill ValidUpto: expected='04-10-2025 23:59:00', ui_val='04/10/2025'
+⏱ Immediate check for Invoice Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill Date: expected='03.10.2025', ui_val='03/10/2025'
+⏱ Immediate check for E-Way Bill No: expected='501886879581', ui_val='501886879581'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_25_insertitem_closed.png
+⏱ Immediate check for Rate: expected='649.00', ui_val='649'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_095004_314203_27_rate_filled.png
+✅ Popup closed with selector: id=btn-ok
+ℹ️ Post-rate generic popup closed.
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✔   1.0    equals    6590  |  6590
+                             note: numeric~= OK
+Date                     ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✖   0.0    equals    VALASARAVAKKAM  |  
+                             note: UI empty
+Destination              ✖   0.0    equals    VALASARAVAKKAM  |  
+                             note: UI empty
+Destination              ✖   0.0    equals    VALASARAVAKKAM  |  
+                             note: not persisted (ERP doesn't have this value)
+Vehicle                  ✔   1.0    equals    TN88L6472  |  TN88L6472
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  501886879581  |  501886879581
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals    Ultralech ARAKKONAM, TAMIL NADU,631003  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    Ultralech ARAKKONAM, TAMIL NADU,631003  |  
+                             note: UI empty
+Consignee                ✖   0.0    equals    Ultralech ARAKKONAM, TAMIL NADU,631003  |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✔   1.0    equals    K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU  |  K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU
+                             note: numeric~= OK
+Delivery Address         ✔   1.0    equals    K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU  |  K R HARDWARE 1137456147/ SRI VENKATESHWARA AGENCY, 6, KUNDRATHUR MAIN ROAD, 64 KAMARAJ MAIN ROAD, TAMIL NADU
+                             note: numeric~= OK
+Invoice No               ✔   1.0    equals    6978028741  |  6978028741
+                             note: numeric~= OK
+Content Name (Goods Name) ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+Actual Weight            ✔   1.0    equals    13.000  |  13.000
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✔   1.0    date      04-10-2025 23:59:00  |  04/10/2025
+                             note: date normalized OK
+Invoice Date             ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      03.10.2025  |  03/10/2025
+                             note: date normalized OK
+E-Way Bill No            ✔   1.0    contains  501886879581  |  501886879581
+                             note: substring OK
+Rate                     ✔   1.0    equals    649.00  |  649
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 6 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=3
+❌ doc_id 3 marked Failed due to validation errors.
+⏳ Waiting 5s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:29] Execution finished. 
+ 
+[15:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:34] Execution finished. 
+ 
+[15:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:39] Execution finished. 
+ 
+[15:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:44] Execution finished. 
+ 
+[15:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:49] Execution finished. 
+ 
+[15:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:54] Execution finished. 
+ 
+[15:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[15:59] Execution finished. 
+ 
+[16:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:04] Execution finished. 
+ 
+[16:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:09] Execution finished. 
+ 
+[16:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:14] Execution finished. 
+ 
+[16:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:19] Execution finished. 
+ 
+[16:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:24] Execution finished. 
+ 
+[16:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:29] Execution finished. 
+ 
+[16:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:34] Execution finished. 
+ 
+[16:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:39] Execution finished. 
+ 
+[16:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:44] Execution finished. 
+ 
+[16:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:49] Execution finished. 
+ 
+[16:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:54] Execution finished. 
+ 
+[16:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[16:59] Execution finished. 
+ 
+[17:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:04] Execution finished. 
+ 
+[17:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:09] Execution finished. 
+ 
+[17:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:14] Execution finished. 
+ 
+[17:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=7, file=UltraTechCement_Invoice_20251105_114414_803427.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_08_consignment_no_typed.png
+⏱ Immediate check for Consignment No: expected='7942', ui_val='7942'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_08_consignment_no.png
+⏱ Immediate check for Date: expected='05.11.2025', ui_val='05/11/2025'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_09_date_filled.png
+⏱ Immediate check for Source: expected='ARAKKONAM', ui_val='ARAKKONAM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_10_source_filled.png
+⏱ Immediate check for Destination: expected='J', ui_val='JADCHERLA'
+↻ Destination: first immediate check failed — retrying once.
+⏱ Immediate check for Destination: expected='J', ui_val='JADCHERLA'
+❌ Destination failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_UltraTechCement_Invoice_20251105_114414_803427_Destination_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_11_destination_filled.png
+❌ Persist mismatch for Destination: 'JADCHERLA'
+⏱ Immediate check for Vehicle: expected='TN49AT5526', ui_val='TN49AT5526'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_12_vehicle_filled.png
+⏱ Immediate check for E-Way Bill No: expected='521903373917', ui_val='521903373917'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_13_ewaybill_filled.png
+⏱ Immediate check for Consignor: expected='UltraTech Cement Limited', ui_val='ULTRATECH CEMENT LIMITED-AKM'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_15_consignor_filled.png
+⏱ Immediate check for GST Type: expected='Unregistered', ui_val='Unregistered'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_17_gsttype_filled.png
+⏱ Immediate check for Consignee: expected='', ui_val=''
+↻ Consignee: first immediate check failed — retrying once.
+⏱ Immediate check for Consignee: expected='', ui_val=''
+❌ Consignee failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_UltraTechCement_Invoice_20251105_114414_803427_Consignee_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_18_consignee_filled.png
+❌ Persist check failed for Consignee: cleared after blur.
+⏱ Immediate check for Delivery Address: expected='', ui_val=''
+↻ Delivery Address: first immediate check failed — retrying once.
+⏱ Immediate check for Delivery Address: expected='', ui_val=''
+❌ Delivery Address failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_UltraTechCement_Invoice_20251105_114414_803427_Delivery Address_failed_after_retry.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_19_deliveryaddress_filled.png
+❌ Persist check failed for Delivery Address: cleared after blur.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_21_additem_clicked.png
+⏱ Immediate check for Invoice No: expected='6978037284', ui_val='6978037284'
+⏱ Immediate check for Content Name (Goods Name): expected='PPC BAG', ui_val='PPC BAG'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_22_insertitem_contentname.png
+⏱ Immediate check for Actual Weight: expected='10.000', ui_val='10.000'
+⏱ Immediate check for E-WayBill ValidUpto: expected='', ui_val=''
+↻ E-WayBill ValidUpto: first immediate check failed — retrying once.
+⏱ Immediate check for E-WayBill ValidUpto: expected='', ui_val=''
+❌ E-WayBill ValidUpto failed after retry.
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_UltraTechCement_Invoice_20251105_114414_803427_E-WayBill ValidUpto_failed_after_retry.png
+⏱ Immediate check for Invoice Date: expected='05.11.2025', ui_val='05/11/2025'
+⏱ Immediate check for E-Way Bill Date: expected='05.11.2025', ui_val='05/11/2025'
+⏱ Immediate check for E-Way Bill No: expected='521903373917', ui_val='521903373917'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_22_insertitem_filled.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_24_addinvoice_clicked.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_25_insertitem_closed.png
+⏱ Immediate check for Rate: expected='66700.00', ui_val='66700'
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_114414_803427_27_rate_filled.png
+🔎 Rate popup detected text: 'Please Select E-way Bill Expiry Date\nOK'
+✅ Popup closed with selector: id=btn-ok
+ℹ️ Post-rate generic popup closed.
+
+================= FIELD ENTRY AUDIT (DB vs ERP UI) =================
+Field                    OK  Score  Mode      Expected  |  UI
+-------------------------------------------------------------
+Consignment No           ✔   1.0    equals    7942  |  7942
+                             note: numeric~= OK
+Date                     ✔   1.0    date      05.11.2025  |  05/11/2025
+                             note: date normalized OK
+Source                   ✔   1.0    equals    ARAKKONAM  |  ARAKKONAM
+                             note: fuzzy OK
+Destination              ✖   0.2    equals    J  |  JADCHERLA
+                             note: fuzzy<0.70
+Destination              ✖   0.2    equals    J  |  JADCHERLA
+                             note: fuzzy<0.70
+Destination              ✖   0.2    equals    J  |  JADCHERLA
+                             note: not persisted (mismatch after blur)
+Vehicle                  ✔   1.0    equals    TN49AT5526  |  TN49AT5526
+                             note: numeric~= OK
+E-Way Bill No            ✔   1.0    contains  521903373917  |  521903373917
+                             note: substring OK
+Consignor                ✔   1.0    contains  UltraTech Cement Limited  |  ULTRATECH CEMENT LIMITED-AKM
+                             note: substring OK
+GST Type                 ✔   1.0    equals    Unregistered  |  Unregistered
+                             note: fuzzy OK
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: Missing value
+Consignee                ✖   0.0    equals      |  
+                             note: not persisted (ERP doesn't have this value)
+Delivery Address         ✖   0.0    equals      |  
+                             note: Missing value
+Delivery Address         ✖   0.0    equals      |  
+                             note: Missing value
+Delivery Address         ✖   0.0    equals      |  
+                             note: not persisted (ERP doesn't have this value)
+Invoice No               ✔   1.0    equals    6978037284  |  6978037284
+                             note: numeric~= OK
+Content Name (Goods Name) ✔   1.0    equals    PPC BAG  |  PPC BAG
+                             note: fuzzy OK
+Actual Weight            ✔   1.0    equals    10.000  |  10.000
+                             note: numeric~= OK
+E-WayBill ValidUpto      ✖   0.0    date        |  
+                             note: Missing value
+E-WayBill ValidUpto      ✖   0.0    date        |  
+                             note: Missing value
+Invoice Date             ✔   1.0    date      05.11.2025  |  05/11/2025
+                             note: date normalized OK
+E-Way Bill Date          ✔   1.0    date      05.11.2025  |  05/11/2025
+                             note: date normalized OK
+E-Way Bill No            ✔   1.0    contains  521903373917  |  521903373917
+                             note: substring OK
+Rate                     ✔   1.0    equals    66700.00  |  66700
+                             note: numeric~= OK
+-------------------------------------------------------------
+❌ Result: 11 field(s) failed 70% rule / empty mismatch.
+====================================================================
+
+🗃️ ValidationStatus saved into extracted_json for doc_id=7
+❌ doc_id 7 marked Failed due to validation errors.
+⏳ Waiting 5s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:19] Execution finished. 
+ 
+[17:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:24] Execution finished. 
+ 
+[17:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:29] Execution finished. 
+ 
+[17:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:34] Execution finished. 
+ 
+[17:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:39] Execution finished. 
+ 
+[17:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:44] Execution finished. 
+ 
+[17:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:49] Execution finished. 
+ 
+[17:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:54] Execution finished. 
+ 
+[17:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[17:59] Execution finished. 
+ 
+[18:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:04] Execution finished. 
+ 
+[18:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:09] Execution finished. 
+ 
+[18:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:14] Execution finished. 
+ 
+[18:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:19] Execution finished. 
+ 
+[18:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:24] Execution finished. 
+ 
+[18:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:29] Execution finished. 
+ 
+[18:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:34] Execution finished. 
+ 
+[18:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:39] Execution finished. 
+ 
+[18:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:44] Execution finished. 
+ 
+[18:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:49] Execution finished. 
+ 
+[18:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:54] Execution finished. 
+ 
+[18:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[18:59] Execution finished. 
+ 
+[19:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:04] Execution finished. 
+ 
+[19:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:09] Execution finished. 
+ 
+[19:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:14] Execution finished. 
+ 
+[19:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:19] Execution finished. 
+ 
+[19:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:24] Execution finished. 
+ 
+[19:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:29] Execution finished. 
+ 
+[19:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:34] Execution finished. 
+ 
+[19:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:39] Execution finished. 
+ 
+[19:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:44] Execution finished. 
+ 
+[19:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:49] Execution finished. 
+ 
+[19:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:54] Execution finished. 
+ 
+[19:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[19:59] Execution finished. 
+ 
+[20:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:04] Execution finished. 
+ 
+[20:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:09] Execution finished. 
+ 
+[20:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:14] Execution finished. 
+ 
+[20:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:19] Execution finished. 
+ 
+[20:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:24] Execution finished. 
+ 
+[20:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:29] Execution finished. 
+ 
+[20:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:34] Execution finished. 
+ 
+[20:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+
+▶️ Claimed doc_id=3, file=UltraTechCement_Invoice_20251105_150550_164757.pdf
+📸 C:\KSS_Working\screenshots\00_login_page.png
+📸 C:\KSS_Working\screenshots\01_credentials_typed.png
+✅ Clicked Sign in
+📗 Using extracted_json (status NOT STARTED or other).
+✅ Branch selected: ARAKKONAM
+📸 C:\KSS_Working\screenshots\02_branch_selected.png
+📸 C:\KSS_Working\screenshots\popup_handled_after_submit_attempt_1.png
+✅ Branch Submit clicked (handled popups if any)
+📸 C:\KSS_Working\screenshots\03_after_branch_submit.png
+⏳ Waiting for Operations tile...
+⚠️ Operations tile not found in time (Message: 
+), navigating directly to MENU_URL
+📸 C:\KSS_Working\screenshots\04_on_menu_page_attempt_1.png
+✅ On Menu page
+📸 C:\KSS_Working\screenshots\05_booking_operation_expanded.png
+✅ Booking Operation expanded
+📸 C:\KSS_Working\screenshots\06_consignment_clicked.png
+✅ Consignment clicked
+✅ API clicked; checking for iframe...
+🔍 Found iframes: 1
+🔄 Switched into iframe
+📸 C:\KSS_Working\screenshots\07_consignment_form_ready.png
+🎯 Consignment form is open and ready inside iframe
+📸 C:\KSS_Working\screenshots\08_date_field_ready.png
+📅 Date field is also ready
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_150550_164757_08_consignment_no_typed.png
+📸 C:\KSS_Working\screenshots\UltraTechCement_Invoice_20251105_150550_164757_08b_duplicate_create_button_detected.png
+🟠 DUPLICATE detected: Create button present right after Consignment No TAB.
+🗃️ Duplicate ValidationStatus saved for doc_id=3
+🟠 doc_id 3 marked as Duplicate.
+✅ overall_status set to 'Failed' for doc_id=3
+⏳ Waiting 5s before closing browser...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:39] Execution finished. 
+ 
+[20:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:44] Execution finished. 
+ 
+[20:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:49] Execution finished. 
+ 
+[20:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:54] Execution finished. 
+ 
+[20:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[20:59] Execution finished. 
+ 
+[21:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:04] Execution finished. 
+ 
+[21:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:09] Execution finished. 
+ 
+[21:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:14] Execution finished. 
+ 
+[21:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:19] Execution finished. 
+ 
+[21:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:24] Execution finished. 
+ 
+[21:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:29] Execution finished. 
+ 
+[21:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:34] Execution finished. 
+ 
+[21:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:39] Execution finished. 
+ 
+[21:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:44] Execution finished. 
+ 
+[21:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:49] Execution finished. 
+ 
+[21:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:54] Execution finished. 
+ 
+[21:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[21:59] Execution finished. 
+ 
+[22:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:04] Execution finished. 
+ 
+[22:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:09] Execution finished. 
+ 
+[22:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:14] Execution finished. 
+ 
+[22:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:19] Execution finished. 
+ 
+[22:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:24] Execution finished. 
+ 
+[22:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:29] Execution finished. 
+ 
+[22:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[22:34] Execution finished. 
+ 
+[22:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[22:39] Execution finished. 
+ 
+[22:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[22:44] Execution finished. 
+ 
+[22:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[22:49] Execution finished. 
+ 
+[22:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[22:54] Execution finished. 
+ 
+[22:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[22:59] Execution finished. 
+ 
+[23:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:04] Execution finished. 
+ 
+[23:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:09] Execution finished. 
+ 
+[23:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:14] Execution finished. 
+ 
+[23:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:19] Execution finished. 
+ 
+[23:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:24] Execution finished. 
+ 
+[23:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:29] Execution finished. 
+ 
+[23:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:34] Execution finished. 
+ 
+[23:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:39] Execution finished. 
+ 
+[23:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:44] Execution finished. 
+ 
+[23:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:49] Execution finished. 
+ 
+[23:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:54] Execution finished. 
+ 
+[23:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[23:59] Execution finished. 
+ 

@@ -1,7 +1,9 @@
-# consignment_form.py — v9.0.1
-# - Fix: use _ensure_select (not ensure_select) for GST select + after GST toggle
-# - Fills everything, audits, builds FailedFields, and only clicks Submit when all_ok
-# - Returns dict: {"all_ok": bool, "failed_fields": [...], "submit": {"submitted": bool, "error": str|None}}
+# consignment_form.py — v9.7
+# Change: After entering Consignment No and moving focus (TAB), check ONLY the "Create" button.
+# If the button (given CSS selector) is present, return Duplicate immediately:
+#   - Stop further processing
+#   - Do NOT add any field failures
+#   - No need to check Consignment No conversion/locking
 
 import re
 import time
@@ -24,11 +26,7 @@ from driver_utils import ss  # screenshot helper
 IMMEDIATE_CHECK_THRESHOLD = 0.70
 FUZZY_THRESHOLD = IMMEDIATE_CHECK_THRESHOLD
 
-GST_TOGGLED_ONCE = False
-CONSIGNEE_TRIED_BOTH = False
-LAST_FILLED_FIELD: Optional[str] = None
 LAST_ALERT_ACCEPTED = False
-
 FIELD_AUDIT: List[Dict] = []
 
 SPINNER_SELECTORS = [
@@ -94,7 +92,7 @@ def wait_for_idle_fast(driver, total_timeout: float = 4.0, quiet_time: float = 0
         time.sleep(poll)
     return False
 
-def wait_until_value(driver, locator: Tuple[str,str], expected: str, timeout: float = 8.0, casefold: bool = True) -> bool:
+def wait_until_value(driver, locator: Tuple[str,str], expected: str, timeout: float = 6.0, casefold: bool = True) -> bool:
     exp = (expected or "")
     if casefold:
         exp = exp.casefold()
@@ -249,122 +247,41 @@ def _close_any_popup(driver, timeout=2) -> bool:
             continue
     return False
 
-# ---------- keyboard ----------
-def _dispatch_enter_to_active(driver):
+def _popup_text(driver) -> str:
     try:
-        driver.execute_script("""
-            var ae = document.activeElement;
-            if (ae) {
-                var e = new KeyboardEvent('keydown', {key:'Enter',keyCode:13,which:13,bubbles:true});
-                ae.dispatchEvent(e);
-                e = new KeyboardEvent('keyup', {key:'Enter',keyCode:13,which:13,bubbles:true});
-                ae.dispatchEvent(e);
-            }
-        """)
-        time.sleep(0.08)
-        return True
-    except Exception:
-        return False
-
-def _dispatch_tab_to_active(driver):
-    try:
-        driver.execute_script("""
-            var ae = document.activeElement;
-            if (ae) {
-                var e = new KeyboardEvent('keydown', {key:'Tab',keyCode:9,which:9,bubbles:true});
-                ae.dispatchEvent(e);
-                e = new KeyboardEvent('keyup', {key:'Tab',keyCode:9,which:9,bubbles:true});
-                ae.dispatchEvent(e);
-            }
-        """)
-        time.sleep(0.08)
-        return True
-    except Exception:
-        return False
-
-# ---------- element helpers ----------
-def _remove_readonly_and_enable(driver, el):
-    try:
-        driver.execute_script("""
-            const el = arguments[0];
-            try { el.removeAttribute('readonly'); } catch(e){}
-            try { el.readOnly = false; } catch(e){}
-            try { el.disabled = false; } catch(e){}
-            try { el.removeAttribute('disabled'); } catch(e){}
-        """, el)
-    except Exception:
-        pass
-
-def _native_value_set_and_fire(driver, el, value: str):
-    return driver.execute_script("""
-        const el = arguments[0], v = arguments[1];
-        try {
-            const proto = (el instanceof HTMLTextAreaElement)
-                ? HTMLTextAreaElement.prototype
-                : HTMLInputElement.prototype;
-            const desc = Object.getOwnPropertyDescriptor(proto, 'value');
-            if (desc && desc.set) { desc.set.call(el, v); } else { el.value = v; el.setAttribute('value', v); }
-            el.dispatchEvent(new Event('input',  { bubbles: true }));
-            el.dispatchEvent(new Event('change', { bubbles: true }));
-            el.dispatchEvent(new Event('blur',   { bubbles: true }));
-            try { if (window.jQuery) window.jQuery(el).val(v).trigger('input').trigger('change').trigger('blur'); } catch(e){}
-            try {
-                if (window.angular && window.angular.element) {
-                    const ael = window.angular.element(el);
-                    try { ael.triggerHandler('input'); } catch(e){}
-                    try { ael.triggerHandler('change'); } catch(e){}
-                    try { ael.triggerHandler('blur'); } catch(e){}
-                }
-            } catch(e){}
-            return el.value || '';
-        } catch(e) { return '<ERR>'; }
-    """, el, value)
-
-def _type_and_optionally_pick(driver, el, text: str, try_pick: bool = True):
-    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", el)
-    _remove_readonly_and_enable(driver, el)
-    try:
-        el.click()
-    except Exception:
-        driver.execute_script("arguments[0].click();", el)
-    time.sleep(0.05)
-    try:
-        el.send_keys(Keys.CONTROL, "a"); el.send_keys(Keys.DELETE)
-    except Exception:
-        try:
-            el.clear()
-        except Exception:
-            driver.execute_script("arguments[0].value='';", el)
-    try:
-        el.send_keys(text)
-    except ElementNotInteractableException:
-        _native_value_set_and_fire(driver, el, text)
-    except Exception:
-        _native_value_set_and_fire(driver, el, text)
-    if try_pick:
-        if pick_from_autocomplete(driver, text, mode="equals", timeout=2.0):
-            return True
-        if pick_from_autocomplete(driver, text, mode="contains", timeout=2.0):
-            return True
-    try:
-        el.send_keys(Keys.TAB)
-    except Exception:
-        pass
-    wait_for_idle_fast(driver)
-    return True
-
-def _read_el_value(driver, el) -> str:
-    try:
-        return (el.get_attribute("value") or "").strip()
-    except Exception:
-        try:
+        el = driver.find_element(By.CSS_SELECTOR, ".swal2-popup, .swal2-modal")
+        if el.is_displayed():
             return (el.text or "").strip()
-        except Exception:
-            try:
-                return driver.execute_script("return arguments[0].textContent||'';", el).strip()
-            except Exception:
-                return ""
+    except Exception:
+        pass
+    try:
+        el = driver.find_element(By.XPATH, "//div[contains(@class,'modal') and contains(@class,'show')]")
+        if el.is_displayed():
+            return (el.text or "").strip()
+    except Exception:
+        pass
+    return ""
 
+def handle_known_alerts_after_rate(driver, prefix: Optional[str] = None) -> bool:
+    wait_for_idle_fast(driver, total_timeout=0.6)
+    txt = _popup_text(driver)
+    if txt:
+        print(f"🔎 Rate popup detected text: {txt!r}")
+    if "no rate contract" in txt.lower():
+        try: ss(driver, "rate_contract_alert.png", prefix=prefix)
+        except Exception: pass
+        closed = _close_any_popup(driver, timeout=4)
+        if closed:
+            print("✅ 'No Rate Contract defined' popup closed.")
+        else:
+            print("⚠️ Could not close 'No Rate Contract defined' popup via known selectors.")
+        return True
+    if _close_any_popup(driver, timeout=1):
+        print("ℹ️ Post-rate generic popup closed.")
+        return True
+    return False
+
+# ---------- read ----------
 def read_ui_value(driver, locator: Tuple[str,str]) -> str:
     try:
         el = driver.find_element(*locator)
@@ -449,9 +366,9 @@ def _date_equal(a: str, b: str) -> bool:
     return na == nb
 
 # ---------- audit ----------
-def _push_audit(key: str, expected: str, ui_val: str, ok: bool, score: float, mode: str, note: str = ""):
+def _push_audit(field_label: str, expected: str, ui_val: str, ok: bool, score: float, mode: str, note: str = ""):
     FIELD_AUDIT.append({
-        "Field": key,
+        "Field": field_label,
         "Expected": str(expected or ""),
         "UI": str(ui_val or ""),
         "OK": bool(ok),
@@ -460,7 +377,7 @@ def _push_audit(key: str, expected: str, ui_val: str, ok: bool, score: float, mo
         "Note": note or "",
     })
 
-def _print_audit_summary(prefix: Optional[str] = None):
+def _print_audit_summary():
     print("\n================= FIELD ENTRY AUDIT (DB vs ERP UI) =================")
     if not FIELD_AUDIT:
         print("No audit entries.")
@@ -479,296 +396,233 @@ def _print_audit_summary(prefix: Optional[str] = None):
     else:
         print("✅ Result: all fields passed (>=70% / numeric/date OK).")
     print("====================================================================\n")
-    try:
-        if prefix:
-            ss(None, f"{prefix}_audit_summary.txt")
-    except Exception:
-        pass
 
 # ---------- checks ----------
-def immediate_field_check(driver, key: str, locator: Tuple[str,str], expected: str, verify_mode: str = "equals") -> bool:
+def _immediate_check(driver, field_label: str, locator: Tuple[str,str], expected: str, verify_mode: str = "equals") -> bool:
     if expected is None:
         expected = ""
-    if expected == "":
-        ui_val = read_ui_value(driver, locator)
-        _push_audit(key, expected, ui_val, False, 0.0, verify_mode, note="Missing value")
-        print(f"❌ Immediate check for {key}: expected empty (Missing value)")
-        return False
-
     wait_for_idle_fast(driver, total_timeout=2.0)
     ui_val = read_ui_value(driver, locator)
-    print(f"⏱ Immediate check for {key}: expected={expected!r}, ui_val={ui_val!r}")
+    print(f"⏱ Immediate check for {field_label}: expected={expected!r}, ui_val={ui_val!r}")
 
-    if not ui_val:
-        _push_audit(key, expected, ui_val, False, 0.0, verify_mode, note="UI empty")
-        print(f"❌ Immediate check failed for {key}: UI empty")
+    if not expected.strip():
+        _push_audit(field_label, expected, ui_val, False, 0.0, verify_mode, note="Missing value")
         return False
 
-    if numeric_equal(expected, ui_val, abs_tol=0.01, rel_tol=0.001):
-        _push_audit(key, expected, ui_val, True, 1.0, verify_mode, note="numeric~= OK")
-        print(f"✅ Immediate numeric match for {key}: {expected!r} ~= {ui_val!r}")
+    if not ui_val:
+        _push_audit(field_label, expected, ui_val, False, 0.0, verify_mode, note="UI empty")
+        return False
+
+    if verify_mode == "equals" and numeric_equal(expected, ui_val, abs_tol=0.01, rel_tol=0.001):
+        _push_audit(field_label, expected, ui_val, True, 1.0, verify_mode, note="numeric~= OK")
         return True
 
     if verify_mode == "date":
         if _date_equal(expected, ui_val):
-            _push_audit(key, expected, ui_val, True, 1.0, "date", note="date normalized OK")
+            _push_audit(field_label, expected, ui_val, True, 1.0, "date", note="date normalized OK")
             return True
         score = similarity_ratio(expected, ui_val)
-        _push_audit(key, expected, ui_val, False, score, "date", note="date mismatch")
-        print(f"❌ Immediate date check failed for {key}")
+        _push_audit(field_label, expected, ui_val, False, score, "date", note="date mismatch")
         return False
 
     if verify_mode == "contains":
         if expected.casefold() in ui_val.casefold():
-            _push_audit(key, expected, ui_val, True, 1.0, "contains", note="substring OK")
+            _push_audit(field_label, expected, ui_val, True, 1.0, "contains", note="substring OK")
             return True
         score = similarity_ratio(expected, ui_val)
         ok = score >= IMMEDIATE_CHECK_THRESHOLD
-        _push_audit(key, expected, ui_val, ok, score, "contains", note=("fuzzy OK" if ok else "fuzzy<0.70"))
-        if ok:
-            return True
-        print(f"❌ Immediate contains/fuzzy check failed for {key} ({score:.2f})")
-        return False
+        _push_audit(field_label, expected, ui_val, ok, score, "contains", note=("fuzzy OK" if ok else "fuzzy<0.70"))
+        return ok
 
     score = similarity_ratio(expected, ui_val)
     ok = score >= IMMEDIATE_CHECK_THRESHOLD or expected.strip().casefold() == ui_val.strip().casefold()
-    _push_audit(key, expected, ui_val, ok, score if score is not None else 0.0, "equals", note=("fuzzy OK" if ok else "fuzzy<0.70"))
-    if ok:
+    _push_audit(field_label, expected, ui_val, ok, score, "equals", note=("fuzzy OK" if ok else "fuzzy<0.70"))
+    return ok
+
+def _persist_check(driver, field_label: str, locator: Tuple[str,str], expected: str, verify_mode: str = "equals") -> bool:
+    wait_for_idle_fast(driver, total_timeout=1.0)
+    time.sleep(0.15)
+    ui_val = read_ui_value(driver, locator)
+    if not ui_val:
+        _push_audit(field_label, expected, ui_val, False, 0.0, verify_mode, note="not persisted (ERP doesn't have this value)")
+        print(f"❌ Persist check failed for {field_label}: cleared after blur.")
+        return False
+
+    if verify_mode == "date" and _date_equal(expected, ui_val):
         return True
-    print(f"❌ Immediate fuzzy check failed for {key} ({score:.2f})")
+    if verify_mode == "contains" and expected.casefold() in ui_val.casefold():
+        return True
+    if numeric_equal(expected, ui_val, abs_tol=0.01, rel_tol=0.001):
+        return True
+    if expected.strip().casefold() == ui_val.strip().casefold():
+        return True
+    if similarity_ratio(expected, ui_val) >= IMMEDIATE_CHECK_THRESHOLD:
+        return True
+
+    _push_audit(field_label, expected, ui_val, False, similarity_ratio(expected, ui_val), verify_mode, note="not persisted (mismatch after blur)")
+    print(f"❌ Persist mismatch for {field_label}: '{ui_val}'")
     return False
 
-def try_set_with_retry(setter: Callable[[], None], driver, key: str, locator: Tuple[str,str], expected: str, verify_mode: str = "equals", prefix: Optional[str] = None) -> bool:
-    try:
-        setter()
-    except Exception as e:
-        print(f"⚠️ Setter for {key} raised: {e}")
-
-    ok = immediate_field_check(driver, key, locator, expected, verify_mode=verify_mode)
-    if ok:
-        return True
-
-    print(f"↻ {key}: first immediate check failed — retrying once.")
-    try:
-        setter()
-    except Exception as e:
-        print(f"⚠️ Retry setter for {key} raised: {e}")
-
-    wait_for_idle_fast(driver, total_timeout=1.5)
-    ok2 = immediate_field_check(driver, key, locator, expected, verify_mode=verify_mode)
-    if ok2:
-        print(f"✅ {key} passed on retry.")
-        return True
-
-    print(f"❌ {key} failed after retry.")
-    try:
-        if prefix:
-            ss(driver, f"{prefix}_{key}_failed_after_retry.png", prefix=prefix)
-    except Exception:
-        pass
-    return False
-
-# ---------- autocomplete ----------
-def pick_from_autocomplete(driver, target: str, mode: str = "equals", timeout: float = 3.0) -> bool:
-    global LAST_ALERT_ACCEPTED
-    LAST_ALERT_ACCEPTED = False
-    target_up = (target or "").strip().upper()
-    if not target_up:
+# ---------- robust autocomplete ----------
+def _ensure_dropdown_and_pick(driver, field_label: str, locator: Tuple[str,str], value: str, verify_mode: str, max_attempts: int = 2) -> bool:
+    value = (value or "").strip()
+    if not value:
         return False
-    try:
-        WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.ui-autocomplete li")))
-    except TimeoutException:
-        return False
-    options = driver.find_elements(By.CSS_SELECTOR, "ul.ui-autocomplete li")
-    for opt in options:
-        txt = (opt.text or "").strip().upper()
-        if txt == target_up:
+
+    for attempt in range(1, max_attempts + 1):
+        try:
+            el = WebDriverWait(driver, 8).until(EC.presence_of_element_located(locator))
+        except Exception:
+            time.sleep(0.2)
+            continue
+
+        try:
+            el.click()
+        except Exception:
+            driver.execute_script("arguments[0].click();", el)
+        try:
+            el.send_keys(Keys.CONTROL, "a"); el.send_keys(Keys.DELETE)
+        except Exception:
             try:
-                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
-                opt.click()
+                el.clear()
             except Exception:
-                driver.execute_script("arguments[0].click();", opt)
-            _dispatch_enter_to_active(driver)
-            _accept_alert_if_any(driver, timeout=1)
-            _dispatch_enter_to_active(driver)
-            _dispatch_tab_to_active(driver)
-            wait_for_idle_fast(driver)
-            return True
-    if mode == "contains":
-        for opt in options:
-            txt = (opt.text or "").strip().upper()
-            if target_up in txt:
+                driver.execute_script("arguments[0].value='';", el)
+
+        try:
+            el.send_keys(value)
+        except Exception:
+            driver.execute_script("arguments[0].value=arguments[1];", el, value)
+            driver.execute_script("arguments[0].dispatchEvent(new Event('input',{bubbles:true}));", el)
+
+        wait_for_idle_fast(driver, total_timeout=0.8)
+
+        options = []
+        try:
+            WebDriverWait(driver, 2.0).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.ui-autocomplete li")))
+            options = driver.find_elements(By.CSS_SELECTOR, "ul.ui-autocomplete li")
+        except TimeoutException:
+            options = []
+
+        picked = False
+        if options:
+            target_up = value.upper()
+            def _txt(opt):
+                try:
+                    return (opt.text or "").strip()
+                except Exception:
+                    return ""
+            for opt in options:
+                if (_txt(opt).strip().upper() == target_up):
+                    try:
+                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
+                        opt.click()
+                    except Exception:
+                        driver.execute_script("arguments[0].click();", opt)
+                    picked = True
+                    break
+            if not picked:
+                for opt in options:
+                    if target_up in _txt(opt).strip().upper():
+                        try:
+                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
+                            opt.click()
+                        except Exception:
+                            driver.execute_script("arguments[0].click();", opt)
+                        picked = True
+                        break
+            if not picked:
+                opt = options[0]
                 try:
                     driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
                     opt.click()
                 except Exception:
                     driver.execute_script("arguments[0].click();", opt)
-                _dispatch_enter_to_active(driver)
-                _accept_alert_if_any(driver, timeout=1)
-                _dispatch_enter_to_active(driver)
-                _dispatch_tab_to_active(driver)
-                wait_for_idle_fast(driver)
-                return True
-    wait_for_idle_fast(driver)
-    return False
-
-def set_autocomplete_verify(
-    driver,
-    field_locator: Tuple[str,str],
-    value: str,
-    verify: str = "equals",
-    require_dropdown_match: bool = False,
-    dropdown_pick_mode: str = "contains",
-    max_attempts: int = 5,
-    prefix: Optional[str] = None,
-) -> bool:
-    global LAST_FILLED_FIELD, LAST_ALERT_ACCEPTED
-    value = (value or "").strip()
-    if not value:
-        return False
-    matched_once = False
-
-    for attempt in range(1, max_attempts+1):
-        try:
-            LAST_ALERT_ACCEPTED = False
-            wait_for_idle_fast(driver)
+                picked = True
+        else:
             try:
-                el = WebDriverWait(driver, 6).until(EC.presence_of_element_located(field_locator))
-            except Exception:
-                time.sleep(0.25)
-                continue
-            try:
-                cur_val = (el.get_attribute("value") or "").strip()
-            except Exception:
-                cur_val = ""
-            if cur_val:
-                if verify == "equals":
-                    if fuzzy_ok(value, cur_val):
-                        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                        return True
-                else:
-                    if value.casefold() in cur_val.casefold() or similarity_ratio(value, cur_val) >= FUZZY_THRESHOLD:
-                        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                        return True
-
-            try:
-                safe_click(driver, field_locator)
-            except Exception:
-                cur_val2 = ""
-                try:
-                    cur_val2 = (el.get_attribute("value") or "").strip()
-                except Exception:
-                    pass
-                if cur_val2:
-                    if verify == "equals" and fuzzy_ok(value, cur_val2):
-                        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                        return True
-                    if verify == "contains" and value.casefold() in cur_val2.casefold():
-                        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                        return True
-                time.sleep(0.25)
-                continue
-
-            fast_type(driver, field_locator, value, clear=True)
-            pick_ok = pick_from_autocomplete(driver, value, mode=dropdown_pick_mode, timeout=2.0)
-            if pick_ok:
-                matched_once = True
-                try:
-                    final_val = (el.get_attribute("value") or "").strip()
-                except Exception:
-                    final_val = ""
-                if final_val:
-                    if verify == "equals":
-                        if fuzzy_ok(value, final_val):
-                            LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                            return True
-                    else:
-                        if value.casefold() in final_val.casefold() or similarity_ratio(value, final_val) >= FUZZY_THRESHOLD:
-                            LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                            return True
-                if LAST_ALERT_ACCEPTED:
-                    time.sleep(0.6)
-                    try:
-                        final_val2 = (el.get_attribute("value") or "").strip()
-                    except Exception:
-                        final_val2 = ""
-                    if final_val2 and fuzzy_ok(value, final_val2):
-                        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                        return True
-                    LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                    return True
-
-            try:
-                _dispatch_enter_to_active(driver)
-                _dispatch_tab_to_active(driver)
+                el.send_keys(Keys.ARROW_DOWN); el.send_keys(Keys.ENTER)
+                picked = True
             except Exception:
                 pass
-            wait_for_idle_fast(driver)
 
-            try:
-                final_val = (el.get_attribute("value") or "").strip()
-            except Exception:
-                final_val = ""
-            if verify == "equals":
-                if fuzzy_ok(value, final_val):
-                    LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                    return True
-            else:
-                if value.casefold() in final_val.casefold() or similarity_ratio(value, final_val) >= FUZZY_THRESHOLD:
-                    LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                    return True
-
-            if matched_once and not final_val:
-                LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-                return True
-
-            time.sleep(0.25)
+        try:
+            el.send_keys(Keys.TAB)
         except Exception:
-            time.sleep(0.25)
+            pass
+        wait_for_idle_fast(driver, total_timeout=0.9)
 
-    if LAST_ALERT_ACCEPTED:
-        LAST_FILLED_FIELD = _friendly_field_name(field_locator)
-        return True
+        ui_val = read_ui_value(driver, locator)
+        ok = False
+        if verify_mode == "date":
+            ok = _date_equal(value, ui_val)
+        elif verify_mode == "contains":
+            ok = bool(value and ui_val and value.casefold() in ui_val.casefold())
+        elif numeric_equal(value, ui_val, abs_tol=0.01, rel_tol=0.001):
+            ok = True
+        else:
+            ok = bool(value and ui_val and (value.strip().casefold() == ui_val.strip().casefold()
+                                            or similarity_ratio(value, ui_val) >= IMMEDIATE_CHECK_THRESHOLD))
+        if ok:
+            return True
+
+        time.sleep(0.2)
+
     return False
 
-def _friendly_field_name(locator: Tuple[str,str]) -> str:
-    try:
-        how, what = locator
-        if isinstance(what, str):
-            return what
-        return str(locator)
-    except Exception:
-        return str(locator)
+def set_autocomplete_and_move(driver, field_label: str, locator: Tuple[str,str], value: str, verify_mode: str) -> bool:
+    ok = _ensure_dropdown_and_pick(driver, field_label, locator, value, verify_mode, max_attempts=2)
+    return ok
 
-# ---------- JSON/content helpers ----------
+def try_set_with_retry(setter: Callable[[], bool], driver, field_label: str, locator: Tuple[str,str], expected: str, verify_mode: str = "equals", prefix: Optional[str] = None) -> bool:
+    try:
+        ok = setter()
+    except Exception as e:
+        print(f"⚠️ Setter for {field_label} raised: {e}")
+        ok = False
+
+    ok_now = _immediate_check(driver, field_label, locator, expected, verify_mode=verify_mode)
+    if ok and ok_now:
+        return True
+
+    print(f"↻ {field_label}: first immediate check failed — retrying once.")
+    try:
+        ok = setter()
+    except Exception as e:
+        print(f"⚠️ Retry setter for {field_label} raised: {e}")
+
+    wait_for_idle_fast(driver, total_timeout=1.5)
+    ok2 = _immediate_check(driver, field_label, locator, expected, verify_mode=verify_mode)
+    if ok2:
+        print(f"✅ {field_label} passed on retry.")
+        return True
+
+    print(f"❌ {field_label} failed after retry.")
+    try:
+        if prefix:
+            ss(driver, f"{prefix}_{field_label}_failed_after_retry.png", prefix=prefix)
+    except Exception:
+        pass
+    return False
+
+# ---------- flexible JSON lookup ----------
 def _get_json_value(data: dict, candidate_keys: List[str]) -> Optional[str]:
     if not data:
         return None
     for k in candidate_keys:
-        if k in data:
-            v = data.get(k)
-            if v is not None and str(v).strip():
-                return str(v).strip()
-    def norm_key(k: str) -> str:
-        return re.sub(r"[^A-Za-z0-9]", "", (k or "")).lower()
-    normalized_map = {norm_key(k): k for k in data.keys()}
+        if k in data and str(data.get(k)).strip():
+            return str(data.get(k)).strip()
+    def _norm(s: str) -> str:
+        return re.sub(r"[^A-Za-z0-9]", "", (s or "")).lower()
+    norm_map = {_norm(k): k for k in data.keys()}
     for k in candidate_keys:
-        nk = norm_key(k)
-        if nk in normalized_map:
-            real_k = normalized_map[nk]
-            v = data.get(real_k)
+        nk = _norm(k)
+        if nk in norm_map:
+            v = data.get(norm_map[nk])
             if v is not None and str(v).strip():
                 return str(v).strip()
     return None
 
-def _tokenize_upper(s: str) -> List[str]:
-    return [t for t in re.split(r"[^A-Za-z0-9]+", (s or "").upper()) if t]
-
-def value_has_tokens(value: str, required_tokens: List[str]) -> bool:
-    hv = set(_tokenize_upper(value))
-    req = set([t.upper() for t in required_tokens if t])
-    return req.issubset(hv)
-
+# ---------- helpers for Content Name text ----------
 def _normalize_base_from_json(content_name: str) -> Optional[str]:
     if not content_name:
         return None
@@ -788,7 +642,7 @@ def _normalize_goods_type_from_json(goods_type: str) -> Optional[str]:
     gt = str(goods_type).strip().upper()
     if gt in ("BAG", "BULK", "PAPER"):
         return gt
-    toks = set(_tokenize_upper(gt))
+    toks = set(re.split(r"[^A-Z0-9]+", gt))
     if "PAPER" in toks:
         return "PAPER"
     if "BULK" in toks or gt in ("BULKS", "BULK LOAD", "BULKLOAD"):
@@ -806,246 +660,24 @@ def compute_final_content_string_from_json(content_name_raw: str, goods_type_raw
         label = "BAG"
     return f"{base} {label}"
 
-_CNM_CANDIDATE_LOCATORS: List[Tuple[str,str]] = [
-    (By.XPATH, "//*[@id='Name' and (self::input or self::textarea)]"),
-    (By.ID, "Name"),
-    (By.XPATH, "//input[@name='Name' and not(@type='hidden')]"),
-    (By.XPATH, "//input[contains(@id,'Name') and not(@type='hidden')]"),
-    (By.XPATH, "//input[contains(@name,'Name') and not(@type='hidden')]"),
-    (By.XPATH, "//input[contains(translate(@placeholder,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'CONTENT') "
-               "and contains(translate(@placeholder,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'NAME')]"),
-    (By.XPATH, "//input[contains(translate(@aria-label,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'CONTENT') "
-               "and contains(translate(@aria-label,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'NAME')]"),
-]
+# ---------- duplicate detection inputs ----------
+_CREATE_BTN_CSS = (
+    "body > div.wrapper > div.content-wrapper > section.content-header > div > "
+    "div.col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.col4 > div > div:nth-child(2) > "
+    "div:nth-child(1) > a"
+)
 
-def _find_in_any_frame(driver, candidates: List[Tuple[str,str]], timeout_each: float = 2.0):
+def _element_present(driver, css: str, timeout: float = 0.8) -> bool:
     try:
-        driver.switch_to.default_content()
-    except Exception:
-        pass
-    for loc in candidates:
-        try:
-            el = WebDriverWait(driver, timeout_each).until(EC.presence_of_element_located(loc))
-            return el, None
-        except Exception:
-            continue
-    frames = driver.find_elements(By.CSS_SELECTOR, "iframe, frame")
-    for idx, fr in enumerate(frames):
-        try:
-            if not fr.is_displayed():
-                continue
-        except Exception:
-            continue
-        try:
-            driver.switch_to.frame(fr)
-        except Exception:
-            try:
-                driver.switch_to.default_content()
-            except Exception:
-                pass
-            continue
-        for loc in candidates:
-            try:
-                el = WebDriverWait(driver, timeout_each).until(EC.presence_of_element_located(loc))
-                return el, idx
-            except Exception:
-                continue
-        try:
-            driver.switch_to.default_content()
-        except Exception:
-            pass
-    return None, None
-
-def _set_content_name_anyhow(driver, final_text: str, prefix: Optional[str] = None) -> bool:
-    el, frame_idx = _find_in_any_frame(driver, _CNM_CANDIDATE_LOCATORS, timeout_each=2.0)
-    if el is None:
-        try: ss(driver, "22_insertitem_contentname_not_found.png", prefix=prefix)
-        except Exception: pass
-        return False
-    try:
-        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", el)
-    except Exception:
-        pass
-    _type_and_optionally_pick(driver, el, final_text, try_pick=True)
-    val = _read_el_value(driver, el)
-    if val.strip():
-        if val.strip().upper() == final_text.strip().upper() or value_has_tokens(val, [final_text]):
-            try: ss(driver, "22_insertitem_contentname_ok.png", prefix=prefix)
-            except Exception: pass
-            return True
-    _native_value_set_and_fire(driver, el, final_text)
-    wait_for_idle_fast(driver)
-    val2 = _read_el_value(driver, el)
-    if val2.strip().upper() == final_text.strip().upper() or value_has_tokens(val2, [final_text]):
-        try: ss(driver, "22_insertitem_contentname_forced.png", prefix=prefix)
-        except Exception: pass
+        WebDriverWait(driver, timeout).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, css))
+        )
         return True
-    synonyms = [final_text]
-    if final_text.strip().upper() == "PPC PAPER":
-        synonyms.extend(["PPC BAG (PAPER)", "PPC PAPER BAG", "PPC BAG PAPER", "PPC (PAPER) BAG"])
-    for alt in synonyms:
-        _type_and_optionally_pick(driver, el, alt, try_pick=True)
-        val3 = _read_el_value(driver, el)
-        if val3.strip().upper() == final_text.strip().upper() or value_has_tokens(val3, [final_text]):
-            try: ss(driver, "22_insertitem_contentname_ok.png", prefix=prefix)
-            except Exception: pass
-            return True
-    try: ss(driver, "22_insertitem_contentname_failed.png", prefix=prefix)
-    except Exception: pass
-    return False
-
-# ---------- errors ----------
-def detect_post_action_error(driver, timeout: float = 3.0) -> Optional[str]:
-    try:
-        wait_for_idle_fast(driver, total_timeout=1.0)
     except Exception:
-        pass
-    try:
-        if _accept_alert_if_any(driver, timeout=0.5):
-            return "JS Alert detected"
-    except Exception:
-        pass
-    try:
-        sw = driver.find_elements(By.CSS_SELECTOR, ".swal2-popup, .swal2-modal")
-        for s in sw:
-            try:
-                if s.is_displayed():
-                    txt = (s.text or "").strip()
-                    if txt:
-                        ltxt = txt.lower()
-                        if any(k in ltxt for k in ("error", "failed", "invalid", "cannot", "please")):
-                            return f"Swal2 popup: {txt[:120]}"
-                        try:
-                            btn = s.find_element(By.CSS_SELECTOR, ".swal2-confirm")
-                            btn.click()
-                        except Exception:
-                            pass
-            except Exception:
-                continue
-    except Exception:
-        pass
-    try:
-        candidates = driver.find_elements(By.CSS_SELECTOR, ".toast-error, .toast.toast-error, .alert-danger, .alert.alert-danger")
-        for el in candidates:
-            try:
-                if el.is_displayed():
-                    m = (el.text or "").strip()
-                    if m:
-                        return f"UI error: {m[:120]}"
-            except Exception:
-                continue
-    except Exception:
-        pass
-    try:
-        nodes = driver.find_elements(By.XPATH, "//*[contains(translate(text(),'ERROR','error'),'error') or contains(translate(text(),'FAILED','failed'),'failed') or contains(translate(text(),'INVALID','invalid'),'invalid')]")
-        for n in nodes:
-            try:
-                if n.is_displayed():
-                    txt = (n.text or "").strip()
-                    if txt and len(txt) > 3:
-                        return f"UI message: {txt[:120]}"
-            except Exception:
-                continue
-    except Exception:
-        pass
-    return None
+        return False
 
-# ---------- build_validation_status (secondary) ----------
-def build_validation_status(driver, data: dict, numeric_tolerance: float = 0.1) -> dict:
-    wait_for_idle_fast(driver, total_timeout=6.0)
-    time.sleep(1.0)
-    FIELD_LOCATORS = {
-        "ConsignmentNo": (By.ID, "CNM_VNOSEQ"),
-        "Date": (By.ID, "CNM_VDATE"),
-        "Source": (By.ID, "CNM_FROM_STN_NAME"),
-        "Destination": (By.ID, "CNM_TO_STN_NAME"),
-        "Vehicle": (By.ID, "CNM_VEHICLENO"),
-        "Consignor": (By.ID, "CNM_CNR_NAME"),
-        "Consignee": (By.ID, "CNM_CNE_NAME"),
-        "GSTType": (By.ID, "CNM_CNE_REGTYPE"),
-        "Delivery Address": (By.ID, "CNM_DLV_ADDRESS"),
-        "EWayBillNo": (By.ID, "CNM_EWAYBILLNO"),
-    }
-    AUTOCOMPLETE_FIELDS = {"Source", "Destination", "Consignor", "Consignee", "Vehicle"}
-    failed = []
-
-    def read_erp(locator):
-        try:
-            el = driver.find_element(*locator)
-            tag = el.tag_name.lower() if hasattr(el, "tag_name") else ""
-            if tag == "select":
-                try:
-                    sel_txt = driver.execute_script("const s=arguments[0];return s.options[s.selectedIndex]?.text||'';", el)
-                    if sel_txt and str(sel_txt).strip():
-                        return str(sel_txt).strip()
-                except Exception:
-                    pass
-            try:
-                val = (el.get_attribute("value") or "").strip()
-                if val:
-                    return val
-            except Exception:
-                pass
-            try:
-                txt = (el.text or "").strip()
-                if txt:
-                    return txt
-            except Exception:
-                pass
-            try:
-                txt2 = driver.execute_script("return arguments[0].textContent||'';", el)
-                return (txt2 or "").strip()
-            except Exception:
-                pass
-            return ""
-        except Exception:
-            return ""
-
-    def _as_date_str(v):
-        parts = re.findall(r"\d+", str(v))
-        if len(parts) >= 3:
-            d, m, y = parts[:3]
-            if len(y) == 2:
-                y = "20" + y
-            return f"{d.zfill(2)}-{m.zfill(2)}-{y.zfill(4)}"
-        return None
-
-    for key, locator in FIELD_LOCATORS.items():
-        json_val = str(data.get(key) or "").strip()
-        erp_val = str(read_erp(locator) or "").strip()
-        print(f"🔍 Checking {key}: JSON='{json_val}' | ERP='{erp_val}'")
-        if not erp_val:
-            if json_val:
-                failed.append({"Field": key, "Reason": "UI field empty"})
-            continue
-        if not json_val:
-            failed.append({"Field": key, "Reason": "Missing value"})
-            continue
-        if numeric_equal(json_val, erp_val, abs_tol=numeric_tolerance, rel_tol=0.001):
-            continue
-        if key in AUTOCOMPLETE_FIELDS and fuzzy_ok(json_val, erp_val):
-            continue
-        jd = _as_date_str(json_val)
-        ed = _as_date_str(erp_val)
-        if jd and ed and jd == ed:
-            continue
-        if json_val.lower() == erp_val.lower():
-            continue
-        if json_val.lower() in erp_val.lower():
-            continue
-        if similarity_ratio(json_val, erp_val) >= FUZZY_THRESHOLD:
-            continue
-        failed.append({"Field": key, "Reason": "Does not match invoice"})
-
-    if failed:
-        for f in failed:
-            print(f"   → {f['Field']}: {f['Reason']}")
-    else:
-        print("✅ All ERP UI fields match extracted JSON (within fuzzy threshold).")
-    return {"isPassed": len(failed) == 0, "FailedFields": failed}
-
-# ---------- submit ----------
-def _final_submit(driver, prefix: Optional[str] = None) -> Tuple[bool, Optional[str]]:
+# ---------- submission ----------
+def _final_submit(driver, prefix: Optional[str] = None):
     try:
         safe_click(driver, (By.XPATH, "//*[@id='btnSubmit']"))
         wait_for_idle_fast(driver)
@@ -1076,117 +708,19 @@ def _final_submit(driver, prefix: Optional[str] = None) -> Tuple[bool, Optional[
         ss(driver, "28_submit_failed.png", prefix=prefix)
         return False, f"Submit click error: {e}"
 
-# ---------- UI label map ----------
-_UI_LABELS = {
-    "ConsignmentNo": "Consignment No",
-    "Date": "Date",
-    "Source": "Source",
-    "Destination": "Destination",
-    "Vehicle": "Vehicle",
-    "EWayBillNo": "E-Way Bill No",
-    "Consignor": "Consignor",
-    "Consignee": "Consignee",
-    "GSTType": "GST Type",
-    "Delivery Address": "Delivery Address",
-    "Invoice No": "Invoice No",
-    "Invoice Date": "Invoice Date",
-    "ContentName": "Content Name (Goods Name)",
-    "ActualWeight": "Actual Weight",
-    "Get Rate": "Rate",
-    "E-WayBill ValidUpto": "E-WayBill ValidUpto",
-    "E-Way Bill Date": "E-Way Bill Date",
-    "E-Way Bill NO": "E-Way Bill No",
-}
-
-def _build_failed_fields_from_audit_and_missing(data: dict) -> List[Dict]:
-    failed: List[Dict] = []
-
-    for r in FIELD_AUDIT:
-        if r.get("OK"):
-            continue
-        key = r.get("Field") or ""
-        ui_label = _UI_LABELS.get(key, key)
-        note = (r.get("Note") or "").lower()
-        mode = (r.get("Mode") or "").lower()
-        reason = "Does not match invoice"
-        if "missing value" in note:
-            reason = "Missing value"
-        elif "ui empty" in note:
-            reason = "UI field empty"
-        elif "date" in mode and "mismatch" in note:
-            reason = "Wrong date format / mismatch"
-        elif "fuzzy" in note and "0.70" in note:
-            reason = "Low similarity (<70%)"
-        failed.append({"Field": ui_label, "Reason": reason})
-
-    must_check_missing = [
-        "ConsignmentNo","Date","Source","Destination","Vehicle",
-        "EWayBillNo","Consignor","Consignee","GSTType","Delivery Address",
-        "Invoice No","Invoice Date","ActualWeight","Get Rate",
-        "E-WayBill ValidUpto","E-Way Bill Date","E-Way Bill NO"
-    ]
-    for k in must_check_missing:
-        v = (data.get(k) if k in data else data.get(k.replace("_"," ")) )
-        v = ("" if v is None else str(v).strip())
-        if v == "":
-            ui_label = _UI_LABELS.get(k, k)
-            if not any(f["Field"] == ui_label for f in failed):
-                failed.append({"Field": ui_label, "Reason": "Missing value"})
-
-    cn_raw = _get_json_value(data, ["ContentName", "Content Name", "contentname", "content_name", "content", "itemname"])
-    gt_raw = _get_json_value(data, ["GoodsType", "Goods Type", "goods_type", "goodstype", "goods", "type"])
-    final_cn = compute_final_content_string_from_json(cn_raw, gt_raw)
-    if not final_cn:
-        ui_label = _UI_LABELS.get("ContentName", "Content Name (Goods Name)")
-        if not any(f["Field"] == ui_label for f in failed):
-            failed.append({"Field": ui_label, "Reason": "Missing value"})
-
-    uniq, seen = [], set()
-    for f in failed:
-        t = (f["Field"], f["Reason"])
-        if t in seen:
-            continue
-        uniq.append(f); seen.add(t)
-    return uniq
-
 # ---------- main filler ----------
-def _ensure_select(driver, locator: Tuple[str,str], expected: str) -> bool:
-    js_set_select_and_fire(driver, locator, expected)
-    try:
-        el = driver.find_element(*locator)
-        val = (el.get_attribute("value") or "").strip()
-        if (expected or "").strip().casefold() == val.strip().casefold():
-            return True
-        sel_txt = driver.execute_script("const s=arguments[0];return s.options[s.selectedIndex]?.text||'';", el)
-        return (expected or "").strip().casefold() == (sel_txt or "").strip().casefold()
-    except Exception:
-        return False
-
-def _toggle_gst_and_set(driver, current_expected: str) -> Optional[str]:
-    try:
-        cur = (current_expected or "").strip().casefold()
-        new = "Registered" if "unregister" in cur else "Unregistered"
-        locator = (By.ID, "CNM_CNE_REGTYPE")
-        js_set_select_and_fire(driver, locator, new)
-        el = driver.find_element(*locator)
-        sel_txt = driver.execute_script("const s=arguments[0];return s.options[s.selectedIndex]?.text||'';", el)
-        if (sel_txt or "").strip().casefold() == new.casefold() or (el.get_attribute("value") or "").strip().casefold() == new.casefold():
-            print(f"🔁 GST toggled from '{current_expected}' to '{new}' and verified.")
-            ss(driver, "gst_toggled.png")
-            return new
-        else:
-            print(f"⚠️ GST toggle attempted to '{new}' but verification failed (selected={sel_txt}).")
-            ss(driver, "gst_toggle_failed.png")
-            return None
-    except Exception as e:
-        print(f"⚠️ GST toggle error: {e}")
-        return None
-
 def fill_consignment_form(driver, data, prefix: Optional[str] = None) -> Dict:
-    global GST_TOGGLED_ONCE, CONSIGNEE_TRIED_BOTH, LAST_FILLED_FIELD, LAST_ALERT_ACCEPTED, FIELD_AUDIT
-    GST_TOGGLED_ONCE = False
-    CONSIGNEE_TRIED_BOTH = False
-    LAST_FILLED_FIELD = None
+    """
+    Returns:
+      {
+        "all_ok": bool,
+        "failed_fields": [...],
+        "submit": {"submitted": bool, "error": str|None},
+        "duplicate": bool,
+        "duplicate_info": {"reason": str} | None
+      }
+    """
+    global LAST_ALERT_ACCEPTED, FIELD_AUDIT
     LAST_ALERT_ACCEPTED = False
     FIELD_AUDIT = []
 
@@ -1194,104 +728,121 @@ def fill_consignment_form(driver, data, prefix: Optional[str] = None) -> Dict:
     wait_for_idle_fast(driver, total_timeout=6.0)
 
     try:
-        # Consignment No
-        cons_no = (data.get("ConsignmentNo") or "").strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.ID, "CNM_VNOSEQ"), cons_no, tab_after=True, clear=True),
-                           driver, "ConsignmentNo", (By.ID, "CNM_VNOSEQ"), cons_no, verify_mode="equals", prefix=prefix)
-        ss(driver, "08_consignment_no.png", prefix=prefix)
+        LOC = {
+            "Consignment No": (By.ID, "CNM_VNOSEQ"),
+            "Date": (By.ID, "CNM_VDATE"),
+            "Source": (By.ID, "CNM_FROM_STN_NAME"),
+            "Destination": (By.ID, "CNM_TO_STN_NAME"),
+            "Vehicle": (By.ID, "CNM_VEHICLENO"),
+            "E-Way Bill No": (By.ID, "CNM_EWAYBILLNO"),
+            "Consignor": (By.ID, "CNM_CNR_NAME"),
+            "GST Type": (By.ID, "CNM_CNE_REGTYPE"),
+            "Consignee": (By.ID, "CNM_CNE_NAME"),
+            "Delivery Address": (By.ID, "CNM_DLV_ADDRESS"),
+            "Rate": (By.XPATH, "//*[@id='CNM_RATE']"),
+        }
 
-        # Date
+        # ---------- Consignment No: type + TAB ----------
+        cons_no = (data.get("ConsignmentNo") or "").strip()
+        safe_type(driver, LOC["Consignment No"], cons_no, tab_after=True, clear=True)
+        try: ss(driver, "08_consignment_no_typed.png", prefix=prefix)
+        except Exception: pass
+
+        # >>> DUPLICATE CHECK (ONLY the Create button, right after moving to next field) <<<
+        wait_for_idle_fast(driver, total_timeout=1.2)
+        create_btn_present = _element_present(driver, _CREATE_BTN_CSS, timeout=0.8)
+        if create_btn_present:
+            try: ss(driver, "08b_duplicate_create_button_detected.png", prefix=prefix)
+            except Exception: pass
+            print("🟠 DUPLICATE detected: Create button present right after Consignment No TAB.")
+            FIELD_AUDIT = []
+            return {
+                "all_ok": False,
+                "failed_fields": [],
+                "submit": {"submitted": False, "error": "Duplicate detected"},
+                "duplicate": True,
+                "duplicate_info": {"reason": "Create button present after Consignment No"}
+            }
+
+        # Not duplicate → proceed & audit CN normally
+        try_set_with_retry(lambda: (safe_type(driver, LOC["Consignment No"], cons_no, tab_after=True, clear=True) or True),
+                           driver, "Consignment No", LOC["Consignment No"], cons_no, verify_mode="equals", prefix=prefix)
+        ss(driver, "08_consignment_no.png", prefix=prefix)
+        _persist_check(driver, "Consignment No", LOC["Consignment No"], cons_no, "equals")
+
+        # ---------- Date ----------
         cons_date = (data.get("Date") or "").strip()
         try:
-            el = wait.until(EC.presence_of_element_located((By.ID, "CNM_VDATE")))
+            el = wait.until(EC.presence_of_element_located(LOC["Date"]))
             driver.execute_script("try{arguments[0].removeAttribute('readonly')}catch(e){}", el)
         except Exception:
             pass
-        try_set_with_retry(lambda: safe_type(driver, (By.ID, "CNM_VDATE"), cons_date, tab_after=True, clear=True),
-                           driver, "Date", (By.ID, "CNM_VDATE"), cons_date, verify_mode="date", prefix=prefix)
+        try_set_with_retry(lambda: (safe_type(driver, LOC["Date"], cons_date, tab_after=True, clear=True) or True),
+                           driver, "Date", LOC["Date"], cons_date, verify_mode="date", prefix=prefix)
         ss(driver, "09_date_filled.png", prefix=prefix)
+        _persist_check(driver, "Date", LOC["Date"], cons_date, "date")
 
-        # Source
+        # ---------- Source (autocomplete) ----------
         source_val = (data.get("Source") or "").strip()
-        try_set_with_retry(lambda: set_autocomplete_verify(driver, (By.ID, "CNM_FROM_STN_NAME"), source_val, verify="equals", max_attempts=6, prefix=prefix),
-                           driver, "Source", (By.ID, "CNM_FROM_STN_NAME"), source_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: set_autocomplete_and_move(driver, "Source", LOC["Source"], source_val, "equals"),
+                           driver, "Source", LOC["Source"], source_val, verify_mode="equals", prefix=prefix)
         ss(driver, "10_source_filled.png", prefix=prefix)
+        _persist_check(driver, "Source", LOC["Source"], source_val, "equals")
 
-        # Destination
+        # ---------- Destination (autocomplete) ----------
         dest_val = (data.get("Destination") or "").strip()
-        try_set_with_retry(lambda: set_autocomplete_verify(driver, (By.ID, "CNM_TO_STN_NAME"), dest_val, verify="equals", max_attempts=6, prefix=prefix),
-                           driver, "Destination", (By.ID, "CNM_TO_STN_NAME"), dest_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: set_autocomplete_and_move(driver, "Destination", LOC["Destination"], dest_val, "equals"),
+                           driver, "Destination", LOC["Destination"], dest_val, "equals", prefix=prefix)
         ss(driver, "11_destination_filled.png", prefix=prefix)
+        _persist_check(driver, "Destination", LOC["Destination"], dest_val, "equals")
 
-        # Vehicle
+        # ---------- Vehicle (autocomplete) ----------
         vehicle_val = (data.get("Vehicle") or "").strip()
-        try_set_with_retry(lambda: set_autocomplete_verify(driver, (By.ID, "CNM_VEHICLENO"), vehicle_val, verify="equals", max_attempts=6, prefix=prefix),
-                           driver, "Vehicle", (By.ID, "CNM_VEHICLENO"), vehicle_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: set_autocomplete_and_move(driver, "Vehicle", LOC["Vehicle"], vehicle_val, "equals"),
+                           driver, "Vehicle", LOC["Vehicle"], vehicle_val, "equals", prefix=prefix)
         ss(driver, "12_vehicle_filled.png", prefix=prefix)
+        _persist_check(driver, "Vehicle", LOC["Vehicle"], vehicle_val, "equals")
 
-        # EWay Bill No
-        eway_val = (data.get("EWayBillNo") or "").strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.ID, "CNM_EWAYBILLNO"), eway_val, tab_after=True, clear=True),
-                           driver, "EWayBillNo", (By.ID, "CNM_EWAYBILLNO"), eway_val, verify_mode="contains", prefix=prefix)
+        # ---------- E-Way Bill No (header) ----------
+        eway_val_header = _get_json_value(data, ["EWayBillNo","EwayBillNo","E-Way Bill No","E-Way Bill NO"]) or ""
+        try_set_with_retry(lambda: (safe_type(driver, LOC["E-Way Bill No"], eway_val_header, tab_after=True, clear=True) or True),
+                           driver, "E-Way Bill No", LOC["E-Way Bill No"], eway_val_header, verify_mode="contains", prefix=prefix)
         ss(driver, "13_ewaybill_filled.png", prefix=prefix)
+        _persist_check(driver, "E-Way Bill No", LOC["E-Way Bill No"], eway_val_header, "contains")
 
-        # Consignor
+        # ---------- Consignor ----------
         consignor_val = (data.get("Consignor") or "").strip()
-        try_set_with_retry(lambda: set_autocomplete_verify(driver, (By.ID, "CNM_CNR_NAME"), consignor_val, verify="contains", max_attempts=6, prefix=prefix),
-                           driver, "Consignor", (By.ID, "CNM_CNR_NAME"), consignor_val, verify_mode="contains", prefix=prefix)
+        try_set_with_retry(lambda: set_autocomplete_and_move(driver, "Consignor", LOC["Consignor"], consignor_val, "contains"),
+                           driver, "Consignor", LOC["Consignor"], consignor_val, "contains", prefix=prefix)
         ss(driver, "15_consignor_filled.png", prefix=prefix)
+        _persist_check(driver, "Consignor", LOC["Consignor"], consignor_val, "contains")
 
-        # GST Type  (FIXED: _ensure_select)
+        # ---------- GST Type ----------
         gst_type_val = (data.get("GSTType") or "").strip()
-        try_set_with_retry(lambda: _ensure_select(driver, (By.ID, "CNM_CNE_REGTYPE"), gst_type_val),
-                           driver, "GSTType", (By.ID, "CNM_CNE_REGTYPE"), gst_type_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: (js_set_select_and_fire(driver, LOC["GST Type"], gst_type_val) or True),
+                           driver, "GST Type", LOC["GST Type"], gst_type_val, verify_mode="equals", prefix=prefix)
         ss(driver, "17_gsttype_filled.png", prefix=prefix)
+        _persist_check(driver, "GST Type", LOC["GST Type"], gst_type_val, "equals")
 
-        # Consignee (with one GST toggle fallback)
+        # ---------- Consignee ----------
         consignee_val = (data.get("Consignee") or "").strip()
-        def set_consignee():
-            return set_autocomplete_verify(driver, (By.ID, "CNM_CNE_NAME"), consignee_val, verify="equals", max_attempts=3, prefix=prefix)
-        ok_cnee = try_set_with_retry(set_consignee, driver, "Consignee", (By.ID, "CNM_CNE_NAME"), consignee_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: set_autocomplete_and_move(driver, "Consignee", LOC["Consignee"], consignee_val, "equals"),
+                           driver, "Consignee", LOC["Consignee"], consignee_val, "equals", prefix=prefix)
         ss(driver, "18_consignee_filled.png", prefix=prefix)
-        if not ok_cnee:
-            final_ui = read_ui_value(driver, (By.ID, "CNM_CNE_NAME"))
-            if not (final_ui and similarity_ratio(consignee_val, final_ui) >= IMMEDIATE_CHECK_THRESHOLD):
-                if not GST_TOGGLED_ONCE:
-                    print("⚠️ Consignee low match — toggling GST and retrying once.")
-                    new_gst = _toggle_gst_and_set(driver, gst_type_val)
-                    GST_TOGGLED_ONCE = True
-                    if new_gst:
-                        data["GSTType"] = new_gst
-                        _ensure_select(driver, (By.ID, "CNM_CNE_REGTYPE"), new_gst)  # FIXED: underscore
-                        set_autocomplete_verify(driver, (By.ID, "CNM_CNE_NAME"), consignee_val, verify="equals", max_attempts=3, prefix=prefix)
-                        immediate_field_check(driver, "Consignee", (By.ID, "CNM_CNE_NAME"), consignee_val, verify_mode="equals")
+        _persist_check(driver, "Consignee", LOC["Consignee"], consignee_val, "equals")
 
-        CONSIGNEE_TRIED_BOTH = True
+        # move focus into Delivery Address
         try:
-            el_c = driver.find_element(By.ID, "CNM_CNE_NAME")
-            try:
-                el_c.send_keys(Keys.ENTER); time.sleep(0.08); el_c.send_keys(Keys.TAB)
-            except Exception:
-                _dispatch_enter_to_active(driver); _dispatch_tab_to_active(driver)
-            wait_for_idle_fast(driver, total_timeout=2.0)
-            try:
-                safe_click(driver, (By.ID, "CNM_DLV_ADDRESS"))
-            except Exception:
-                pass
-            time.sleep(0.12)
+            safe_click(driver, LOC["Delivery Address"])
         except Exception:
             pass
+        wait_for_idle_fast(driver)
 
-        # Delivery Address
-        for _ in range(2):
-            if not _close_any_popup(driver, timeout=2):
-                break
-            time.sleep(0.15)
-
+        # ---------- Delivery Address ----------
         delivery_val = (data.get("Delivery Address") or "").strip()
-        el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, "CNM_DLV_ADDRESS")))
-        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", el)
         def set_delivery():
+            el = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(LOC["Delivery Address"]))
+            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", el)
             try:
                 el.click()
             except Exception:
@@ -1307,93 +858,69 @@ def fill_consignment_form(driver, data, prefix: Optional[str] = None) -> Dict:
                 el.send_keys(delivery_val)
             except Exception:
                 driver.execute_script("arguments[0].value=arguments[1];", el, delivery_val)
-        try_set_with_retry(set_delivery, driver, "Delivery Address", (By.ID, "CNM_DLV_ADDRESS"), delivery_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(set_delivery, driver, "Delivery Address", LOC["Delivery Address"], delivery_val, verify_mode="equals", prefix=prefix)
         ss(driver, "19_deliveryaddress_filled.png", prefix=prefix)
+        _persist_check(driver, "Delivery Address", LOC["Delivery Address"], delivery_val, "equals")
 
-        # Insert Item
+        # --- Insert Item modal ---
         try:
             safe_click(driver, (By.ID, "btnAddItem"))
             wait_for_idle_fast(driver)
             ss(driver, "21_additem_clicked.png", prefix=prefix)
-            err = detect_post_action_error(driver, timeout=2.0)
-            if err:
-                _push_audit("InsertItem", "Open", f"Error: {err}", False, 0.0, "action", "Insert modal open failed")
-        except Exception as e:
-            _push_audit("InsertItem", "Open", f"Exception: {e}", False, 0.0, "action", "Insert modal click exception")
+        except Exception:
+            pass
 
-        for _ in range(2):
-            if not _close_any_popup(driver, timeout=2):
-                break
-            time.sleep(0.15)
-
-        # Invoice No (empty -> Missing value)
+        # Invoice No
         inv_no = (data.get('Invoice No') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='InvcNo']"), inv_no, clear=True),
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='InvcNo']"), inv_no, clear=True) or True),
                            driver, "Invoice No", (By.XPATH, "//*[@id='InvcNo']"), inv_no, verify_mode="equals", prefix=prefix)
 
-        # Content Name (derived)
-        cn_raw = _get_json_value(data, ["ContentName", "Content Name", "contentname", "content_name", "content", "itemname"])
-        gt_raw = _get_json_value(data, ["GoodsType", "Goods Type", "goods_type", "goodstype", "goods", "type"])
+        # Content Name robust
+        cn_raw = (data.get("ContentName") or data.get("Content Name") or "").strip()
+        gt_raw = (data.get("GoodsType") or data.get("Goods Type") or "").strip()
         final_cn = compute_final_content_string_from_json(cn_raw, gt_raw)
         if final_cn:
-            def set_content():
-                return _set_content_name_anyhow(driver, final_cn, prefix=prefix)
-            set_content()
-            found_loc = None
-            for loc in _CNM_CANDIDATE_LOCATORS:
-                try:
-                    driver.find_element(*loc)
-                    found_loc = loc
-                    break
-                except Exception:
-                    continue
-            if found_loc:
-                ok = immediate_field_check(driver, "ContentName", found_loc, final_cn, verify_mode="equals")
-                if not ok:
-                    set_content()
-                    wait_for_idle_fast(driver, total_timeout=1.0)
-                    immediate_field_check(driver, "ContentName", found_loc, final_cn, verify_mode="equals")
+            CN_LOC = (By.XPATH, "//*[@id='Name' and (self::input or self::textarea) or @id='Name']")
+            def set_cn():
+                return _ensure_dropdown_and_pick(driver, "Content Name (Goods Name)", CN_LOC, final_cn, "equals", max_attempts=6)
+            try_set_with_retry(set_cn, driver, "Content Name (Goods Name)", CN_LOC, final_cn, verify_mode="equals", prefix=prefix)
+            _persist_check(driver, "Content Name (Goods Name)", CN_LOC, final_cn, "equals")
+            try: ss(driver, "22_insertitem_contentname.png", prefix=prefix)
+            except Exception: pass
 
         # Actual Weight
         aw_raw = (data.get('ActualWeight') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='Actual']"), aw_raw, clear=True),
-                           driver, "ActualWeight", (By.XPATH, "//*[@id='Actual']"), aw_raw, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='Actual']"), aw_raw, clear=True) or True),
+                           driver, "Actual Weight", (By.XPATH, "//*[@id='Actual']"), aw_raw, verify_mode="equals", prefix=prefix)
 
         # E-WayBill ValidUpto
         evu = (data.get('E-WayBill ValidUpto') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='EwayBillExpDate']"), evu, clear=True),
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='EwayBillExpDate']"), evu, clear=True) or True),
                            driver, "E-WayBill ValidUpto", (By.XPATH, "//*[@id='EwayBillExpDate']"), evu, verify_mode="date", prefix=prefix)
 
         # Invoice Date
         invd = (data.get('Invoice Date') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='InvcDate']"), invd, clear=True),
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='InvcDate']"), invd, clear=True) or True),
                            driver, "Invoice Date", (By.XPATH, "//*[@id='InvcDate']"), invd, verify_mode="date", prefix=prefix)
 
         # E-Way Bill Date
         ebd = (data.get('E-Way Bill Date') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='EwayBillDate']"), ebd, clear=True),
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='EwayBillDate']"), ebd, clear=True) or True),
                            driver, "E-Way Bill Date", (By.XPATH, "//*[@id='EwayBillDate']"), ebd, verify_mode="date", prefix=prefix)
 
-        # E-Way Bill NO
-        ebn = (data.get('E-Way Bill NO') or '').strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='EwayBillNo']"), ebn, clear=True),
-                           driver, "E-Way Bill NO", (By.XPATH, "//*[@id='EwayBillNo']"), ebn, verify_mode="contains", prefix=prefix)
+        # E-Way Bill No (INSIDE modal)
+        ebn = _get_json_value(data, ["E-Way Bill NO","E-Way Bill No","EwayBillNo","EWayBillNo"]) or ""
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='EwayBillNo']"), ebn, clear=True) or True),
+                           driver, "E-Way Bill No", (By.XPATH, "//*[@id='EwayBillNo']"), ebn, verify_mode="contains", prefix=prefix)
 
         ss(driver, "22_insertitem_filled.png", prefix=prefix)
 
-        # Insert
+        # Insert + close item modal
         try:
             safe_click(driver, (By.XPATH, "//*[@id='btnInsert']"))
             ss(driver, "24_addinvoice_clicked.png", prefix=prefix)
-            err = detect_post_action_error(driver, timeout=2.0)
-            if err:
-                _push_audit("InsertItem", "Insert", f"Error: {err}", False, 0.0, "action", "Insert error")
-            else:
-                _push_audit("InsertItem", "Insert", "OK", True, 1.0, "action", "Inserted")
-        except Exception as e:
-            _push_audit("InsertItem", "Insert", f"Exception: {e}", False, 0.0, "action", "Insert click exception")
-
-        # Close modal
+        except Exception:
+            pass
         try:
             safe_click(driver, (By.XPATH, "//*[@id='frvclose']"))
             wait_for_idle_fast(driver)
@@ -1401,22 +928,48 @@ def fill_consignment_form(driver, data, prefix: Optional[str] = None) -> Dict:
         except Exception:
             pass
 
-        # Rate
+        # Rate (+persist)
         rate_val = (data.get("Get Rate") or "").strip()
-        try_set_with_retry(lambda: safe_type(driver, (By.XPATH, "//*[@id='CNM_RATE']"), rate_val, tab_after=True, clear=True),
-                           driver, "Get Rate", (By.XPATH, "//*[@id='CNM_RATE']"), rate_val, verify_mode="equals", prefix=prefix)
+        try_set_with_retry(lambda: (safe_type(driver, (By.XPATH, "//*[@id='CNM_RATE']"), rate_val, tab_after=True, clear=True) or True),
+                           driver, "Rate", (By.XPATH, "//*[@id='CNM_RATE']"), rate_val, verify_mode="equals", prefix=prefix)
         ss(driver, "27_rate_filled.png", prefix=prefix)
+        _persist_check(driver, "Rate", (By.XPATH, "//*[@id='CNM_RATE']"), rate_val, "equals")
 
-        for _ in range(2):
-            if not _close_any_popup(driver, timeout=2):
-                break
-            time.sleep(0.15)
+        try:
+            handle_known_alerts_after_rate(driver, prefix=prefix)
+        except Exception:
+            pass
 
-        _print_audit_summary(prefix=prefix)
+        _print_audit_summary()
 
-        failed_fields = _build_failed_fields_from_audit_and_missing(data)
+        # Build failed list from audit
+        failed: List[Dict] = []
+        for r in FIELD_AUDIT:
+            if r.get("OK"):
+                continue
+            reason = "Does not match invoice"
+            note = (r.get("Note") or "").lower()
+            mode = (r.get("Mode") or "").lower()
+            if "missing value" in note:
+                reason = "Missing value"
+            elif "ui empty" in note:
+                reason = "UI field empty"
+            elif "not persisted" in note:
+                reason = "ERP doesn't have this value"
+            elif "date" in mode and "mismatch" in note:
+                reason = "Wrong date format / mismatch"
+            elif "fuzzy" in note and "0.70" in note:
+                reason = "Low similarity (<70%)"
+            failed.append({"Field": r["Field"], "Reason": reason})
+        # dedupe
+        uniq, seen = [], set()
+        for f in failed:
+            t = (f["Field"], f["Reason"])
+            if t in seen: continue
+            uniq.append(f); seen.add(t)
+        failed_fields = uniq
+
         all_ok = len(failed_fields) == 0
-
         submit_result = {"submitted": False, "error": None}
         if all_ok:
             ok, err = _final_submit(driver, prefix=prefix)
@@ -1429,22 +982,21 @@ def fill_consignment_form(driver, data, prefix: Optional[str] = None) -> Dict:
         return {
             "all_ok": all_ok,
             "failed_fields": failed_fields,
-            "submit": submit_result
+            "submit": submit_result,
+            "duplicate": False,
+            "duplicate_info": None
         }
 
     except Exception as e:
         print(f"❌ Error in fill_consignment_form: {e}")
         ss(driver, "fill_consignment_form_exception.png", prefix=prefix)
-        _push_audit("Flow", "Complete", f"Exception: {e}", False, 0.0, "flow", "Main flow exception")
-        _print_audit_summary(prefix=prefix)
         return {
             "all_ok": False,
             "failed_fields": [{"Field": "Flow", "Reason": f"Exception: {e}"}],
-            "submit": {"submitted": False, "error": f"Exception: {e}"}
+            "submit": {"submitted": False, "error": f"Exception: {e}"},
+            "duplicate": False,
+            "duplicate_info": None
         }
 
 
-__all__ = [
-    "fill_consignment_form",
-    "build_validation_status",
-]
+__all__ = ["fill_consignment_form"]

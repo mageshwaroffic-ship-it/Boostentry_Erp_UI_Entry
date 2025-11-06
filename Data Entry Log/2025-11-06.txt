@@ -1,0 +1,2783 @@
+===== Data Entry Log for 2025-11-06 ===== 
+[00:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:04] Execution finished. 
+ 
+[00:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:09] Execution finished. 
+ 
+[00:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:14] Execution finished. 
+ 
+[00:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:19] Execution finished. 
+ 
+[00:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:24] Execution finished. 
+ 
+[00:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:29] Execution finished. 
+ 
+[00:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:34] Execution finished. 
+ 
+[00:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:39] Execution finished. 
+ 
+[00:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:44] Execution finished. 
+ 
+[00:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:49] Execution finished. 
+ 
+[00:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:54] Execution finished. 
+ 
+[00:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[00:59] Execution finished. 
+ 
+[01:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:04] Execution finished. 
+ 
+[01:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:09] Execution finished. 
+ 
+[01:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:14] Execution finished. 
+ 
+[01:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:19] Execution finished. 
+ 
+[01:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:24] Execution finished. 
+ 
+[01:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:29] Execution finished. 
+ 
+[01:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:34] Execution finished. 
+ 
+[01:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:39] Execution finished. 
+ 
+[01:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:44] Execution finished. 
+ 
+[01:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:49] Execution finished. 
+ 
+[01:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:54] Execution finished. 
+ 
+[01:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[01:59] Execution finished. 
+ 
+[02:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:04] Execution finished. 
+ 
+[02:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:09] Execution finished. 
+ 
+[02:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:14] Execution finished. 
+ 
+[02:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:19] Execution finished. 
+ 
+[02:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:24] Execution finished. 
+ 
+[02:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:29] Execution finished. 
+ 
+[02:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:34] Execution finished. 
+ 
+[02:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:39] Execution finished. 
+ 
+[02:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:44] Execution finished. 
+ 
+[02:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:49] Execution finished. 
+ 
+[02:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:54] Execution finished. 
+ 
+[02:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[02:59] Execution finished. 
+ 
+[03:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:04] Execution finished. 
+ 
+[03:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:09] Execution finished. 
+ 
+[03:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:14] Execution finished. 
+ 
+[03:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:19] Execution finished. 
+ 
+[03:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:24] Execution finished. 
+ 
+[03:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:29] Execution finished. 
+ 
+[03:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:34] Execution finished. 
+ 
+[03:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:39] Execution finished. 
+ 
+[03:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:44] Execution finished. 
+ 
+[03:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:49] Execution finished. 
+ 
+[03:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:54] Execution finished. 
+ 
+[03:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[03:59] Execution finished. 
+ 
+[04:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:04] Execution finished. 
+ 
+[04:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:09] Execution finished. 
+ 
+[04:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:14] Execution finished. 
+ 
+[04:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:19] Execution finished. 
+ 
+[04:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:24] Execution finished. 
+ 
+[04:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:29] Execution finished. 
+ 
+[04:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:34] Execution finished. 
+ 
+[04:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:39] Execution finished. 
+ 
+[04:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:44] Execution finished. 
+ 
+[04:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:49] Execution finished. 
+ 
+[04:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:54] Execution finished. 
+ 
+[04:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[04:59] Execution finished. 
+ 
+[05:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:04] Execution finished. 
+ 
+[05:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:09] Execution finished. 
+ 
+[05:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:14] Execution finished. 
+ 
+[05:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:19] Execution finished. 
+ 
+[05:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:24] Execution finished. 
+ 
+[05:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:29] Execution finished. 
+ 
+[05:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:34] Execution finished. 
+ 
+[05:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:39] Execution finished. 
+ 
+[05:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:44] Execution finished. 
+ 
+[05:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:49] Execution finished. 
+ 
+[05:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:54] Execution finished. 
+ 
+[05:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[05:59] Execution finished. 
+ 
+[06:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:04] Execution finished. 
+ 
+[06:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:09] Execution finished. 
+ 
+[06:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:14] Execution finished. 
+ 
+[06:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:19] Execution finished. 
+ 
+[06:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:24] Execution finished. 
+ 
+[06:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:29] Execution finished. 
+ 
+[06:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:34] Execution finished. 
+ 
+[06:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:39] Execution finished. 
+ 
+[06:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:44] Execution finished. 
+ 
+[06:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:49] Execution finished. 
+ 
+[06:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:54] Execution finished. 
+ 
+[06:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[06:59] Execution finished. 
+ 
+[07:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:04] Execution finished. 
+ 
+[07:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:09] Execution finished. 
+ 
+[07:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:14] Execution finished. 
+ 
+[07:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:19] Execution finished. 
+ 
+[07:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:24] Execution finished. 
+ 
+[07:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:29] Execution finished. 
+ 
+[07:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:34] Execution finished. 
+ 
+[07:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:39] Execution finished. 
+ 
+[07:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:44] Execution finished. 
+ 
+[07:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:49] Execution finished. 
+ 
+[07:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:54] Execution finished. 
+ 
+[07:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[07:59] Execution finished. 
+ 
+[08:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:04] Execution finished. 
+ 
+[08:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:09] Execution finished. 
+ 
+[08:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:14] Execution finished. 
+ 
+[08:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:19] Execution finished. 
+ 
+[08:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:24] Execution finished. 
+ 
+[08:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:29] Execution finished. 
+ 
+[08:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:34] Execution finished. 
+ 
+[08:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:39] Execution finished. 
+ 
+[08:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:44] Execution finished. 
+ 
+[08:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:49] Execution finished. 
+ 
+[08:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:54] Execution finished. 
+ 
+[08:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[08:59] Execution finished. 
+ 
+[09:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:04] Execution finished. 
+ 
+[09:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:09] Execution finished. 
+ 
+[09:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:14] Execution finished. 
+ 
+[09:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:19] Execution finished. 
+ 
+[09:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:24] Execution finished. 
+ 
+[09:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:29] Execution finished. 
+ 
+[09:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:34] Execution finished. 
+ 
+[09:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:39] Execution finished. 
+ 
+[09:44] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:44] Execution finished. 
+ 
+[09:49] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:49] Execution finished. 
+ 
+[09:54] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:54] Execution finished. 
+ 
+[09:59] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[09:59] Execution finished. 
+ 
+[10:04] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:04] Execution finished. 
+ 
+[10:09] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:09] Execution finished. 
+ 
+[10:14] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:14] Execution finished. 
+ 
+[10:19] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:19] Execution finished. 
+ 
+[10:24] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:24] Execution finished. 
+ 
+[10:29] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:29] Execution finished. 
+ 
+[10:34] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:34] Execution finished. 
+ 
+[10:39] Starting main.py 
+❌ Database Connection Error: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\KSS_Working\main.py", line 42, in <module>
+    connection_pool = psycopg2.pool.SimpleConnectionPool(1, 10, **DB_CONFIG)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+    self._connect()
+    ~~~~~~~~~~~~~^^
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+    conn = psycopg2.connect(*self._args, **self._kwargs)
+  File "C:\KSS_Working\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[10:39] Execution finished. 
+ 
+[10:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:44] Execution finished. 
+ 
+[10:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:49] Execution finished. 
+ 
+[10:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:54] Execution finished. 
+ 
+[10:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:59] Execution finished. 
+ 
+[11:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:04] Execution finished. 
+ 
+[11:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:09] Execution finished. 
+ 
+[11:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:14] Execution finished. 
+ 
+[11:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:19] Execution finished. 
+ 
+[11:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:24] Execution finished. 
+ 
+[11:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:29] Execution finished. 
+ 
+[11:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:34] Execution finished. 
+ 
+[11:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:39] Execution finished. 
+ 
+[11:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:44] Execution finished. 
+ 
+[11:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:49] Execution finished. 
+ 
+[11:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:54] Execution finished. 
+ 
+[11:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[11:59] Execution finished. 
+ 
+[12:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:04] Execution finished. 
+ 
+[12:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:09] Execution finished. 
+ 
+[12:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:14] Execution finished. 
+ 
+[12:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:19] Execution finished. 
+ 
+[12:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:24] Execution finished. 
+ 
+[12:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:29] Execution finished. 
+ 
+[12:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:34] Execution finished. 
+ 
+[12:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:39] Execution finished. 
+ 
+[12:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:44] Execution finished. 
+ 
+[12:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:49] Execution finished. 
+ 
+[12:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:54] Execution finished. 
+ 
+[12:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[12:59] Execution finished. 
+ 
+[13:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:04] Execution finished. 
+ 
+[13:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:09] Execution finished. 
+ 
+[13:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:14] Execution finished. 
+ 
+[13:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:19] Execution finished. 
+ 
+[13:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:24] Execution finished. 
+ 
+[13:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:29] Execution finished. 
+ 
+[13:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:34] Execution finished. 
+ 
+[13:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:39] Execution finished. 
+ 
+[13:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:44] Execution finished. 
+ 
+[13:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:49] Execution finished. 
+ 
+[13:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:54] Execution finished. 
+ 
+[13:59] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[13:59] Execution finished. 
+ 
+[14:04] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:04] Execution finished. 
+ 
+[14:09] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:09] Execution finished. 
+ 
+[14:14] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:14] Execution finished. 
+ 
+[14:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:19] Execution finished. 
+ 
+[14:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:24] Execution finished. 
+ 
+[14:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:29] Execution finished. 
+ 
+[14:34] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:34] Execution finished. 
+ 
+[14:39] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:39] Execution finished. 
+ 
+[14:44] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:44] Execution finished. 
+ 
+[14:49] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:49] Execution finished. 
+ 
