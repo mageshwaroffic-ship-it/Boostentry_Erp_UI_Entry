@@ -2781,3 +2781,10 @@ psycopg2.OperationalError: connection to server at "103.14.123.44", port 5432 fa
 🏁 Finished DB loop.
 [14:49] Execution finished. 
  
+[14:54] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[14:54] Execution finished. 
+ 
