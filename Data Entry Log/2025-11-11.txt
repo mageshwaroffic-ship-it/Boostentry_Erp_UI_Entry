@@ -860,3 +860,24 @@
 🏁 Finished DB loop.
 [10:14] Execution finished. 
  
+[10:19] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:19] Execution finished. 
+ 
+[10:24] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:24] Execution finished. 
+ 
+[10:29] Starting main.py 
+✅ Connected to Remote PostgreSQL
+🚀 Starting DB driven processing loop...
+⚠️ No pending rows found. Exiting loop.
+🏁 Finished DB loop.
+[10:29] Execution finished. 
+ 
