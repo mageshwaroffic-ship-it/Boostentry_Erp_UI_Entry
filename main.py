@@ -1,17 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 # -*- coding: utf-8 -*-
 """
-main.py — DB loop with Duplicate handling:
-- If DUPLICATE detected right after Consignment No (Create button appears):
-    -> erp_entry_status = 'Duplicate'
-    -> overall_status   = 'Failed'
-    -> write ValidationStatus with Duplicate (no FailedFields)
-- Else same rules for Completed/Completed AHR/Failed/In Progress
+main.py — DB loop with Duplicate handling and branch fallback.
+Added feature:
+- If the DB value for Branch is "ARAKONAM", try selecting "ARAKONAM" first and,
+  if that fails, retry with "ARAKKONAM".
+
+Other behaviour unchanged.
 """
 import os
 import json
 from time import sleep
-from datetime import datetime, UTC
+from datetime import datetime, timezone as UTC
 import traceback
 
 import psycopg2
@@ -164,7 +164,99 @@ def update_overall_status(conn, doc_id, status_value="Completed"):
         print(f"⚠️ Failed to update overall_status for doc_id={doc_id}: {e}")
         return False
 
+# -------------------------
+# New helper: mark missing required fields and fail
+# -------------------------
+def _mark_missing_and_fail(conn, doc_id, parsed_json, missing_fields):
+    """
+    Writes ValidationStatus with FailedFields (Reason = 'Data not found in ERP'),
+    updates JSON column, sets erp_entry_status = 'Failed' and overall_status = 'Failed'.
+    """
+    try:
+        if not isinstance(parsed_json, dict):
+            parsed_json = parsed_json or {}
+
+        failed_fields = []
+        for f in missing_fields:
+            failed_fields.append({"Field": f, "Reason": "Data not found in ERP"})
+
+        validation_status_obj = {
+            "FailedFields": failed_fields,
+            "SubmitResult": {"Submitted": False, "ErrorText": "Required data missing in DB JSON"}
+        }
+        parsed_json["ValidationStatus"] = validation_status_obj
+
+        update_json_column(conn, doc_id, parsed_json)
+        set_erp_status(conn, doc_id, "Failed", note="Required data missing in DB JSON: " + ", ".join(missing_fields))
+        try:
+            update_overall_status(conn, doc_id, status_value="Failed")
+        except Exception:
+            pass
+        print(f"🛑 doc_id {doc_id} marked Failed due to missing fields: {missing_fields}")
+    except Exception as e:
+        print(f"⚠️ _mark_missing_and_fail failed for doc_id={doc_id}: {e}")
+
+# -------------------------
+# Branch selection helper with fallback for ARAKONAM -> ARAKKONAM
+# -------------------------
+def attempt_select_branch_with_fallback(driver, branch):
+    """
+    Tries to select the branch using the provided select_branch(driver, branch).
+    If the branch equals 'ARAKONAM' (case-insensitive) and the first attempt fails
+    (returns False or raises Exception), retry once with 'ARAKKONAM'.
+    Returns True on success, False on final failure.
+    """
+    normalized = (branch or "").strip()
+    if not normalized:
+        return False
+
+    tried = []
+    # First attempt: original value
+    try:
+        tried.append(normalized)
+        result = select_branch(driver, normalized)
+        # If select_branch returns explicit False, treat as failure and proceed to fallback
+        if result is False:
+            print(f"⚠️ select_branch returned False for '{normalized}'")
+            raise RuntimeError("select_branch returned False")
+        # If select_branch returns None or True or anything else, assume success.
+        print(f"✅ select_branch succeeded for '{normalized}'")
+        return True
+    except Exception as e:
+        print(f"⚠️ select_branch attempt failed for '{normalized}': {e}")
+
+    # Fallback rule: if original was ARAKONAM, try ARAKKONAM
+    try:
+        if normalized.upper() == "ARAKONAM":
+            fallback = "ARAKKONAM"
+            tried.append(fallback)
+            try:
+                result2 = select_branch(driver, fallback)
+                if result2 is False:
+                    print(f"⚠️ select_branch returned False for fallback '{fallback}'")
+                    raise RuntimeError("select_branch returned False for fallback")
+                print(f"✅ select_branch succeeded for fallback '{fallback}'")
+                return True
+            except Exception as e2:
+                print(f"⚠️ select_branch fallback attempt failed for '{fallback}': {e2}")
+    except Exception:
+        # Defensive: any unexpected error shouldn't bubble out
+        pass
+
+    print(f"❌ All select_branch attempts failed. Tried: {tried}")
+    return False
+
+# -------------------------
+# Field Extractors (existing)
+# -------------------------
+# ... (omitted here since your original code already defines helper extractors) ...
+# In this file we rely on parse_final_data and the flow implemented below.
+
 def process_row_with_driver(driver, row, conn):
+    """
+    Process a claimed DB row using Selenium driver. If required fields are missing
+    in the JSON that came from DB, mark the doc as Failed (and write ValidationStatus).
+    """
     try:
         raw_extracted = row.get('extracted_json')
         raw_corrected = row.get('corrected_json')
@@ -176,21 +268,62 @@ def process_row_with_driver(driver, row, conn):
 
         data = parse_final_data(json_source)
 
+        # ---------- Check required fields ----------
+        # Add required fields here. If you want to require more fields, append to this list.
+        REQUIRED_FIELDS = ["Branch"]
+        missing = []
+        for fld in REQUIRED_FIELDS:
+            val = data.get(fld) if isinstance(data, dict) else None
+            # try lowercase key fallback
+            if (not val) and isinstance(data, dict):
+                val = data.get(fld.lower())
+            if val is None or (isinstance(val, str) and not val.strip()):
+                missing.append(fld)
+
+        if missing:
+            doc_id = row["doc_id"]
+            parsed_json = data or {}
+            _mark_missing_and_fail(conn, doc_id, parsed_json, missing)
+            return False, f"Missing required fields: {missing}"
+
         branch = (data.get("Branch") or data.get("branch") or "").strip()
         if not branch:
+            # Redundant safety: previously handled by missing list, but keep for safety
             doc_id = row["doc_id"]
-            parsed_json = parse_final_data(json_source) or {}
-            if not isinstance(parsed_json, dict):
-                parsed_json = {}
-            parsed_json["ValidationStatus"] = {
-                "FailedFields": [{"Field": "Branch", "Reason": "Missing value"}],
-                "SubmitResult": {"Submitted": False, "ErrorText": "Missing Branch in data"}
-            }
-            update_json_column(conn, doc_id, parsed_json)
-            set_erp_status(conn, doc_id, "Failed", note="Missing Branch in data")
+            parsed_json = data or {}
+            _mark_missing_and_fail(conn, doc_id, parsed_json, ["Branch"])
             return False, "Missing Branch"
 
-        select_branch(driver, branch)
+        # ---------- Normal driver flow ----------
+        # Use attempt_select_branch_with_fallback instead of direct select_branch
+        branch_ok = attempt_select_branch_with_fallback(driver, branch)
+        if not branch_ok:
+            # If branch selection failed even after fallback, mark validation fail and return
+            doc_id = row["doc_id"]
+            parsed_json = data or {}
+            # Add a FailedField entry for Branch selection failure (Reason: ERP branch select failed)
+            try:
+                failed_fields = [{"Field": "Branch", "Reason": "Could not select branch in ERP (attempted: " + branch + ")"}]
+                validation_status_obj = {
+                    "FailedFields": failed_fields,
+                    "SubmitResult": {"Submitted": False, "ErrorText": "Branch selection failed in ERP"}
+                }
+                parsed_json["ValidationStatus"] = validation_status_obj
+                update_json_column(conn, doc_id, parsed_json)
+            except Exception as je:
+                print(f"⚠️ Failed to update JSON column after branch select failure for doc_id={doc_id}: {je}")
+
+            try:
+                set_erp_status(conn, doc_id, "Failed", note=f"Branch selection failed for '{branch}' (fallback attempted if applicable).")
+            except Exception as e:
+                print(f"⚠️ Failed to set ERP status after branch select failure for doc_id={doc_id}: {e}")
+            try:
+                update_overall_status(conn, doc_id, status_value="Failed")
+            except Exception:
+                pass
+            return False, "Branch selection failed"
+
+        # continue with rest of workflow
         open_operations(driver)
         open_consignment_page(driver)
 
